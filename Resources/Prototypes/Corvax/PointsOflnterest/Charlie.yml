@@ -13,13 +13,16 @@
   name: 'Синдикатовcкий аванпост Чарли'
   minimumDistance: 8150
   maximumDistance: 13550
-  spawnGroup: SyndicateFOB
   gridPath: /Maps/Corvax/POI/charlie.yml
   addComponents:
   - type: IFF
-    flags: [HideLabel, Hide]
-    readOnly: false
     color: "#C83737"
+    flags: [HideLabel, Hide]
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999
+  - type: SyndicateFOB # For pinpointer
+
 
 - type: gameMap
   id: Charlie
