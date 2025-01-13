@@ -16,7 +16,6 @@
   maximumDistance: 2500
   spawnGroup: MarketStation
   gridPath: /Maps/_NF/POI/trade.yml
-  busStop: true
   addComponents:
   - type: IFF
     color: "#37C837"

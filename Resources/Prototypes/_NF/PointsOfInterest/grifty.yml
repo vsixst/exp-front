@@ -14,9 +14,11 @@
   name: "Заправка Зекинса"
   minimumDistance: 3250
   maximumDistance: 5600
-  IFFColor: "#ffa600" #yellorange for faction style
   spawnGroup: Scrapyard
   gridPath: /Maps/_NF/POI/grifty.yml
+  addComponents:
+  - type: IFF
+    color: "#ffa600"
 
 - type: gameMap
   id: Grifty

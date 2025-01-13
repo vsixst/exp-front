@@ -11,13 +11,15 @@
 - type: pointOfInterest
   id: Charlie
   name: 'Синдикатовcкий аванпост Чарли'
-  rangeMin: 8150
-  rangeMax: 13550
-  IFFColor: "#C83737" #red the color of ebil
-  IFFFlags: [HideLabel, Hide] # Invisible
-  allowIFFChanges: true
+  minimumDistance: 8150
+  maximumDistance: 13550
   spawnGroup: SyndicateFOB
   gridPath: /Maps/Corvax/POI/charlie.yml
+  addComponents:
+  - type: IFF
+    flags: [HideLabel, Hide]
+    readOnly: false
+    color: "#C83737"
 
 - type: gameMap
   id: Charlie
