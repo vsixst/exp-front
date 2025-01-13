@@ -632,14 +632,14 @@ namespace Content.Server.Administration.Systems
         }
 
         // Frontier: webhook text messages
-        public void OnWebhookBwoinkTextMessage(BwoinkTextMessage message, ServerApi.BwoinkActionBody body)
+        /*public void OnWebhookBwoinkTextMessage(BwoinkTextMessage message, ServerApi.BwoinkActionBody body)
         {
             // Note for forks:
             AdminData webhookAdminData = new();
 
             // TODO: fix args
             OnBwoinkInternal(message, SystemUserId, webhookAdminData, body.Username, null, body.UserOnly, body.WebhookUpdate, true);
-        }
+        }*/
 
         protected override void OnBwoinkTextMessage(BwoinkTextMessage message, EntitySessionEventArgs eventArgs)
         {
@@ -1024,7 +1024,7 @@ namespace Content.Server.Administration.Systems
                 if (sendsWebhook)
                 {
                     if (!_messageQueues.ContainsKey(msg.UserId))
-                        _messageQueues[msg.UserId] = new Queue<string>();
+                        _messageQueues[msg.UserId] = new Queue<DiscordRelayedData>();
 
                     var str = message.Text;
                     var unameLength = senderSession.Name.Length;
