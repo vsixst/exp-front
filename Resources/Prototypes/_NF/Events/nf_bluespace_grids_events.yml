@@ -31,9 +31,14 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/cache.yml
-    nfsdRewardFactor: 1
+    rewardAccounts:
+      Nfsd: 1.0
 
 - type: entity
   id: BluespaceVaultError
@@ -68,9 +73,14 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/vault.yml
-    nfsdRewardFactor: 1
+    rewardAccounts:
+      Nfsd: 1.0
 
 - type: entity
   id: BluespaceVaultSmallError
@@ -106,9 +116,14 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/vaultsmall.yml
-    nfsdRewardFactor: 1
+    rewardAccounts:
+      Nfsd: 1.0
 
 - type: entity
   id: BluespaceSyndicateFTLInterception
@@ -142,6 +157,10 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/syndieftlintercept.yml
 
@@ -177,6 +196,10 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/wizardprobealt.yml
 
@@ -212,6 +235,10 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/bloodmoon.yml
 
@@ -245,6 +272,10 @@
         - type: Shuttle
           angularDamping: 999999
           linearDamping: 999999
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/cave.yml
 
@@ -275,5 +306,9 @@
         maximumDistance: 2500
         addComponents:
         - type: IFF
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
         paths:
         - /Maps/_NF/Bluespace/mcevent.yml

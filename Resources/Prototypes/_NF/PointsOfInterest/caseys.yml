@@ -10,6 +10,7 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: CaseysCasino
+  parent: BasePOI
   name: "Казино Чокнутого Джерри"
   rangeMin: 3250
   rangeMax: 5600
