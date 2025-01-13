@@ -252,7 +252,7 @@ namespace Content.Server.GameTicking
                             ("character", MetaData(mob).EntityName),
                             ("entity", mob),
                             ("job", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(jobName)),
-                            ("gender",Loc.GetString("general-station-record-console-record-gender"))),
+                            ("gender", character.Gender)),
                         Loc.GetString("latejoin-arrival-sender"),
                         playDefaultSound: false,
                         colorOverride: Color.Gold);
