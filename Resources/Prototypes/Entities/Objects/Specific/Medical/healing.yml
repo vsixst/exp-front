@@ -382,7 +382,6 @@
   - type: Stack
     stackType: AloeCream
     baseLayer: base
-    stackRenderLayer: base
     count: 10
 
 - type: entity
