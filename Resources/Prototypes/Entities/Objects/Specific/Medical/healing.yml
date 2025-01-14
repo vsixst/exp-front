@@ -25,6 +25,7 @@
     tags:
     - Ointment
   - type: Sprite
+    sprite: Objects/Specific/Hydroponics/medical.rsi
     layers:
     - state: ointment
       map: ["base"]
