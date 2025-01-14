@@ -381,10 +381,6 @@
       map: ["base"]
   - type: Stack
     stackType: AloeCream
-    baseLayer: base
-    layerStates:
-    - cream
-    - cream-1
     count: 10
 
 - type: entity
