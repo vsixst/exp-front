@@ -7257,23 +7257,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 9.5,-2.5
       parent: 2
-- proto: RandomItem
-  entities:
-  - uid: 260
-    components:
-    - type: Transform
-      pos: 3.5,9.5
-      parent: 2
-  - uid: 273
-    components:
-    - type: Transform
-      pos: 9.5,9.5
-      parent: 2
-  - uid: 1447
-    components:
-    - type: Transform
-      pos: 10.5,-0.5
-      parent: 2
 - proto: RandomPainting
   entities:
   - uid: 156
