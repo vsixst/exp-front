@@ -15841,6 +15841,16 @@ entities:
     - type: Transform
       pos: -41.5,12.5
       parent: 1
+  - uid: 9213
+    components:
+    - type: Transform
+      pos: 16.5,-18.5
+      parent: 1
+  - uid: 9214
+    components:
+    - type: Transform
+      pos: 15.5,-18.5
+      parent: 1
 - proto: CableHV
   entities:
   - uid: 155
@@ -25355,7 +25365,7 @@ entities:
       pos: 22.5,10.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -910.6266
+      secondsUntilStateChange: -1015.7599
       state: Closing
 - proto: CurtainsOrangeOpen
   entities:
@@ -42594,20 +42604,6 @@ entities:
     - type: Transform
       pos: 5.5,-12.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        blueprint: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
 - proto: NitrogenCanister
   entities:
   - uid: 2942
@@ -46001,24 +45997,32 @@ entities:
     - type: Transform
       pos: -15.5,14.5
       parent: 1
+    - type: Drink
+      solution: tank
   - uid: 2020
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -3.5,8.5
       parent: 1
+    - type: Drink
+      solution: tank
   - uid: 8137
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -7.5,9.5
       parent: 1
+    - type: Drink
+      solution: tank
   - uid: 8138
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -18.5,3.5
       parent: 1
+    - type: Drink
+      solution: tank
 - proto: SkatMothershipComputer
   entities:
   - uid: 3176
@@ -58761,7 +58765,7 @@ entities:
     - type: Transform
       pos: -39.5,0.5
       parent: 1
-- proto: WarpPointShip
+- proto: WarpPoint
   entities:
   - uid: 9109
     components:
@@ -58775,16 +58779,22 @@ entities:
     - type: Transform
       pos: -34.5,-2.5
       parent: 1
+    - type: Drink
+      solution: tank
   - uid: 4555
     components:
     - type: Transform
       pos: -39.5,-2.5
       parent: 1
+    - type: Drink
+      solution: tank
   - uid: 5327
     components:
     - type: Transform
       pos: 16.5,-4.5
       parent: 1
+    - type: Drink
+      solution: tank
 - proto: WaterTankHighCapacity
   entities:
   - uid: 391
@@ -58792,6 +58802,8 @@ entities:
     - type: Transform
       pos: -55.5,6.5
       parent: 1
+    - type: Drink
+      solution: tank
 - proto: WeaponCapacitorRecharger
   entities:
   - uid: 3454
