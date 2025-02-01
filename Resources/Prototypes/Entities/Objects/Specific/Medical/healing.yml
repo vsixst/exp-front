@@ -381,7 +381,6 @@
     - state: cream
   - type: Stack
     stackType: AloeCream
-    baseLayer: base
     count: 10
 
 - type: entity
