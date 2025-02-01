@@ -460,18 +460,18 @@
       - LauncherSyringe
       - MiniSyringe
       # End DeltaV additions
-      - BoxSmokeKS23 # Corvax-Frontier
-      - BoxFlashbangKS23 # Corvax-Frontier
-      - BoxBeanbagKS23 # Corvax-Frontier
-      - BoxLethalshotKS23 #  Corvax-Frontier
-      - MagazineBoxVector22Incendiary #Corvax-Frontier
-      - MagazineBoxVector22Uranium #Corvax-Frontier
-      - MagazineVector22Incendiary #Corvax-Frontier
-      - MagazineVector22Uranium #Corvax-Frontier
-      - MagazineBoxVector45Incendiary #Corvax-Frontier
-      - MagazineBoxVector45Uranium #Corvax-Frontier
-      - MagazineVector45Incendiary #Corvax-Frontier
-      - MagazineVector45Uranium #Corvax-Frontier
+      - BoxSmokeKS23 # CorvaxFrontier
+      - BoxFlashbangKS23 # CorvaxFrontier
+      - BoxBeanbagKS23 # CorvaxFrontier
+      - BoxLethalshotKS23 # CorvaxFrontier
+      - MagazineBoxVector22Incendiary #CorvaxFrontier
+      - MagazineBoxVector22Uranium #CorvaxFrontier
+      - MagazineVector22Incendiary #CorvaxFrontier
+      - MagazineVector22Uranium #CorvaxFrontier
+      - MagazineBoxVector45Incendiary #CorvaxFrontier
+      - MagazineBoxVector45Uranium #CorvaxFrontier
+      - MagazineVector45Incendiary #CorvaxFrontier
+      - MagazineVector45Uranium #CorvaxFrontier
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -842,19 +842,21 @@
       - WeaponFlareGunSecurity
       - WeaponLaserCarbinePractice
       - Zipties
-      #Corvax-Frontier Start
+      #CorvaxFrontier Start
       - MagazineBoxVector45
       - MagazineBoxVector22
       - MagazineVector45
       - MagazineVector45Empty
       - MagazineVector22
       - MagazineVector22Empty
-      - BoxBeanbagKS23 # Corvax-Frontier
-      - BoxLethalshotKS23 # Corvax-Frontier
+      - BoxSmokeKS23 #CorvaxFrontier
+      - BoxFlashbangKS23 # CorvaxFrontier
+      - BoxBeanbagKS23 #CorvaxFrontier
+      - BoxLethalshotKS23 #CorvaxFrontier
       - ClothingOuterHardsuitSecurity
       - ClothingOuterHardsuitWarden
       - ClothingOuterHardsuitBrigmedic
-      #Corvax-Frontier End
+      #CorvaxFrontier End
       - ThrusterSecurityMachineCircuitboard # Frontier
       - ClothingOuterHardsuitEVAPrisoner # Frontier
     dynamicRecipes:
@@ -908,6 +910,19 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - MagazineBoxVector22Practice #CorvaxFrontier
+      - MagazineVector22Practice #CorvaxFrontier
+      - MagazineBoxVector45Practice #CorvaxFrontier
+      - MagazineVector45Practice #CorvaxFrontier
+      - ShuttleShotgunMachineCircuitboard #CorvaxFrontier
+      - ShuttleGunAntiMaterialMachineCircuitboard #CorvaxFrontier
+      - ShuttleLightRifleGunMachineCircuitboard #CorvaxFrontier
+      - ShuttleSMGRifleMachineCircuitboard #CorvaxFrontier
+      - ShuttleMagnumRifleMachineCircuitboard #CorvaxFrontier
+      - ShuttleShotgunShellsBox #CorvaxFrontier
+      - ShuttleSmgRifleAmmoBox #CorvaxFrontier
+      - ShuttleRifleAmmoBox #CorvaxFrontier
+      - ShuttleMagnumRifleAmmoBox #CorvaxFrontier
   - type: MaterialStorage
     whitelist:
       tags:
