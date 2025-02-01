@@ -376,7 +376,7 @@
   id: AloeCream
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/aloe.rsi
+    sprite: Objects/Specific/Hydroponics/cream.rsi
     layers:
     - state: cream
       map: ["base"]
