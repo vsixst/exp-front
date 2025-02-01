@@ -379,8 +379,13 @@
     sprite: Objects/Specific/Medical/medical.rsi
     layers:
     - state: cream
+      map: ["cream"]
   - type: Stack
     stackType: AloeCream
+    baseLayer: cream
+    layerStates:
+    - cream
+    - cream_1
     count: 10
 
 - type: entity
