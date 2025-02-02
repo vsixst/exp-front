@@ -84,7 +84,6 @@
     angleDecay: 45
     minAngle: 0
     maxAngle: 17
-    selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Corvax/Weapons/Guns/Gunshots/shuttleshotgun.ogg
       params:
