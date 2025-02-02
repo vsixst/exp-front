@@ -8641,6 +8641,14 @@ entities:
     - type: Transform
       pos: 4.5822706,32.610687
       parent: 2
+- proto: ShuttleShotgun
+  entities:
+  - uid: 66
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 3.5,15.5
+      parent: 2
   - uid: 386
     components:
     - type: Transform
@@ -8658,6 +8666,13 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 3.5,25.5
+      parent: 2
+- proto: ShuttleShotgunShellsBox
+  entities:
+  - uid: 5
+    components:
+    - type: Transform
+      pos: -7.7006245,16.416374
       parent: 2
   - uid: 63
     components:

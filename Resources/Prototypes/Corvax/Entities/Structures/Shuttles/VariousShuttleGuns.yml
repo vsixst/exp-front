@@ -78,24 +78,24 @@
           node: machineFrame
         - !type:DoActsBehavior
           acts: ["Destruction"]
-  - type: Gun
-    projectileSpeed: 35
-    fireRate: 4.5
-    angleDecay: 45
-    minAngle: 0
-    maxAngle: 17
-    selectedMode: FullAuto
-    soundGunshot:
-      path: /Audio/Corvax/Weapons/Guns/Gunshots/shuttleshotgun.ogg
-      params:
-        pitch: 0.5
-    soundEmpty:
-      path: /Audio/Corvax/Weapons/Guns/Empty/EmptySHR.ogg
-  - type: MagazineAmmoProvider
-  - type: MagazineVisuals
-    magState: mag
-    steps: 2
-    zeroVisible: false
+  #- type: Gun
+    #projectileSpeed: 35
+    #fireRate: 4.5
+    #angleDecay: 45
+    #minAngle: 0
+    #maxAngle: 17
+    #selectedMode: FullAuto
+    #soundGunshot:
+      #path: /Audio/Corvax/Weapons/Guns/Gunshots/shuttleshotgun.ogg
+      #params:
+        #pitch: 0.5
+    #soundEmpty:
+      #path: /Audio/Corvax/Weapons/Guns/Empty/EmptySHR.ogg
+  #- type: MagazineAmmoProvider
+  #- type: MagazineVisuals
+    #magState: mag
+    #steps: 2
+    #zeroVisible: false
   - type: Machine
     board: ShuttleShotgunMachineCircuitboard
   - type: ItemSlots
