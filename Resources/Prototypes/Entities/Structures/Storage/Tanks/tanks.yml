@@ -102,6 +102,7 @@
     solution: tank
   - type: Drink #CorvaxFrontier
     delay: 8
+    solution: tank
 
 - type: entity
   parent: WaterTank
@@ -116,6 +117,7 @@
           Quantity: 1500
   - type: Drink #CorvaxFrontier
     delay: 8
+    solution: tank
 
 - type: entity
   parent: StorageTank
@@ -167,6 +169,7 @@
     price: 500
   - type: Drink #CorvaxFrontier
     delay: 8
+    solution: tank
 
 - type: entity
   parent: [StorageTankBig, WaterTank]

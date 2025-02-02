@@ -67,6 +67,7 @@
       path: /Audio/Ambience/Objects/drain.ogg
   - type: Drink #CorvaxFrontier
     delay: 4
+    solution: tank
 
 
 - type: entity
@@ -85,6 +86,7 @@
           Quantity: 500
   - type: Drink #CorvaxFrontier
     delay: 4
+    solution: tank
 
 - type: entity
   name: wide sink
@@ -104,6 +106,7 @@
       solutionName: drainBuffer
     - type: Drink #CorvaxFrontier
       delay: 4
+      solution: tank
 
 #Stemless Sink
 
@@ -121,6 +124,7 @@
         visible: false
   - type: Drink #CorvaxFrontier
     delay: 4
+    solution: tank
 
 - type: entity
   name: sink
@@ -128,8 +132,6 @@
   parent: SinkStemless
   suffix: Water
   components:
-  - type: Drink #CorvaxFrontier
-    delay: 4
   - type: SolutionContainerManager
     solutions:
       drainBuffer:
@@ -138,3 +140,6 @@
         reagents:
         - ReagentId: Water
           Quantity: 500
+  - type: Drink #CorvaxFrontier
+    delay: 4
+    solution: tank
