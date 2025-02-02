@@ -92,10 +92,10 @@
     soundEmpty:
       path: /Audio/Corvax/Weapons/Guns/Empty/EmptySHR.ogg
   - type: MagazineAmmoProvider
-  #- type: MagazineVisuals
-    #magState: mag
-    #steps: 2
-    #zeroVisible: false
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
   - type: Machine
     board: ShuttleShotgunMachineCircuitboard
   - type: ItemSlots
