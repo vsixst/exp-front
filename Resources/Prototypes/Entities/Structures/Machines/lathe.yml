@@ -460,10 +460,6 @@
       - LauncherSyringe
       - MiniSyringe
       # End DeltaV additions
-      #- BoxSmokeKS23 # CorvaxFrontier
-      #- BoxFlashbangKS23 # CorvaxFrontier
-      #- BoxBeanbagKS23 # CorvaxFrontier
-      #- BoxLethalshotKS23 # CorvaxFrontier
       - MagazineBoxVector22Incendiary #CorvaxFrontier
       - MagazineBoxVector22Uranium #CorvaxFrontier
       - MagazineVector22Incendiary #CorvaxFrontier
@@ -849,10 +845,6 @@
       - MagazineVector45Empty
       - MagazineVector22
       - MagazineVector22Empty
-      #- BoxSmokeKS23 #CorvaxFrontier
-      #- BoxFlashbangKS23 # CorvaxFrontier
-      #- BoxBeanbagKS23 #CorvaxFrontier
-      #- BoxLethalshotKS23 #CorvaxFrontier
       - ClothingOuterHardsuitSecurity
       - ClothingOuterHardsuitWarden
       - ClothingOuterHardsuitBrigmedic
@@ -910,6 +902,8 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - BoxSmokeKS23 #CorvaxFrontier
+      - BoxFlashbangKS23 #CorvaxFrontier
       - MagazineBoxVector22Practice #CorvaxFrontier
       - MagazineVector22Practice #CorvaxFrontier
       - MagazineBoxVector45Practice #CorvaxFrontier
@@ -975,6 +969,8 @@
         - SpeedLoaderMagnumEmpty
         - SpeedLoaderRifleHeavy # Frontier
         - SpeedLoaderRifleHeavyEmpty # Frontier
+        - BoxBeanbagKS23 #CorvaxFrontier
+        - BoxLethalshotKS23 #CorvaxFrontier
     - type: MaterialStorage
       whitelist:
         tags:
