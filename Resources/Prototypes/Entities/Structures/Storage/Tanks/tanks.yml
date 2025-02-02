@@ -114,6 +114,8 @@
         reagents:
         - ReagentId: Water
           Quantity: 1500
+  - type: Drink #CorvaxFrontier
+    delay: 8
 
 - type: entity
   parent: StorageTank

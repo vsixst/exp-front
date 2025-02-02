@@ -128,6 +128,8 @@
   parent: SinkStemless
   suffix: Water
   components:
+  - type: Drink #CorvaxFrontier
+    delay: 4
   - type: SolutionContainerManager
     solutions:
       drainBuffer:
@@ -136,5 +138,3 @@
         reagents:
         - ReagentId: Water
           Quantity: 500
-  - type: Drink #CorvaxFrontier
-    delay: 4
