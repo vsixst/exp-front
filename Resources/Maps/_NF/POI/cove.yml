@@ -9459,6 +9459,11 @@ entities:
     - type: Transform
       pos: 10.5,29.5
       parent: 1
+  - uid: 248
+    components:
+    - type: Transform
+      pos: -5.5,11.5
+      parent: 1
   - uid: 540
     components:
     - type: Transform

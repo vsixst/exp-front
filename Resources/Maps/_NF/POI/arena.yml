@@ -19141,6 +19141,11 @@ entities:
     - type: Transform
       pos: 12.5,-3.5
       parent: 2
+  - uid: 248
+    components:
+    - type: Transform
+      pos: 13.5,-3.5
+      parent: 2
   - uid: 249
     components:
     - type: Transform
