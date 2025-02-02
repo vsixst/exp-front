@@ -65,7 +65,7 @@
     range: 8
     sound:
       path: /Audio/Ambience/Objects/drain.ogg
-  - type: Drink # Corvax-Frontier
+  - type: Drink #CorvaxFrontier
     delay: 4
 
 
@@ -83,6 +83,8 @@
         reagents:
         - ReagentId: Water
           Quantity: 500
+  - type: Drink #CorvaxFrontier
+    delay: 4
 
 - type: entity
   name: wide sink
@@ -100,6 +102,8 @@
       maxFillLevels: 1
       fillBaseName: sink_wide-fill-
       solutionName: drainBuffer
+    - type: Drink #CorvaxFrontier
+      delay: 4
 
 #Stemless Sink
 
@@ -115,6 +119,8 @@
       - map: [ "enum.SolutionContainerLayers.Fill" ]
         state: sink-fill-1
         visible: false
+  - type: Drink #CorvaxFrontier
+    delay: 4
 
 - type: entity
   name: sink
@@ -130,3 +136,5 @@
         reagents:
         - ReagentId: Water
           Quantity: 500
+  - type: Drink #CorvaxFrontier
+    delay: 4
