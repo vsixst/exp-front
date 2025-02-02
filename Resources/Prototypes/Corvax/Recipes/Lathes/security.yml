@@ -1,36 +1,36 @@
-- type: latheRecipe
-  id: BoxFlashbangKS23
-  result: BoxFlashbangKS23
-  category: Ammo
-  completetime: 3
-  materials:
-    Steel: 320
-    Plastic: 320
-    Glass: 160
+#- type: latheRecipe
+#  id: BoxFlashbangKS23
+#  result: BoxFlashbangKS23
+#  category: Ammo
+#  completetime: 3
+#  materials:
+#    Steel: 320
+#    Plastic: 320
+#    Glass: 160
 
-- type: latheRecipe
-  id: BoxSmokeKS23
-  result: BoxSmokeKS23
-  category: Ammo
-  completetime: 3
-  materials:
-    Steel: 160
-    Plastic: 240
-    Glass: 160
+#- type: latheRecipe
+#  id: BoxSmokeKS23
+#  result: BoxSmokeKS23
+#  category: Ammo
+#  completetime: 3
+#  materials:
+#    Steel: 160
+#    Plastic: 240
+#    Glass: 160
 
-- type: latheRecipe
-  id: BoxBeanbagKS23
-  result: BoxBeanbagKS23
-  category: Ammo
-  completetime: 3
-  materials:
-    Steel: 240
-    Plastic: 160
+#- type: latheRecipe
+#  id: BoxBeanbagKS23
+#  result: BoxBeanbagKS23
+#  category: Ammo
+#  completetime: 3
+#  materials:
+#    Steel: 240
+#    Plastic: 160
 
-- type: latheRecipe
-  id: BoxLethalshotKS23
-  result: BoxLethalshotKS23
-  category: Ammo
-  completetime: 3
-  materials:
-    Steel: 160
+#- type: latheRecipe
+#  id: BoxLethalshotKS23
+#  result: BoxLethalshotKS23
+#  category: Ammo
+#  completetime: 3
+#  materials:
+#    Steel: 160

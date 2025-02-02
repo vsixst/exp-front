@@ -460,10 +460,10 @@
       - LauncherSyringe
       - MiniSyringe
       # End DeltaV additions
-      - BoxSmokeKS23 # CorvaxFrontier
-      - BoxFlashbangKS23 # CorvaxFrontier
-      - BoxBeanbagKS23 # CorvaxFrontier
-      - BoxLethalshotKS23 # CorvaxFrontier
+      #- BoxSmokeKS23 # CorvaxFrontier
+      #- BoxFlashbangKS23 # CorvaxFrontier
+      #- BoxBeanbagKS23 # CorvaxFrontier
+      #- BoxLethalshotKS23 # CorvaxFrontier
       - MagazineBoxVector22Incendiary #CorvaxFrontier
       - MagazineBoxVector22Uranium #CorvaxFrontier
       - MagazineVector22Incendiary #CorvaxFrontier
@@ -849,10 +849,10 @@
       - MagazineVector45Empty
       - MagazineVector22
       - MagazineVector22Empty
-      - BoxSmokeKS23 #CorvaxFrontier
-      - BoxFlashbangKS23 # CorvaxFrontier
-      - BoxBeanbagKS23 #CorvaxFrontier
-      - BoxLethalshotKS23 #CorvaxFrontier
+      #- BoxSmokeKS23 #CorvaxFrontier
+      #- BoxFlashbangKS23 # CorvaxFrontier
+      #- BoxBeanbagKS23 #CorvaxFrontier
+      #- BoxLethalshotKS23 #CorvaxFrontier
       - ClothingOuterHardsuitSecurity
       - ClothingOuterHardsuitWarden
       - ClothingOuterHardsuitBrigmedic
