@@ -18,7 +18,7 @@
 - type: guideEntry
   id: CorvaxFrontierRuleZERO
   name: guide-entry-frontier-rule-zero-tolerance
-  text: "/ServerInfo/_NF/Guidebook/Rules/Zero_Tolerance.xml"
+  text: "/ServerInfo/_NF/Guidebook/Rules/0_Admin.xml"
   ruleEntry: true
 
 - type: guideEntry
