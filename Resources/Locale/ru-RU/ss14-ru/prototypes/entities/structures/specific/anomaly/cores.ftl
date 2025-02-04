@@ -68,3 +68,5 @@ ent-AnomalyCoreTech = { ent-BaseAnomalyCore }
 ent-AnomalyCoreTechInert = { ent-BaseAnomalyInertCore }
     .suffix = Тех, Инертный
     .desc = { ent-BaseAnomalyInertCore.desc }
+ent-AnomalyCoreSanta = { ent-BaseAnomalyCore }
+    .suffix = Santa
