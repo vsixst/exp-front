@@ -350,12 +350,12 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunVector22
+    - id: SubMachineGunVector22Expedition
       amount: 1
     - id: MagazineVector22
       amount: 2
     - id: MagazineBoxVector22
-      amount: 2
+      amount: 2 #CorvaxFrontier
 
 # Rifles
 - type: entity
