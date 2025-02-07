@@ -2,6 +2,7 @@ ent-NFAsteroidWall = сверхуплотненная порода
     .desc = Сложнее, чем кажется. Чтобы справиться с этим, вам понадобится специальное оборудование.
 
 ent-NFWallIce = сверхуплотнённый лед
+    .desc = { ent-NFAsteroidWall.desc }
     .parent = ['NFAsteroidWall', 'WallIce']
 
 ent-NFWallIceBananium = { ent-NFWallIce }
