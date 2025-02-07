@@ -416,7 +416,7 @@ ent-WallRockScrapPile = груда металлолома
     .suffix = Лом
     .desc = Огромная груда металлолома.
 
-ent-WallRockScrapPile = { ent-WallRockScrapPile }
+ent-WallRockScrapPileBot = { ent-WallRockScrapPile }
     .desc = { ent-WallRockScrapPile.desc }
 
 ent-WallRockScrapPileCoal = { ent-WallRockScrapPile }
