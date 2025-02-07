@@ -2,7 +2,7 @@
   name: Scar12
   parent: BaseWeaponRifle
   id: WeaponRifleScar12
-  description: Special Operations Forces Combat Assault Rifle
+  description: Scar-12 боевая винтовка созданная TechnicLogistic, для нужд собственной армии благодаря эффективности и точности является одним из часто встречающихся образцов на черном рынке, на текущий момент поставляется силам дсбф по спец заказу НТ.
   components:
   - type: Sprite
     sprite: Corvax/Objects/Weapons/Guns/Rifles/scar12.rsi
