@@ -35,4 +35,4 @@ ent-ComputerShuttleAntag = { ent-ComputerShuttleAntagEmpty }
     .desc = { ent-ComputerShuttleAntagEmpty.desc }
 
 ent-GasSaleConsole = консоль продажи газа
-    .desc = Прода`т газ, закачанный в связанный порт/пункт продажи газа.
+    .desc = Продаёт газ, закачанный в связанный порт/пункт продажи газа.
