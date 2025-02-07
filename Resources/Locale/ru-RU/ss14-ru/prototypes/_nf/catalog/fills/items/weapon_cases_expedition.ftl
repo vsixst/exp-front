@@ -206,9 +206,6 @@ ent-WeaponCaseShortAmmoBoxFlareShotgun = { ent-WeaponCaseShortAmmo }
 ent-WeaponCaseShortAmmoBoxIncendiaryShotgun = { ent-WeaponCaseShortAmmo }
     .desc = { ent-WeaponCaseShortAmmo.desc }
 
-ent-WeaponCaseShortAmmoBoxPracticeShotgun = { ent-WeaponCaseShortAmmo }
-    .desc = { ent-WeaponCaseShortAmmo.desc }
-
 ent-WeaponCaseShortAmmoBoxRubberShotgun = { ent-WeaponCaseShortAmmo }
     .desc = { ent-WeaponCaseShortAmmo.desc }
 
