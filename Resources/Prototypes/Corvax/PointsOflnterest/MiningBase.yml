@@ -18,7 +18,7 @@
 - type: gameMap
   id: MiningBase
   mapName: 'База Шахтёров'
-  mapPath: /MapsCorvax/POI/MiningBase.yml
+  mapPath: /Maps/Corvax/POI/MiningBase.yml
   minPlayers: 0
   stations:
     MiningBase:
