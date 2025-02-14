@@ -15,7 +15,7 @@
         - to: apc
           steps:
             - component: ApcElectronics
-              name: микросхему ЛКП #Corvax-Frontier
+              name: apc-electronics #Corvax-Frontier
               doAfter: 2
         - to: start
           completed:
