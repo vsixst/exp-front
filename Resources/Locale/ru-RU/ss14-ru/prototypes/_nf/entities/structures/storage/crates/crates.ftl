@@ -48,9 +48,4 @@ ent-CrateTradeContrabandSecure4 = Ящик с контрабандой Donk Co.
     .desc = { ent-CrateTradeBaseSecureContraband.desc }
 ent-CrateTradeContrabandSecure5 = { ent-CrateTradeBaseSecureContraband }
     .desc = { ent-CrateTradeBaseSecureContraband.desc }
-ent-CrateTradeContrabandSecure3 = { ent-CrateTradeBaseSecureContraband }
-    .desc = { ent-CrateTradeBaseSecureContraband.desc }
-ent-CrateTradeContrabandSecure3 = { ent-CrateTradeBaseSecureContraband }
-    .desc = { ent-CrateTradeBaseSecureContraband.desc }
-ent-CrateTradeContrabandSecure3 = { ent-CrateTradeBaseSecureContraband }
-    .desc = { ent-CrateTradeBaseSecureContraband.desc }
+
