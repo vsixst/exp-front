@@ -158,6 +158,13 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSalvage
+  - type: ItemSlots # Corvax-Frontier
+    slots:
+      item:
+        name: clothing-hardsuits-jetpack
+        whitelist:
+          tags:
+          - Jetpack
 
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCargoContraband
@@ -190,6 +197,13 @@
     coolingCoefficient: 0.001
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMaxim
+  - type: ItemSlots # Corvax-Frontier
+    slots:
+      item:
+        name: clothing-hardsuits-jetpack
+        whitelist:
+          tags:
+          - Jetpack
 
 #Security Hardsuit
 - type: entity
