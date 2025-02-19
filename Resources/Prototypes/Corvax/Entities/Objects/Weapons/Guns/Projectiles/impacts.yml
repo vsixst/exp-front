@@ -1,6 +1,6 @@
 - type: entity
   id: BulletImpactEffectPlasma
-  noSpawn: true
+  abstract: true
   components:
   - type: TimedDespawn
     lifetime: 0.2

@@ -2,7 +2,7 @@
   id: BulletMagmaCharge
   name: charge bolt
   parent: BaseBullet
-  noSpawn: true
+  abstract: true
   description: Marks a target for additional damage.
   components:
   - type: Sprite
@@ -25,7 +25,6 @@
       types:
         Blunt: 0
         Structural: 50
-    penetrationScore: 4
   # Short lifespan
   - type: TimedDespawn
     lifetime: 0.4
@@ -33,7 +32,7 @@
   id: BulletMagmaPlasmacutterCharge
   name: charge bolt
   parent: BaseBullet
-  noSpawn: true
+  abstract: true
   components:
   - type: Sprite
     noRot: false
