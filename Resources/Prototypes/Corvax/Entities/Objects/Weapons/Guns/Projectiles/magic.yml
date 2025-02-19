@@ -47,7 +47,6 @@
       types:
         Blunt: 0
         Structural: 50
-    penetrationScore: 6
   # Short lifespan
   - type: TimedDespawn
     lifetime: 0.4
