@@ -1,8 +1,8 @@
 - type: entity
   id: BulletMagmaCharge
   name: charge bolt
-  parent: BaseBullet
-  abstract: true
+  parent: BulletCharge
+  categories: [ HideSpawnMenu ]
   description: Marks a target for additional damage.
   components:
   - type: Sprite
@@ -28,11 +28,12 @@
   # Short lifespan
   - type: TimedDespawn
     lifetime: 0.4
+    
 - type: entity
   id: BulletMagmaPlasmacutterCharge
   name: charge bolt
-  parent: BaseBullet
-  abstract: true
+  parent: BulletCharge
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     noRot: false
