@@ -6813,47 +6813,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: LockerWallMedical
-  entities:
-  - uid: 2
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 7.5,2.5
-      parent: 1
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14914
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 18
-          - 17
-          - 20
-          - 23
-          - 19
-          - 15
-          - 16
-          - 22
-          - 21
 - proto: LockerWoodenGeneric
   entities:
   - uid: 257
