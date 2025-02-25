@@ -1,0 +1,127 @@
+- type: mercenaryBounty
+  id: MercenaryBountyMeatDragon
+  reward: 3
+  entries:
+  - name: mercenary-bounty-item-meat-dragon
+    amount: 1
+    id: MeatDragon
+
+- type: mercenaryBounty
+  id: MercenaryBountyCultistNeck
+  reward: 6
+  entries:
+  - name: mercenary-bounty-item-cultist-neck
+    amount: 1
+    id: СultistNeck
+
+- type: mercenaryBounty
+  id: MercenaryBountyLaserCarbine
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-laser-carbine
+    amount: 1
+    id: WeaponLaserCarbine
+    
+- type: mercenaryBounty
+  id: MercenaryBountyStaffDarkBolt
+  reward: 4
+  entries:
+  - name: mercenary-bounty-item-staff-dark-bolt
+    amount: 2
+    id: StaffDarkBolt
+
+- type: mercenaryBounty
+  id: MercenaryBountyQuadraticCapacitor
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-quadratic-capacitor
+    amount: 2
+    id: QuadraticCapacitor
+
+- type: mercenaryBounty
+  id: MercenaryBountyFemtoManipulator
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-femto-manipulator
+    amount: 2
+    id: FemtoManipulator
+
+- type: mercenaryBounty
+  id: MercenaryBountyBluespaceMatterBin
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-bluespace-matter-bin
+    amount: 2
+    id: BluespaceMatterBin
+
+- type: mercenaryBounty
+  id: MercenaryBountyIFFCircuitboard
+  reward: 3
+  entries:
+  - name: mercenary-bounty-item-IFF-circuitboard
+    amount: 1
+    id: IFFCircuitboard
+
+- type: mercenaryBounty
+  id: MercenaryBountyArmorElitePunk
+  reward: 3
+  entries:
+  - name: mercenary-bounty-item-armor-elite-punk
+    amount: 1
+    id: ArmorElitePunk
+    
+- type: mercenaryBounty
+  id: MercenaryBountyDatadiskEncrypted
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-datadisk-encrypted
+    amount: 2
+    id: DatadiskEncrypted
+
+- type: mercenaryBounty
+  id: MercenaryBountyBootsMagSyndie
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-boots-mag-syndie
+    amount: 1
+    id: BootsMagSyndie
+
+- type: mercenaryBounty
+  id: MercenaryBountyArcadiaVisor
+  reward: 1
+  entries:
+  - name: mercenary-bounty-item-arcadia-visor
+    amount: 1
+    id: ArcadiaVisor 
+
+- type: mercenaryBounty
+  id: MercenaryBountyMercenaryFabHackedCircuitboard
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-mercenary-fab-hacked-circuitboard
+    amount: 1
+    id: MercenaryFabHackedCircuitboard
+
+- type: mercenaryBounty
+  id: MercenaryBountyArmorHeavy
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-armor-heavy
+    amount: 1
+    id: ArmorHeavy
+
+- type: mercenaryBounty
+  id: MercenaryBountyFireAxe
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-fire-axe 
+    amount: 1
+    id: FireAxe
+    
+- type: mercenaryBounty
+  id: MercenaryBountyToolboxGold
+  reward: 2
+  entries:
+  - name: mercenary-bounty-item-toolbox-gold
+    amount: 1
+    id: ToolboxGold

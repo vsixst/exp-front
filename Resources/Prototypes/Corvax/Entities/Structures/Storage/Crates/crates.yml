@@ -1,0 +1,11 @@
+- type: entity
+  parent: CratePirate
+  id: CrateMercenaryBounty
+  name: mercenary bounty chest
+  description: A chest for storing looted goods.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Storage/Crates/pirate_bounty.rsi
+  - type: Icon
+    sprite: _NF/Structures/Storage/Crates/pirate_bounty.rsi
+  - type: MercenaryBountyLabel
