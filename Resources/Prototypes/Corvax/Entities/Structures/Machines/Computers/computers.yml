@@ -8,13 +8,13 @@
     sprite: _NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
-      state: computer_blackmarket
+      state: computer
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      state: piratebounty
+      state: contraband
     - map: ["computerLayerKeys"]
-      state: blackmarket_key
+      state: generic_keys
   - type: MercenaryBountyConsole
     spawnChestSound:
       path: /Audio/Effects/Lightning/lightningbolt.ogg
@@ -43,16 +43,18 @@
   description: Back from a voyage? Redeem yer bounties here, matey.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
+    sprite: Structures/Machines/computers.rsi
     layers:
-    - map: ["computerLayerBody"]
-      state: computer_blackmarket
-    - map: ["computerLayerKeyboard"]
+    - map: [ "computerLayerBody" ]
+      state: computer
+    - map: [ "computerLayerKeyboard" ]
       state: generic_keyboard
-    - map: ["computerLayerScreen"]
-      state: piratebounty_pad
-    - map: ["computerLayerKeys"]
-      state: blackmarket_key
+    - map: [ "computerLayerScreen" ]
+      state: aiupload
+    - map: [ "computerLayerKeys" ]
+      state: generic_keys
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
   - type: MercenaryBountyRedemptionConsole
   - type: ActivatableUI
     key: enum.MercenaryConsoleUiKey.BountyRedemption

@@ -79,7 +79,7 @@ public static class BankSystemExtensions
 
     public static string ToMercenaryTokenString(int amount, CultureInfo? culture = null) //Corvax-Frontier
     {
-        return ToCurrencyString(amount, culture, symbolOverride: "ЖН", symbolLocation: CurrencySymbolLocation.Suffix);
+        return ToCurrencyString(amount, culture, symbolOverride: "КК", symbolLocation: CurrencySymbolLocation.Suffix);
     }
 }
 
