@@ -45,3 +45,28 @@
     interfaces:
       enum.ShipyardConsoleUiKey.Salvage:
        type: ShipyardConsoleBoundUserInterface
+
+- type: entity
+  id: ComputerShipyardDebug
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
+  name: centcomm shipyard console
+  description: Shipyard console with all shuttles.
+  suffix: Debug
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_mining
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Debug
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Debug:
+       type: ShipyardConsoleBoundUserInterface
