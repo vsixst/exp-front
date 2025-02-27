@@ -242,7 +242,7 @@
   id: MercenaryBountyFireAxe1
   reward: 2
   entries:
-  - name: mercenary-bounty-item-fire-axe 
+  - name: mercenary-bounty-item-fire-axe
     amount: 1
     id: FireAxe
 
@@ -250,7 +250,7 @@
   id: MercenaryBountyFireAxe2
   reward: 3
   entries:
-  - name: mercenary-bounty-item-fire-axe 
+  - name: mercenary-bounty-item-fire-axe
     amount: 1
     id: FireAxe
     

@@ -9,7 +9,6 @@
     state: quantumcrystal
   - type: Item
     sprite: Corvax/Objects/Specific/Mercenary/quantumcrystal.rsi
-    state: quantumcrystal
     size: Tiny
   - type: Material
   - type: PhysicalComposition

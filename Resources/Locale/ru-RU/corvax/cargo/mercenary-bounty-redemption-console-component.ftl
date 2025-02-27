@@ -5,5 +5,5 @@ mercenary-bounty-redemption-append =    { $prev }{ $empty ->
         [0] { $bounty }
        *[1] , { $bounty }
     }
-mercenary-bounty-redemption-success = Награды обменяны: { $bounties }! Заработано: { $amount } жетонов!
+mercenary-bounty-redemption-success = Награды обменяны: { $bounties }! Заработано: { $amount } кристаллов!
 mercenary-bounty-redemption-deny = Награды не были обменяны.
