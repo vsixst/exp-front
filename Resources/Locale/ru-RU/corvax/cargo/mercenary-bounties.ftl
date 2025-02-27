@@ -1,3 +1,4 @@
+mercenary-bounty-description-generic = Клиент сделал заказ. Вперëд работать!
 mercenary-bounty-item-meat-dragon1 = Плоть дракона
 mercenary-bounty-item-meat-dragon2 = {mercenary-bounty-item-meat-dragon1}
 mercenary-bounty-item-cultist-neck = Амулет культа
