@@ -514,8 +514,8 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
 			{
 				_radio.SendRadioMessage(uid, Loc.GetString("shipyard-console-docking", ("owner", player), ("vessel", name)), channel, uid);
 				_chat.TrySendInGameICMessage(uid, Loc.GetString("shipyard-console-docking", ("owner", player!), ("vessel", name)), InGameICChatType.Speak, true);
-			};
-		};
+			}
+		}
     }
 
     private void SendSellMessage(EntityUid uid, string? player, string name, string shipyardChannel, EntityUid seller, bool secret)
@@ -532,8 +532,8 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
 			{
 				_radio.SendRadioMessage(uid, Loc.GetString("shipyard-console-leaving", ("owner", player!), ("vessel", name!), ("player", seller)), channel, uid);
 				_chat.TrySendInGameICMessage(uid, Loc.GetString("shipyard-console-leaving", ("owner", player!), ("vessel", name!), ("player", seller)), InGameICChatType.Speak, true);
-			};
-		};
+			}
+		}
 	}
 
     private void PlayDenySound(EntityUid playerUid, EntityUid consoleUid, ShipyardConsoleComponent component)
@@ -741,7 +741,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
             // Check that the listing contains the shuttle or that the shuttle is in the group that the console is looking for
             if (listing?.Shuttles.Contains(vessel.ID) ?? false ||
                 key != null && key != ShipyardConsoleUiKey.Custom &&
-                vessel.Group == key || key == ShipyardConsoleUiKey.Debug)
+                vessel.Group == key || key == ShipyardConsoleUiKey.Debug) // shipyardConsoleUiKey.Debug from Corvax-Frontier
             {
                 if (hasAccess)
                     available.Add(vessel.ID);
