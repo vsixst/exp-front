@@ -4848,10 +4848,13 @@ entities:
     - type: Transform
       pos: 14.558388,-5.491426
       parent: 3
+- proto: ComputerIFF
+  entities:
   - uid: 657
     components:
     - type: Transform
-      pos: -13.465472,-5.522676
+      rot: 3.141592653589793 rad
+      pos: -0.5,17.5
       parent: 3
 - proto: ComputerPowerMonitoring
   entities:
@@ -7881,6 +7884,13 @@ entities:
       parent: 3
     - type: AtmosPipeColor
       color: '#FF0000FF'
+- proto: GravityGeneratorMini
+  entities:
+  - uid: 743
+    components:
+    - type: Transform
+      pos: -13.5,-5.5
+      parent: 3
 - proto: Grille
   entities:
   - uid: 146
@@ -8936,11 +8946,6 @@ entities:
     components:
     - type: Transform
       pos: 7.5,8.5
-      parent: 3
-  - uid: 743
-    components:
-    - type: Transform
-      pos: -13.5,-5.5
       parent: 3
   - uid: 859
     components:
