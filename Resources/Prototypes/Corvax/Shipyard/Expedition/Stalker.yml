@@ -19,7 +19,7 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Фарон {1}'
+          mapNameTemplate: 'Сталкер {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
