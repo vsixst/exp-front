@@ -1,6 +1,6 @@
 - type: entity
   name: Scar12
-  parent: BaseWeaponRifle
+  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
   id: WeaponRifleScar12
   description: The Scar-12 battle rifle, developed by TechnicLogistic for its own army, is one of the most commonly found models on the black market due to its efficiency and accuracy. Currently, it is supplied to DSBF forces under a special order from NT.
   components:
