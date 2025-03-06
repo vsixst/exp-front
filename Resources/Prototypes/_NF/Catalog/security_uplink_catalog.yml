@@ -378,7 +378,7 @@
   name:  uplink-security-WeaponSubMachineGunScorpion-name
   description: uplink-security-WeaponSubMachineGunScorpion-desc
   productEntity: WeaponSubMachineGunScorpion
-  icon: { sprite: Corvax/Objects/Weapons/Guns/SMGs/Scorpion.rsi, state: base }
+  icon: { sprite: Corvax/Objects/Weapons/Guns/SMGs/scorpion.rsi, state: base }
   cost:
     FrontierUplinkCoin: 3
   categories:
