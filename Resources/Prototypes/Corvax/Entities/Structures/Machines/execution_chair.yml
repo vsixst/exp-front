@@ -13,6 +13,8 @@
   - type: Strap
     position: Stand
     buckleOffset: "0,-0.05"
+  - type: Physics
+    bodyType: Static
   - type: Fixtures
     fixtures:
       fix1:
