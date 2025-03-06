@@ -1,0 +1,62 @@
+- type: entity
+  name: P90LRK
+  parent: BaseWeaponSubMachineGun
+  id: WeaponSubMachineP90LRK
+  description: P90
+  components:
+  - type: Sprite
+    sprite: /Textures/Corvax/Objects/Weapons/Guns/SMGs/p90lrk.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: base-unshaded
+        map: ["enum.GunVisualLayers.BaseUnshaded"]
+        shader: unshaded
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+      - state: mag-unshaded-0
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: Clothing
+    sprite: /Textures/Corvax/Objects/Weapons/Guns/SMGs/p90lrk.rsi
+  - type: ChamberMagazineAmmoProvider
+    boltClosed: null
+  - type: Gun
+    projectileSpeed: 20
+    fireRate: 7
+    minAngle: 1
+    maxAngle: 5
+    angleIncrease: 2
+    angleDecay: 8
+    selectedMode: FullAuto
+    shotsPerBurst: 7
+    burstCooldown: 0.3
+    burstFireRate: 8
+    availableModes:
+    - SemiAuto
+    - Burst
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolSubMachineGunTopMounted
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistolSubMachineGunTopMounted
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: Appearance

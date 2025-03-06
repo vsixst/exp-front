@@ -1,0 +1,33 @@
+- type: entity
+  name: Scorpion
+  parent: BaseWeaponSubMachineGun
+  id: WeaponSubMachineGunScorpion
+  description: Pla-ket-ket-ket-ket! Uses .35 auto ammo. An illegal firearm often used by Syndicate agents.
+  components:
+  - type: Sprite
+    sprite: Corvax/Objects/Weapons/Guns/SMGs/Scorpion.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Gun
+    fireRate: 8
+    projectileSpeed: 20
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: Appearance
