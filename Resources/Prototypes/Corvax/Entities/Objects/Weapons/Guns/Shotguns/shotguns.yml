@@ -25,7 +25,7 @@
 - type: entity
   name: KD12
   parent: BaseWeaponShotgun
-  id: KD12
+  id: WeaponShotgunKD12
   description: The Compact Shotgun Model 12 is equipped with a three-round drum and a reload system. It was previously manufactured and supplied by TechnicLogistic as the primary weapon for convoy ships.
   components:
     - type: Sprite

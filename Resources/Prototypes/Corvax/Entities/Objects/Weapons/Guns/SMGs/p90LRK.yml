@@ -1,8 +1,8 @@
 - type: entity
-  name: P90LRK
+  name: P90
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineP90LRK
-  description: P90
+  description: The P90-LRK is a high-impact automatic submachine gun manufactured by TechnicLogistic for special forces. It is equipped with an extended .35 (auto) caliber magazine and an under-barrel grenade launcher. Its firepower and rate of fire surpass most competing models in the same class. Due to its extremely high rate of fire, soldiers armed with this rifle have become known as "Reapers."
   components:
   - type: Sprite
     sprite: /Textures/Corvax/Objects/Weapons/Guns/SMGs/p90lrk.rsi
@@ -40,13 +40,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazinePistolSubMachineGunTopMounted
+        startingItem: MagazineP90LRK
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazinePistolSubMachineGunTopMounted
+            - MagazineP90LRK
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
