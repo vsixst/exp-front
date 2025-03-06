@@ -9,7 +9,7 @@
   - type: Clothing
     sprite: Corvax/Clothing/Neck/Cloaks/darkcloakclose.rsi
   - type: ToggleableClothing
-    clothingPrototype: PlumberDarkHood
+    clothingPrototype: PlumberDarkHoodV
     requiredSlot:
     - neck
     slot: head
@@ -19,7 +19,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: PlumberDarkCloakOpen
+  id: PlumberDarkCloakVOpen
   name: тёмный плащ
   description: Длинное, свободное одеяние цвета ночи, которое элегантно струится вокруг фигуры, добавляя образу таинственности и загадочности.
   components:
@@ -28,7 +28,7 @@
   - type: Clothing
     sprite: Corvax/Clothing/Neck/Cloaks/darkcloakopen.rsi
   - type: ToggleableClothing
-    clothingPrototype: PlumberDarkHood
+    clothingPrototype: PlumberDarkHoodV
     requiredSlot:
     - neck
     slot: head
