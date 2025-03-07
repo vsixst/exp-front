@@ -22,6 +22,8 @@
     steps: 4
     zeroVisible: false
   - type: Appearance
+  - type: StaticPrice #CorvaxFrontier
+    price: 125
 
 # Boxes
 - type: entity
@@ -61,7 +63,7 @@
 
 - type: entity
   id: MagazineBoxMagnumIncendiary
-  parent: BaseMagazineBoxMagnum
+  parent: [BaseMagazineBoxMagnum, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
   name: ammunition box (.45 magnum incendiary)
   components:
   - type: BallisticAmmoProvider
@@ -79,7 +81,7 @@
 
 - type: entity
   id: MagazineBoxMagnumUranium
-  parent: BaseMagazineBoxMagnum
+  parent: [BaseMagazineBoxMagnum, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
   name: ammunition box (.45 magnum uranium)
   components:
   - type: BallisticAmmoProvider
