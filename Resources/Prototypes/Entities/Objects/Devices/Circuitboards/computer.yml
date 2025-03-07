@@ -355,7 +355,7 @@
     prototype: ComputerWallmountRadar # Frontier
 
 - type: entity
-  parent: BaseComputerCircuitboard
+  parent: [BaseComputerCircuitboard, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
   id: AdvancedRadarConsoleCircuitboard # Frontier
   name: advanced radar console computer board
   components:
@@ -470,7 +470,7 @@
       id: IFFCircuitboard
 
 - type: entity
-  parent: BaseComputerCircuitboard
+  parent: [BaseComputerCircuitboard, BaseC3Contraband] #Corvax-Frontier КБ
   id: ComputerIFFSyndicateCircuitboard
   name: syndicate IFF console board
   description: Allows you to control the IFF and stealth characteristics of this vessel.
