@@ -35,12 +35,21 @@
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Corvax/Effects/buranya.ogg
+      params:
+        volume: -5
+        maxDistance: 12
   - type: EmitSoundOnCollide
     sound:
       path: /Audio/Corvax/Effects/doridori.ogg
+      params:
+        volume: 1
+        maxDistance: 8
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Corvax/Effects/buranya.ogg
+      params:
+        volume: -5
+        maxDistance: 12
   - type: Sprite
     sprite: /Textures/Corvax/Objects/Fun/nekoark.rsi
     state: icon
