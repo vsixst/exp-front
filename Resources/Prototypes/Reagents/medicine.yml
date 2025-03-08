@@ -186,8 +186,8 @@
           damage:
           # todo scale with temp like SS13
             groups:
-              Airloss: -2 # Corvax-Frontier: -6<-10
-              Brute: -1.5 # Corvax-Frontier
+              Airloss: -4 # Corvax-Frontier: -6<-10
+              Brute: -2.25 # Corvax-Frontier
               Burn: -2 # Corvax-Frontier
               Toxin: -1 # Corvax-Frontier
 
@@ -807,10 +807,10 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -3.5 # Corvax-Frontier
-            Toxin: -3.5 # Corvax-Frontier
-            Airloss: -3.5 # Corvax-Frontier
-            Brute: -3.5 # Corvax-Frontier
+            Burn: -3 # Corvax-Frontier
+            Toxin: -2.75 # Corvax-Frontier
+            Airloss: -3.25 # Corvax-Frontier
+            Brute: -3 # Corvax-Frontier
 
 - type: reagent
   id: Ultravasculine
@@ -1023,7 +1023,7 @@
           min: 11
         damage:
           types:
-            Blunt: 5 # Corvax-Frontier
+            Blunt: 5
 
 - type: reagent
   id: Bruizine
