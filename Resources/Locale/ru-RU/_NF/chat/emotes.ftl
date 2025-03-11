@@ -42,11 +42,11 @@ chat-emote-name-felinid-growl = рычит
 chat-emote-name-felinid-purr = мурлыкает
 
 # Harpy
-chat-emote-name-harpy-rings = звенит
-chat-emote-name-harpy-pews = лазерит
-chat-emote-name-harpy-bangs = гремит
-chat-emote-name-harpy-revs = газует
-chat-emote-name-harpy-caws = каркает
+chat-emote-msg-harpy-rings = звенит
+chat-emote-msg-harpy-pews = лазерит
+chat-emote-msg-harpy-bangs = гремит
+chat-emote-msg-harpy-revs = газует
+chat-emote-msg-harpy-caws = каркает
 
 # Vulpkanin
 chat-emote-name-vulpkanin-barks = лает
