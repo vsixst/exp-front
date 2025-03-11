@@ -11,7 +11,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-harpy-rings"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-harpy-rings"] # Corvax-Localization
   chatTriggers:
     - ring
     - rings
@@ -30,7 +30,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-harpy-pews"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-harpy-pews"] # Corvax-Localization
   chatTriggers:
     - pew
     - pews
@@ -49,7 +49,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-harpy-bangs"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-harpy-bangs"] # Corvax-Localization
   chatTriggers:
     - bang
     - bangs
@@ -68,7 +68,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-harpy-revs"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-harpy-revs"] # Corvax-Localization
   chatTriggers:
     - revs
     - rev
@@ -87,7 +87,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-harpy-caws"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-harpy-caws"] # Corvax-Localization
   chatTriggers:
     - caws
     - caw
@@ -107,7 +107,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-vulpkanin-barks"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-vulpkanin-barks"] # Corvax-Localization
   chatTriggers:
     - bark
     - barks
@@ -126,7 +126,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-vulpkanin-snarls"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-vulpkanin-snarls"] # Corvax-Localization
   chatTriggers:
     - snarl
     - snarls
@@ -145,7 +145,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-vulpkanin-whines"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-vulpkanin-whines"] # Corvax-Localization
   chatTriggers:
     - whine
     - whines
@@ -164,7 +164,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-vulpkanin-howls"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-vulpkanin-howls"] # Corvax-Localization
   chatTriggers:
     - howl
     - howls
@@ -183,7 +183,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-name-vulpkanin-awoo"] # Corvax-Localization
+  chatMessages: ["chat-emote-msg-vulpkanin-awoo"] # Corvax-Localization
   chatTriggers:
     - awoo
     - awoos
