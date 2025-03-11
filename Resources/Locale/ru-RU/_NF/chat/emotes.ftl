@@ -35,11 +35,11 @@ chat-emote-msg-goblin-muttering = бормочет
 chat-emote-msg-goblin-throat-singing = поёт
 
 # Felinid
-chat-emote-name-felinid-hiss = шипит
-chat-emote-name-felinid-meow = мяукает
-chat-emote-name-felinid-mew = мявкает
-chat-emote-name-felinid-growl = рычит
-chat-emote-name-felinid-purr = мурлыкает
+chat-emote-msg-felinid-hiss = шипит
+chat-emote-msg-felinid-meow = мяукает
+chat-emote-msg-felinid-mew = мявкает
+chat-emote-msg-felinid-growl = рычит
+chat-emote-msg-felinid-purr = мурлыкает
 
 # Harpy
 chat-emote-msg-harpy-rings = звенит
