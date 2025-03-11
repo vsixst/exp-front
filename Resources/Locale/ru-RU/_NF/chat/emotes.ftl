@@ -20,7 +20,7 @@ chat-emote-name-rev = Газовать
 chat-emote-name-caw = Каркать
 
 # Vulpkanin
-hat-emote-name-bark = Лаять
+chat-emote-name-bark = Лаять
 chat-emote-name-snarl = Рычать
 chat-emote-name-whine = Скулить
 chat-emote-name-howl = Выть
