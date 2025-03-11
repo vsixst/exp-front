@@ -49,8 +49,8 @@ chat-emote-msg-harpy-revs = газует
 chat-emote-msg-harpy-caws = каркает
 
 # Vulpkanin
-chat-emote-name-vulpkanin-barks = лает
-chat-emote-name-vulpkanin-snarls = рычит
-chat-emote-name-vulpkanin-whines = скулит
-chat-emote-name-vulpkanin-howls = воет
-chat-emote-name-vulpkanin-awoo = воет
+chat-emote-msg-vulpkanin-barks = лает
+chat-emote-msg-vulpkanin-snarls = рычит
+chat-emote-msg-vulpkanin-whines = скулит
+chat-emote-msg-vulpkanin-howls = воет
+chat-emote-msg-vulpkanin-awoo = воет
