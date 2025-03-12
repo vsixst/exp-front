@@ -18,11 +18,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-<<<<<<<< HEAD:Resources/Maps/Corvax/Shuttles/Nfsd/wendigo.yml
-      name: Wendigo
-========
       name: Hypnos
->>>>>>>> fofss/master:Resources/Maps/_NF/Shuttles/Nfsd/hypnos.yml
     - type: Transform
       parent: invalid
     - type: BecomesStation
@@ -417,8 +413,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: BecomesStation
-      id: Wendigo
 - proto: AirlockEngineering
   entities:
   - uid: 162
