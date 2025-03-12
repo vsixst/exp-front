@@ -314,22 +314,6 @@
   recipeType:
   - Assembler
 
-- type: microwaveMealRecipe
-  id: RecipeCottonSalad
-  name: cotton salad recipe
-  result: FoodMothCottonSalad
-  time: 5
-  group: MothFood
-  reagents:
-    OilOlive: 5
-  solids:
-    FoodBowlBig: 1
-    FoodBreadCottonSlice: 1
-    FoodCheeseSlice: 1
-    FoodAmbrosiaVulgaris: 3
-  recipeType:
-  - Assembler
-
 # Fryer Prep
 
 - type: microwaveMealRecipe
