@@ -4,7 +4,7 @@
 #Basic armor vest for inheritance
 - type: entity
   parent: [RecyclableItemClothArmor, ClothingOuterBaseMedium, AllowSuitStorageClothing] #Corvax-Frontier удалена строка КБ
-  id: ClothingOuterArmorBasic
+  id: ClothingOuterArmorBase
   name: armor vest
   abstract: true
   description: A standard Type I armored vest that provides decent protection against most types of damage.
