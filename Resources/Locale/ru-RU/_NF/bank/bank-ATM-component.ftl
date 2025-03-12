@@ -16,6 +16,7 @@ station-bank-atm-menu-title = Администрация Станции
 bank-atm-menu-amount-label = Сумма:{ " " }
 bank-atm-reason-label = Для:{ " " }
 bank-atm-description-label = Описание:{ " " }
+vending-machine-menu-cash-slot-label = Наличные:{" "}
 station-bank-payroll = Заработная плата
 station-bank-workorder = Рабочий заказ
 station-bank-supplies = Ресурсы станции
