@@ -10,10 +10,7 @@
   - type: Clothing
     sprite: Corvax/Clothing/Shoes/Boots/magboots-combat.rsi #Corvax-Frontier респрайт
   - type: Magboots
-    magbootsAlert: MagbootsCombat
-  - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.9
+    magbootsAlert: MagbootsSecurity
 
 - type: entity
   parent: [ClothingShoesBootsMagSecurity, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ

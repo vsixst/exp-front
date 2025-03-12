@@ -28,10 +28,9 @@
       ejectSound: /Audio/Machines/tray_eject.ogg
       ejectOnBreak: true
       swap: false
-      whitelistFailPopup: bank-ATM-cashSlot-item-wont-fit
       whitelist:
         components:
-          - Cash
+        - Cash
   - type: ActivatableUI
     key: enum.BankATMMenuUiKey.ATM
   - type: UserInterface
@@ -100,10 +99,10 @@
     netsync: false
     sprite: _NF/Structures/Machines/atm/wall_atm.rsi
     layers:
-      - map: ["computerLayerBody"]
-        state: icon
-      - map: ["computerLayerScreen"]
-        state: unshaded
+    - map: ["computerLayerBody"]
+      state: icon
+    - map: ["computerLayerScreen"]
+      state: unshaded
 
 - type: entity
   suffix: Wallmount
@@ -114,10 +113,10 @@
     netsync: false
     sprite: _NF/Structures/Machines/atm/wall_atm.rsi
     layers:
-      - map: ["computerLayerBody"]
-        state: icon
-      - map: ["computerLayerScreen"]
-        state: unshaded
+    - map: ["computerLayerBody"]
+      state: icon
+    - map: ["computerLayerScreen"]
+      state: unshaded
   - type: Computer
     board: ComputerWithdrawBankATMComputerCircuitboard
 
@@ -197,10 +196,9 @@
       ejectSound: /Audio/Machines/tray_eject.ogg
       ejectOnBreak: true
       swap: false
-      whitelistFailPopup: bank-ATM-cashSlot-item-wont-fit
       whitelist:
         components:
-          - Cash
+        - Cash
   - type: ActivatableUI
     key: enum.BankATMMenuUiKey.ATM
   - type: UserInterface

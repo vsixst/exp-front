@@ -137,8 +137,12 @@
     runningState: icon
     staticPacks:
     - NFNfsdTechfabDeprecatedStatic
+    - CorvaxAmmoStatic #Corvax-Frontier
+    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - NFNfsdTechfabDeprecated
+    - CorvaxShuttleGunsDynamic #Corvax-Frontier
+    - CorvaxAmmoDynamic #Corvax-Frontier
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFNfsdTechfabDeprecatedEmag
@@ -169,6 +173,8 @@
     runningState: icon
     staticPacks:
     - NFMercenaryTechfabDeprecatedStatic
+    - CorvaxAmmoStatic #Corvax-Frontier
+    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - NFMercenaryTechfabDeprecated
   - type: EmagLatheRecipes
@@ -214,6 +220,8 @@
     runningState: icon
     staticPacks:
     - NFHackedMercenaryTechfabDeprecatedStatic
+    - CorvaxAmmoStatic #Corvax-Frontier
+    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - NFHackedMercenaryTechfabDeprecated
 
