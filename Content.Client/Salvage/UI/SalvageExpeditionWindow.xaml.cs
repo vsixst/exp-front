@@ -195,10 +195,13 @@ public sealed partial class SalvageExpeditionWindow : FancyWindow,
                 Margin = new Thickness(0f, 0f, 0f, 5f),
             });
 
-            lBox.AddChild(new Label()
+            // Frontier: only show rewards if enabled via cvar and not empty
+            if (_cfgManager.GetCVar(NFCCVars.SalvageExpeditionRewardsEnabled) && mission.Rewards.Count > 0)
             {
-                Text = Loc.GetString("salvage-expedition-window-rewards")
-            });
+                lBox.AddChild(new Label()
+                {
+                    Text = Loc.GetString("salvage-expedition-window-rewards")
+                });
 
             var rewards = new Dictionary<string, int>();
             foreach (var reward in mission.Rewards)
@@ -250,6 +253,7 @@ public sealed partial class SalvageExpeditionWindow : FancyWindow,
                 PanelOverride = new StyleBoxFlat(new Color(30, 30, 34)),
                 HorizontalExpand = true,
                 Margin = new Thickness(5f, 0f),
+                MinWidth = 280, // Frontier
                 Children =
                 {
                     new BoxContainer

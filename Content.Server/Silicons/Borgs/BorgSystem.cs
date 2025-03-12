@@ -321,6 +321,10 @@ public sealed partial class BorgSystem : SharedBorgSystem
         }
         _access.SetAccessEnabled(uid, true);
         // End Frontier
+
+        if (_powerCell.HasDrawCharge(uid))
+        {
+            Toggle.TryActivate(uid);
             _powerCell.SetDrawEnabled(uid, _mobState.IsAlive(uid));
         }
         _appearance.SetData(uid, BorgVisuals.HasPlayer, true);

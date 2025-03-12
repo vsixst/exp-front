@@ -4,7 +4,7 @@
     sprite: _NF/Structures/Storage/Crates/tradedark.rsi
     state: icon
   product: CrateTradeSecureNormal
-  cost: 17000
+  cost: 1000
   category: cargoproduct-category-name-cargo
   group: market
 
@@ -14,6 +14,6 @@
     sprite: _NF/Structures/Storage/Crates/tradelight.rsi
     state: icon
   product: CrateTradeSecureHigh
-  cost: 34000
+  cost: 2000
   category: cargoproduct-category-name-cargo
   group: market

@@ -29,4 +29,5 @@
     AirlockShuttleFlatpack: 4294967295 # Infinite
     AirlockGlassShuttleFlatpack: 4294967295 # Infinite
     ComputerWithdrawBankATMFlatpack: 4294967295 # Infinite
+    TelevisionFlatpack: 4294967295 # Infinite
     ChemistryHotplateFlatpack: 4294967295 # Infinite  #CorvaxFrontier

@@ -157,12 +157,25 @@ public sealed class PaperSystem : EntitySystem
                     args.Handled = true;
                     return;
                 }
+
+                var ev = new PaperWriteAttemptEvent(entity.Owner);
+                RaiseLocalEvent(args.User, ref ev);
+                if (ev.Cancelled)
+                {
+                    if (ev.FailReason is not null)
+                    {
+                        var fileWriteMessage = Loc.GetString(ev.FailReason);
+                        _popupSystem.PopupClient(fileWriteMessage, entity.Owner, args.User);
+                    }
+
+                    args.Handled = true;
+                    return;
+                }
+
                 var writeEvent = new PaperWriteEvent(entity, args.User);
                 RaiseLocalEvent(args.Used, ref writeEvent);
 
-                // Frontier - Restrict writing to entities with ActorComponent, players only
-            if (!TryComp<ActorComponent>(args.User, out var actor))
-                return;entity.Comp.Mode = PaperAction.Write;
+                entity.Comp.Mode = PaperAction.Write;
                 _uiSystem.OpenUi(entity.Owner, PaperUiKey.Key, args.User);
                 UpdateUserInterface(entity);
                 args.Handled = true;
@@ -222,6 +235,11 @@ public sealed class PaperSystem : EntitySystem
 
     private void OnInputTextMessage(Entity<PaperComponent> entity, ref PaperInputTextMessage args)
     {
+        var ev = new PaperWriteAttemptEvent(entity.Owner);
+        RaiseLocalEvent(args.Actor, ref ev);
+        if (ev.Cancelled)
+            return;
+
         if (args.Text.Length <= entity.Comp.ContentSize)
         {
             SetContent(entity, args.Text);
@@ -396,3 +414,10 @@ public sealed class PaperSystem : EntitySystem
 /// </summary>
 [ByRefEvent]
 public record struct PaperWriteEvent(EntityUid User, EntityUid Paper);
+
+/// <summary>
+/// Cancellable event for attempting to write on a piece of paper.
+/// </summary>
+/// <param name="paper">The paper that the writing will take place on.</param>
+[ByRefEvent]
+public record struct PaperWriteAttemptEvent(EntityUid Paper, string? FailReason = null, bool Cancelled = false);
