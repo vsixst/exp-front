@@ -302,9 +302,10 @@ public sealed partial class BorgSystem : SharedBorgSystem
     public void BorgActivate(EntityUid uid, BorgChassisComponent component)
     {
         Popup.PopupEntity(Loc.GetString("borg-mind-added", ("name", Identity.Name(uid, EntityManager))), uid);
-        if (_powerCell.HasDrawCharge(uid))
-        {
-            Toggle.TryActivate(uid);// Frontier: add cyborg access
+
+        Toggle.TryActivate(uid);
+
+        // Frontier: add cyborg access
         if (TryComp<AccessComponent>(uid, out var oldAccess))
         {
             var access = oldAccess.Tags.ToList();

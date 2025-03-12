@@ -481,20 +481,4 @@ public sealed class AtmosMonitorSystem : EntitySystem
             SetThreshold(uid, AtmosMonitorThresholdType.Gas, allThresholdData.GasThresholds[gas], gas);
         }
     }
-
-    /// <summary>
-    ///     Sets all of a monitor's thresholds at once according to the incoming
-    ///     AtmosSensorData object's thresholds.
-    /// </summary>
-    /// <param name="uid">The entity's uid</param>
-    /// <param name="allThresholdData">An AtmosSensorData object from which the thresholds will be loaded.</param>
-    public void SetAllThresholds(EntityUid uid, AtmosSensorData allThresholdData)
-    {
-        SetThreshold(uid, AtmosMonitorThresholdType.Temperature, allThresholdData.TemperatureThreshold);
-        SetThreshold(uid, AtmosMonitorThresholdType.Pressure, allThresholdData.PressureThreshold);
-        foreach (var gas in Enum.GetValues<Gas>())
-        {
-            SetThreshold(uid, AtmosMonitorThresholdType.Gas, allThresholdData.GasThresholds[gas], gas);
-        }
-    }
 }

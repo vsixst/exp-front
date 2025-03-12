@@ -11,7 +11,6 @@ namespace Content.Shared._NF.Interaction.Components;
 /// </summary>
 [RegisterComponent, NetworkedComponent, Access(typeof(HandPlaceholderSystem))]
 [AutoGenerateComponentState(true)]
-// When an entity with this is removed from a hand, it is replaced with a placeholder entity that blocks the hand's use until re-equipped with the same prototype.
 public sealed partial class HandPlaceholderComponent : Component
 {
     /// <summary>
@@ -25,7 +24,6 @@ public sealed partial class HandPlaceholderComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public EntProtoId? Prototype;
-}
 
     /// <summary>
     /// The source entity that this placeholder gets stored in when an item is picked up.
