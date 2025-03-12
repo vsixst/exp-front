@@ -13726,7 +13726,7 @@ entities:
     - type: Transform
       pos: 7.5,13.5
       parent: 1
-- proto: LockerNfsdSheriff
+- proto: CFLockerNfsdSheriffFilled
   entities:
   - uid: 218
     components:
