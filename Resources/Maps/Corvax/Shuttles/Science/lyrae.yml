@@ -667,7 +667,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
-      id: Lyrae
 - proto: AirAlarm
   entities:
   - uid: 63

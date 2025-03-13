@@ -220,7 +220,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-      id: Warrior
 - proto: AdvancedCapacitorStockPart
   entities:
   - uid: 146
