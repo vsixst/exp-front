@@ -1,6 +1,6 @@
 - type: entity #FrontierCorvax
   id: MagazineP90LRK
-  name: P90 Magazine (0.35)
+  name: P90 Magazine .35 auto
   parent: BaseItem
   description: 50-round magazine for P90
   components:
