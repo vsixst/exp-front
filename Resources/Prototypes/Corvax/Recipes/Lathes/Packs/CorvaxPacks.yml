@@ -13,7 +13,7 @@
   - MagazineBoxVector22
 
 - type: latheRecipePack
-  id: CorvaxPracticAmmoStatic
+  id: CorvaxPracticAmmo
   recipes:
   - MagazineBoxVector22Practice
   - MagazineVector22Practice

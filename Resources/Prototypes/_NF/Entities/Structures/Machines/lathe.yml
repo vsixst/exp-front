@@ -107,6 +107,7 @@
     - NFSalvageTechfabDeprecatedStatic
     dynamicPacks:
     - NFSalvageTechfabDeprecated
+    - CorvaxMagmiteEquipment
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag
@@ -138,12 +139,11 @@
     staticPacks:
     - NFNfsdTechfabDeprecatedStatic
     - CorvaxAmmoStatic #Corvax-Frontier
-    - CorvaxPracticAmmoStatic #Corvax-Frontier
-    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - NFNfsdTechfabDeprecated
     - CorvaxShuttleGunsDynamic #Corvax-Frontier
     - CorvaxAmmoDynamic #Corvax-Frontier
+    - CorvaxPracticAmmo #Corvax-Frontier
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFNfsdTechfabDeprecatedEmag
@@ -175,8 +175,8 @@
     staticPacks:
     - NFMercenaryTechfabDeprecatedStatic
     - CorvaxAmmoStatic #Corvax-Frontier
-    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
+    - CorvaxPracticAmmo #Corvax-Frontier
     - NFMercenaryTechfabDeprecated
   - type: EmagLatheRecipes
     emagStaticPacks:
@@ -222,9 +222,9 @@
     staticPacks:
     - NFHackedMercenaryTechfabDeprecatedStatic
     - CorvaxAmmoStatic #Corvax-Frontier
-    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - NFHackedMercenaryTechfabDeprecated
+    - CorvaxPracticAmmo #Corvax-Frontier
 
 - type: entity
   parent: [BaseStructureDisableToolUse, BaseLathe]
