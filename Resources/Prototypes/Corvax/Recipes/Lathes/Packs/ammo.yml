@@ -48,6 +48,12 @@
   - JetpackMining
   - ClothingShoesBootsJetBoots
 
+- type: latheRecipePack
+  id: CorvaxMagmiteEquipment
+  recipes:
+  - WeaponMagmiteCrusher
+  - WeaponMagmiteCrusherGlaive
+
 #Материалы
 
 - type: latheRecipePack

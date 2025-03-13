@@ -139,6 +139,7 @@
     - NFNfsdTechfabDeprecatedStatic
     - CorvaxAmmoStatic #Corvax-Frontier
     - CorvaxPracticAmmoStatic #Corvax-Frontier
+    - CorvaxPracticAmmoStatic #Corvax-Frontier
     dynamicPacks:
     - NFNfsdTechfabDeprecated
     - CorvaxShuttleGunsDynamic #Corvax-Frontier
