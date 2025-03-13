@@ -48,6 +48,9 @@ entities:
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
+    - type: IFF
+      color: '#FFC000FF'
+      flags: HideLabel
     - type: OccluderTree
     - type: Shuttle
     - type: GridPathfinding
@@ -1428,7 +1431,7 @@ entities:
         23:
         - Pressed: Toggle
         - Pressed: Trigger
-- proto: ShuttleGunPirateCannon
+- proto: ShuttleGunPirateCannonNoUse
   entities:
   - uid: 23
     components:
