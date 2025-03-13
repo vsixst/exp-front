@@ -50,9 +50,6 @@ entities:
     - type: OccluderTree
     - type: SpreaderGrid
     - type: Shuttle
-    - type: IFF
-      color: '#FFC000FF'
-      flags: HideLabel
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -1387,7 +1384,7 @@ entities:
     - type: Transform
       pos: 4.5,3.5
       parent: 1
-- proto: ShuttleGunPirateCannonNoUse
+- proto: ShuttleGunPirateCannon
   entities:
   - uid: 61
     components:
@@ -1395,12 +1392,16 @@ entities:
       rot: 3.141592653589793 rad
       pos: -0.5,4.5
       parent: 1
+    missingComponents:
+    - Anchorable
   - uid: 222
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 2.5,4.5
       parent: 1
+    missingComponents:
+    - Anchorable
 - proto: SignalButtonDirectional
   entities:
   - uid: 26

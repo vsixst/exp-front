@@ -51,8 +51,6 @@ entities:
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
-    - type: IFF
-      flags: HideLabel
     - type: OccluderTree
     - type: SpreaderGrid
     - type: Shuttle
@@ -1401,7 +1399,7 @@ entities:
     - type: Transform
       pos: 3.5,-2.5
       parent: 2
-- proto: ShuttleGunPirateCannonNoUse
+- proto: ShuttleGunPirateCannon
   entities:
   - uid: 75
     components:
@@ -1409,12 +1407,16 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.5,5.5
       parent: 2
+    missingComponents:
+    - Anchorable
   - uid: 86
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 3.5,7.5
       parent: 2
+    missingComponents:
+    - Anchorable
 - proto: SignalButtonDirectional
   entities:
   - uid: 186

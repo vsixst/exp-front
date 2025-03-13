@@ -50,9 +50,6 @@ entities:
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
-    - type: IFF
-      color: '#FFC000FF'
-      flags: HideLabel
     - type: OccluderTree
     - type: SpreaderGrid
     - type: Shuttle
@@ -2800,7 +2797,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -3.5,6.5
       parent: 1
-- proto: ShuttleGunPirateCannonNoUse
+- proto: ShuttleGunPirateCannon
   entities:
   - uid: 501
     components:
@@ -2808,24 +2805,32 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -5.5,3.5
       parent: 1
+    missingComponents:
+    - Anchorable
   - uid: 502
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -5.5,-3.5
       parent: 1
+    missingComponents:
+    - Anchorable
   - uid: 503
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 6.5,-3.5
       parent: 1
+    missingComponents:
+    - Anchorable
   - uid: 504
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 6.5,3.5
       parent: 1
+    missingComponents:
+    - Anchorable
 - proto: SignalButtonDirectional
   entities:
   - uid: 274
