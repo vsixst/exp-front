@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: DC Клейтро
   description: Малогабаритный сервисный шаттл. Рекомендованный размер команды 2-4 человека.
-  price: 30000 # 10+% up from sell
+  price: 33000 # 10+% up from sell
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/Corvax/Shuttles/Medical/cleithro.yml

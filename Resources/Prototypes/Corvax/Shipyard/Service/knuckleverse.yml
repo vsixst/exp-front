@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SSC КостоЛом
   description: Среднегабаритный шаттл с боксёрским рингом. Рекомендованный размер команды 2-6 человек.
-  price: 36500
+  price: 38000
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/Corvax/Shuttles/Service/knuckleverse.yml
