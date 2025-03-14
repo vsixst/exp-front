@@ -13,18 +13,19 @@ chat-emote-name-growl = Рычать
 chat-emote-name-purr = Мурлыкать
 
 # Harpy
-chat-emote-name-ring = Звенеть
-chat-emote-name-pew = Лазерить
-chat-emote-name-bang = Греметь
-chat-emote-name-rev = Газовать
-chat-emote-name-caw = Каркать
+delta-chat-emote-name-honk = Хонкать
+delta-chat-emote-name-ring = Звенеть
+delta-chat-emote-name-pew = Лазерить
+delta-chat-emote-name-bang = Греметь
+delta-chat-emote-name-rev = Газовать
+delta-chat-emote-name-caw = Каркать
 
 # Vulpkanin
-chat-emote-name-bark = Лаять
-chat-emote-name-snarl = Рычать
-chat-emote-name-whine = Скулить
-chat-emote-name-howl = Выть
-chat-emote-name-awoo = Аууууу
+delta-chat-emote-name-bark = Лаять
+delta-chat-emote-name-snarl = Рычать
+delta-chat-emote-name-whine = Скулить
+delta-chat-emote-name-howl = Выть
+delta-chat-emote-name-awoo = Аууууу
 
 
 # Message
@@ -47,6 +48,7 @@ chat-emote-msg-harpy-pews = лазерит
 chat-emote-msg-harpy-bangs = гремит
 chat-emote-msg-harpy-revs = газует
 chat-emote-msg-harpy-caws = каркает
+chat-emote-msg-harpy-honks = хонкает
 
 # Vulpkanin
 chat-emote-msg-vulpkanin-barks = лает
