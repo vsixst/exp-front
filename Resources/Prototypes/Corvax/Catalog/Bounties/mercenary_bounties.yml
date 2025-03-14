@@ -23,7 +23,7 @@
   entries:
   - name: mercenary-bounty-item-cultist-neck
     amount: 1
-    id: СultistNeck
+    id: CultistNeck
 
 - type: mercenaryBounty
   id: MercenaryBountyLaserCarbine
