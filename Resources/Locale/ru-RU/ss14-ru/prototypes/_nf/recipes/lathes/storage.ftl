@@ -1,9 +1,0 @@
-lathe-recipe-WeaponCaseShortExplosives-name = { ent-WeaponCaseShortExplosives }
-lathe-recipe-WeaponCaseShortAmmo-name = { ent-WeaponCaseShortAmmo }
-lathe-recipe-WeaponCaseHeavy-name = { ent-WeaponCaseHeavy }
-lathe-recipe-WeaponCaseLong-name = { ent-WeaponCaseLong }
-lathe-recipe-WeaponCaseShort-name = { ent-WeaponCaseShort }
-lathe-recipe-ToolboxEmergencyNF-name = { ent-ToolboxEmergency }
-lathe-recipe-ToolboxMechanicalNF-name = { ent-ToolboxMechanical }
-lathe-recipe-ToolboxElectricalNF-name = { ent-ToolboxElectrical }
-lathe-recipe-ToolboxArtisticNF-name = { ent-ToolboxArtistic }

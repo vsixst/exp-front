@@ -1,3 +1,14 @@
+# Author Info
+# GitHub: -
+# Discord: autsaider_m
+# License: CC-BY-NC-ND-3.0
+# Corvax_frontier
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn
+# Discord: mersen
+
+# Shuttle Notes:
 
 #- type: vessel
 #  id: Stalker
@@ -7,8 +18,8 @@
 #  price: 98000 # 50% tax
 #  category: Medium
 #  group: Expedition
-#  shuttlePath: /Maps/Corvax/Shuttles/Expedition/Stalker.yml
-
+# shuttlePath: /Maps/Corvax/Shuttles/Expedition/Stalker.yml
+#
 #- type: gameMap
 #  id: Stalker
 #  mapName: 'TL Сталкер'
