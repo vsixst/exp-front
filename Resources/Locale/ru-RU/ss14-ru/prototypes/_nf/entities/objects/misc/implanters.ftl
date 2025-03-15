@@ -27,3 +27,6 @@ ent-SadTromboneImplanterLabeled = { ent-MedicalTrackingImplanter }
 ent-RadioImplanterFreelance = имплантер
     .suffix = Частота Фриланс
     .desc = Одноразовый шприц, предназначенный для введения радио импланта с частотой "Фриланс".
+ent-MimePowersImplanter = { ent-BaseImplantOnlyImplanter }
+    .suffix = Клятва мима
+    .desc = { ent-BaseImplantOnlyImplanter.desc }
