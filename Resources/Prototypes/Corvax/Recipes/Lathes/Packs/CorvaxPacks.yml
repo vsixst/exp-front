@@ -86,3 +86,9 @@
   - CrateChemistryDExchangeRecipe
   - HolofanProjectorExchangeRecipe
   - MedkitExchangeRecipe
+  
+- type: latheRecipePack
+  id: CorvaxExchangerStatic
+  recipes:
+  - ColiseumCoinExchangerRecipe
+  - HolyPlushieOrangeFoxRecipe
