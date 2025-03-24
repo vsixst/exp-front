@@ -579,7 +579,7 @@ entities:
     - type: Transform
       pos: 1.5,-5.5
       parent: 1
-- proto: AirlockSecurityGlassLocked
+- proto: AirlockSecurityGlass
   entities:
   - uid: 6
     components:
@@ -613,7 +613,7 @@ entities:
     - type: Transform
       pos: 1.5,1.5
       parent: 1
-- proto: AirlockSecurityLocked
+- proto: AirlockSecurity
   entities:
   - uid: 12
     components:

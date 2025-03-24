@@ -320,7 +320,7 @@ entities:
     - type: Transform
       pos: 6.5,4.5
       parent: 1
-- proto: AirlockBarGlassLocked
+- proto: AirlockVirologyGlass
   entities:
   - uid: 117
     components:
