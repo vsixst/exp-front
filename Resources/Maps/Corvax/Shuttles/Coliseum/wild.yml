@@ -729,14 +729,14 @@ entities:
     - type: Transform
       pos: 15.5,8.5
       parent: 1
-- proto: AirlockExternalGlassLocked
+- proto: AirlockExternalGlass
   entities:
   - uid: 125
     components:
     - type: Transform
       pos: 9.5,2.5
       parent: 1
-- proto: AirlockExternalGlassShuttleLocked
+- proto: AirlockGlassShuttle
   entities:
   - uid: 119
     components:
