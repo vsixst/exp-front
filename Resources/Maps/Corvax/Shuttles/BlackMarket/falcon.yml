@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 247.2.0
+  forkId: ""
+  forkVersion: ""
+  time: 03/27/2025 07:56:15
+  entityCount: 572
+maps: []
+grids:
+- 3
+orphans:
+- 3
+nullspace: []
 tilemap:
   0: Space
   12: FloorBar
@@ -345,6 +356,9 @@ entities:
           - 0
         chunkSize: 4
     - type: GasTileOverlay
+    - type: IFF
+      color: '#FFC000FF'
+      flags: HideLabel
     - type: RadiationGridResistance
 - proto: AirlockCaptainGlassLocked
   entities:
@@ -498,11 +512,6 @@ entities:
       parent: 3
 - proto: AtmosFixBlockerMarker
   entities:
-  - uid: 399
-    components:
-    - type: Transform
-      pos: -4.5,-18.5
-      parent: 3
   - uid: 496
     components:
     - type: Transform
@@ -643,103 +652,6 @@ entities:
     - type: Transform
       pos: -2.5,-5.5
       parent: 3
-<<<<<<< HEAD
-  - uid: 541
-    components:
-    - type: Transform
-      pos: -0.5,-18.5
-      parent: 3
-  - uid: 542
-    components:
-    - type: Transform
-      pos: 0.5,-17.5
-      parent: 3
-  - uid: 544
-    components:
-    - type: Transform
-      pos: 1.5,-17.5
-      parent: 3
-  - uid: 545
-    components:
-    - type: Transform
-      pos: 2.5,-17.5
-      parent: 3
-  - uid: 546
-    components:
-    - type: Transform
-      pos: 3.5,-17.5
-      parent: 3
-  - uid: 547
-    components:
-    - type: Transform
-      pos: 4.5,-17.5
-      parent: 3
-  - uid: 549
-    components:
-    - type: Transform
-      pos: 5.5,-18.5
-      parent: 3
-  - uid: 550
-    components:
-    - type: Transform
-      pos: 5.5,-18.5
-      parent: 3
-  - uid: 551
-    components:
-    - type: Transform
-      pos: 6.5,-18.5
-      parent: 3
-  - uid: 560
-    components:
-    - type: Transform
-      pos: 7.5,-18.5
-      parent: 3
-  - uid: 561
-    components:
-    - type: Transform
-      pos: 8.5,-18.5
-      parent: 3
-  - uid: 562
-    components:
-    - type: Transform
-      pos: 9.5,-18.5
-      parent: 3
-  - uid: 563
-    components:
-    - type: Transform
-      pos: 8.5,-7.5
-      parent: 3
-  - uid: 564
-    components:
-    - type: Transform
-      pos: 7.5,-5.5
-      parent: 3
-  - uid: 565
-    components:
-    - type: Transform
-      pos: -3.5,-8.5
-      parent: 3
-  - uid: 566
-    components:
-    - type: Transform
-      pos: -2.5,-6.5
-      parent: 3
-  - uid: 567
-    components:
-    - type: Transform
-      pos: -1.5,-4.5
-      parent: 3
-  - uid: 568
-    components:
-    - type: Transform
-      pos: 2.5,2.5
-      parent: 3
-  - uid: 569
-    components:
-    - type: Transform
-      pos: -0.5,2.5
-      parent: 3
-=======
   - uid: 561
     components:
     - type: Transform
@@ -795,7 +707,6 @@ entities:
     - type: Transform
       pos: 7.5,-5.5
       parent: 3
->>>>>>> master
 - proto: Bed
   entities:
   - uid: 193
@@ -1903,14 +1814,6 @@ entities:
     - type: Transform
       pos: 0.5,1.5
       parent: 3
-- proto: ComputerTabletopStationRecords
-  entities:
-  - uid: 452
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,-11.5
-      parent: 3
 - proto: CratePirateGrey
   entities:
   - uid: 539
@@ -1953,12 +1856,12 @@ entities:
     - type: Transform
       pos: -2.5,-10.5
       parent: 3
-- proto: DefibrillatorCabinetOpen
+- proto: DefibrillatorCabinetFilled
   entities:
   - uid: 8
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
+      rot: 1.5707963267948966 rad
       pos: -2.5,-13.5
       parent: 3
 - proto: Dresser
