@@ -1,11 +1,11 @@
- meta:
+meta:
   format: 7
   category: Grid
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 03/27/2025 08:06:05
-  entityCount: 1265
+  time: 03/28/2025 06:52:10
+  entityCount: 1261
 maps: []
 grids:
 - 1
@@ -4582,9 +4582,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -6.5,-10.5
       parent: 1
-    missingComponents:
-    - Construction
-    - Anchorable
 - proto: ComputerPowerMonitoring
   entities:
   - uid: 620
@@ -4814,7 +4811,7 @@ entities:
       pos: 4.5,-0.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9989.998
+      secondsUntilStateChange: -9924.803
       state: Opening
 - proto: CurtainsPurple
   entities:
@@ -6630,10 +6627,10 @@ entities:
       parent: 1
 - proto: Gyroscope
   entities:
-  - uid: 12
+  - uid: 9
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
+      rot: 3.141592653589793 rad
       pos: 8.5,-5.5
       parent: 1
   - uid: 877
@@ -7075,13 +7072,6 @@ entities:
     components:
     - type: Transform
       pos: 1.475956,9.59298
-      parent: 1
-- proto: NFHolopadShipAntag
-  entities:
-  - uid: 5
-    components:
-    - type: Transform
-      pos: -5.5,13.5
       parent: 1
 - proto: NitrogenCanister
   entities:
@@ -8277,14 +8267,12 @@ entities:
   - uid: 3
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -2.5,0.5
+      pos: -2.5,1.5
       parent: 1
   - uid: 4
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -2.5,1.5
+      pos: -2.5,0.5
       parent: 1
   - uid: 1067
     components:
@@ -8391,47 +8379,29 @@ entities:
       parent: 1
 - proto: Thruster
   entities:
-  - uid: 6
+  - uid: 5
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 7.5,-5.5
       parent: 1
-  - uid: 7
+  - uid: 6
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 9.5,-5.5
       parent: 1
-  - uid: 8
+  - uid: 7
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 8.5,7.5
       parent: 1
-  - uid: 9
+  - uid: 8
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 8.5,8.5
-      parent: 1
-  - uid: 10
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -7.5,-0.5
-      parent: 1
-  - uid: 11
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -7.5,5.5
-      parent: 1
-  - uid: 13
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-5.5
       parent: 1
   - uid: 1084
     components:
@@ -9691,7 +9661,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -11805.724
+      secondsUntilStateChange: -11740.528
       state: Opening
 - proto: WindowReinforcedDirectional
   entities:
