@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 247.2.0
+  forkId: ""
+  forkVersion: ""
+  time: 03/28/2025 05:43:26
+  entityCount: 1695
+maps: []
+grids:
+- 2
+orphans:
+- 2
+nullspace: []
 tilemap:
   0: Space
   42: FloorDarkPlastic
@@ -7313,52 +7324,28 @@ entities:
       rot: 3.141592653589793 rad
       pos: -4.5,49.5
       parent: 2
-- proto: GunSafePistolMk58
+- proto: GunSafe
   entities:
-  - uid: 505
-    components:
-    - type: Transform
-      pos: -4.5,32.5
-      parent: 2
-- proto: GunSafeRifleLecter
-  entities:
-  - uid: 508
-    components:
-    - type: Transform
-      pos: -8.5,30.5
-      parent: 2
-- proto: GunSafeShotgunEnforcer
-  entities:
-  - uid: 506
+  - uid: 457
     components:
     - type: Transform
       pos: -8.5,32.5
       parent: 2
-- proto: GunSafeSubMachineGunWt550
-  entities:
-  - uid: 503
+  - uid: 464
     components:
     - type: Transform
       pos: -4.5,30.5
       parent: 2
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
+  - uid: 469
+    components:
+    - type: Transform
+      pos: -4.5,32.5
+      parent: 2
+  - uid: 503
+    components:
+    - type: Transform
+      pos: -8.5,30.5
+      parent: 2
 - proto: GyroscopeNfsd
   entities:
   - uid: 261
