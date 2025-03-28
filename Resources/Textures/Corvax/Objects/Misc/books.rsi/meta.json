@@ -1,14 +1,14 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "by discord @autsaider_m ",
+  "copyright": "by discord @autsaider_m",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "PirateCodex"
+      "name": "pirate_codex"
     }
   ]
 }

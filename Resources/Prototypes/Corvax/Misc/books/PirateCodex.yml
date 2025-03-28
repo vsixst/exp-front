@@ -5,12 +5,12 @@
   description: "Основы пиратской жизни. На обложке имеется гравировка: Чтить и соблюдать любой ценой!"
   components:
   - type: Sprite
-    sprite: Сorvax/Objects/Misc/books.rsi
+    sprite: Corvax/Objects/Misc/books.rsi
     layers:
-    - state: PirateCodex
+    - state: pirate_codex
   - type: HyperlinkBook
     url: https://station14.ru/wiki/Пиратский_Кодекс
   - type: Tag
     tags:
     - Book
-    - BookSpaceLaw  #Frontier
+    - BookPirateCodex
