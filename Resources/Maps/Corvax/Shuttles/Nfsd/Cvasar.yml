@@ -341,7 +341,7 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: BecomesStation
-      id: Cvasar
+      id: cvasar
 - proto: AirAlarm
   entities:
   - uid: 298
