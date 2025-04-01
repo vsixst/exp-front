@@ -308,7 +308,7 @@
   description: pirate-bounty-description-generic
   spawnChest: false
   entries:
-  - name: Микроволновка
+  - name: pirate-bounty-item-microwave
     amount: 2
     id: KitchenMicrowave
 
@@ -317,7 +317,7 @@
   reward: 3
   description: pirate-bounty-description-generic
   entries:
-  - name: Банка Содовой #Газированная вода
+  - name: pirate-bounty-item-sodawatercan #Газированная вода
     amount: 2
     id: DrinkSodaWaterCan
 
@@ -327,7 +327,7 @@
   description: pirate-bounty-description-generic
   spawnChest: false
   entries:
-  - name: Хранилище Скафандра
+  - name: pirate-bounty-item-suitstoragebase
     amount: 3
     id: SuitStorageBase
 
@@ -336,7 +336,7 @@
   reward: 4
   description: pirate-bounty-description-generic
   entries:
-  - name: Плюшевый Ниан
+  - name: pirate-bounty-item-plushiemoffrandom
     amount: 4
     id: PlushieMoffRandom
 
@@ -345,7 +345,7 @@
   reward: 3
   description: pirate-bounty-description-generic
   entries:
-  - name: Одеяло Синдиката
+  - name: pirate-bounty-item-bedsheetsyndie
     amount: 1
     id: BedsheetSyndie
     
@@ -354,6 +354,6 @@
   reward: 4
   description: pirate-bounty-description-generic
   entries:
-  - name: Оружейный сейф
+  - name: pirate-bounty-item-gunsafe
     amount: 3
     id: GunSafe

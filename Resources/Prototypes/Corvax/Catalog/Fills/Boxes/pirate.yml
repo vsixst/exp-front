@@ -52,3 +52,28 @@
     contents:
       - id: DeathAcidifierImplanter
         amount: 5
+
+- type: entity
+  name: набор для абордажа
+  parent: BoxCardboard
+  id: BoxPirateAssault
+  description: набор из крюка, сканера и батарейки для начинающих абордажных групп.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponGrapplingGun
+        amount: 1
+      - id: PowerCellSmallPrinted
+        amount: 1
+      - id: HandHeldMassScannerEmpty
+        amount: 1
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,2,3
+  - type: Sprite
+    sprite: Corvax/Boxes/pirate.rsi
+    state: boxpirat
+    layers:
+      - state: boxpirat
+      - state: capacitor
