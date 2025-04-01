@@ -228,7 +228,7 @@
   productEntity: PirateGrenadeFire
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_fire.rsi, state: icon }
   cost:
-    Doubloon: 2 #CorvaxFrontier
+    Doubloon: 1 #CorvaxFrontier
   categories:
     - UplinkPirateExplosives
   conditions:
@@ -244,7 +244,7 @@
   productEntity: PirateGrenadeRadiation
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_caustic.rsi, state: icon }
   cost:
-    Doubloon: 2 #CorvaxFrontier
+    Doubloon: 1 #CorvaxFrontier
   categories:
     - UplinkPirateExplosives
   conditions:
@@ -260,7 +260,7 @@
   productEntity: PirateGrenadeConcussion
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_explosive.rsi, state: icon }
   cost:
-    Doubloon: 2 #CorvaxFrontier
+    Doubloon: 1 #CorvaxFrontier
   categories:
     - UplinkPirateExplosives
   conditions:
@@ -604,7 +604,7 @@
   cost:
     Doubloon: 5
   categories:
-    - UplinkPirateAmmo
+    - UplinkPirateUtility
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -613,7 +613,7 @@
     - !type:BuyerJobCondition
 
 - type: listing # Corvax-Frontier
-  id: UplinkShuttleGunPirateCannonFlatpack
+  id: UplinkPiratShuttleGunPirateCannonFlatpack
   name:  Пушка пиратского корабля
   description: упакованная стационарная пушка пиратского корабля на случай поломки основных орудий.
   productEntity: ShuttleGunPirateCannonFlatpack
@@ -621,6 +621,21 @@
     Doubloon: 15
   categories:
     - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing # Corvax-Frontier
+  id: UplinkPiratCrateFunParty
+  name:  Набор для вечеринки
+  description: Отпразнуйте славную победу над корпоративными крысами! Ярррр!
+  productEntity: CrateFunParty
+  cost:
+    Doubloon: 5
+  categories:
+    - UplinkPirateUtility
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
