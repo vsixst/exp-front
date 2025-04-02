@@ -201,10 +201,10 @@
 ## Ammo boxes
   - BoxBeanbag
   - BoxShellTranquilizer
-#  - MagazineBoxLightRifleRubber #CorvaxFrontier
+  - MagazineBoxLightRifleRubber #CorvaxFrontier
   - MagazineBoxMagnumRubber
   - MagazineBoxPistolRubber
-#  - MagazineBoxRifleRubber #CorvaxFrontier
+  - MagazineBoxRifleRubber #CorvaxFrontier
   - MagazineShotgunBeanbag
 
 - type: latheRecipePack
