@@ -98,10 +98,10 @@
   - CrossbowBoltBroadhead
   - BoxBeanbag
   - BoxShotgunSlug
-#  - MagazineBoxLightRifleRubber #CorvaxFrontier
+  - MagazineBoxLightRifleRubber #CorvaxFrontier
 #  - MagazineBoxMagnumRubber #CorvaxFrontier
 #  - MagazineBoxPistolRubber #CorvaxFrontier
-#  - MagazineBoxRifleRubber #CorvaxFrontier
+  - MagazineBoxRifleRubber #CorvaxFrontier
 # Mags / Speedloaders / Clips #CorvaxFrontier
 #  - MagazineNovaliteC1Empty #CorvaxFrontier
 #  - MagazineNovaliteC1 #CorvaxFrontier
