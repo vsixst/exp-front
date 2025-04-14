@@ -5,3 +5,11 @@
   components:
   - type: SpawnPoint
     job_id: smuggler
+
+- type: entity
+  id: SpawnPointMedSyn
+  parent: SpawnPointPassenger
+  name: Медик Синдиката
+  components:
+  - type: SpawnPoint
+    job_id: MedSyn

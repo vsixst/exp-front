@@ -6,3 +6,4 @@
   weight: -20 # accounted for in jobs
   roles:
   - smuggler
+  - MedSyn

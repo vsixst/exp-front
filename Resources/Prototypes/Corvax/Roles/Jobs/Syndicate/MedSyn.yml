@@ -1,17 +1,17 @@
 - type: job
-  id: smuggler
-  name: Контрабандист
-  description: Торговец контрабанды.
-  playTimeTracker: Jobsmuggler
+  id: MedSyn
+  name: Медик Синдиката
+  description: Специально подготовленный синдикатом медик для работы в зонах боевых действий
+  playTimeTracker: JobMedSyn
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
  # whitelisted: true
-  startingGear: SmugglerGear
+  startingGear: MedSynGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   canBeAntag: true
-  icon: "JobIconSyndicate"
+  icon: "JobIconBrigmedic"
   supervisors: job-supervisors-nobody
   weight: 40
   displayWeight: 40
@@ -33,15 +33,15 @@
     implants: [ DeathRattleImplanter ]
 
 - type: startingGear
-  id: SmugglerGear
+  id: MedSynGear
   equipment:
     ears: ClothingHeadsetAltSyndicate
-    id: SyndiPDA
-    belt: ClothingBeltSyndieHolster
+    id: SyndiAgentPDA
+    belt: ClothingBeltMilitaryWebbingMedFilled
     pocket1: WeaponPistolViper
-    pocket2: BaseUplinkRadio
-    mask: ClothingMaskNeckGaiter
+    mask: ClothingMaskNeckGaiterRed
   storage:
     back:
     - BoxSurvivalNFOxygenExtended
-    - RubberStampSyndicate
+    - HypoBrigmedic
+    - PillCanisterTricordrazine
