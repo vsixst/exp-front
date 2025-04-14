@@ -9,31 +9,30 @@
 # Shuttle Notes:
 
 - type: vessel
-  id: Crown
+  id: Star_track
   parent: BaseVessel
-  name: SBI Ворон
+  name: SBI Энтерпрайз
   description: Малогабаритный шаттл для наёмников, рекомендуемый состав экипажа 2 человека.
-  price: 20000
+  price: 145000
   category: Small
   group: Mercenary
-  shuttlePath: /Maps/Corvax/Shuttles/Mercenary/crown.yml
+  shuttlePath: /Maps/Corvax/Shuttles/Mercenary/Star_track.yml
 
 - type: gameMap
-  id: Crown
-  mapName: 'SBI Ворон'
-  mapPath: /Maps/Corvax/Shuttles/Mercenary/crown.yml
+  id: Star_track
+  mapName: 'SBI Энтерпрайз'
+  mapPath: /Maps/Corvax/Shuttles/Mercenary/Star_track.yml
   minPlayers: 0
   stations:
-    Crown:
+    Star_track:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Ворон {1}'
+          mapNameTemplate: 'Энтерпрайз {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
-            Contractor: [ 0, 0 ]
             Pilot: [ 0, 0 ]
             Mercenary: [ 0, 0 ]

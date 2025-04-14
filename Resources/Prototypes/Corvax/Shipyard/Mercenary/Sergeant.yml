@@ -9,31 +9,30 @@
 # Shuttle Notes:
 
 - type: vessel
-  id: Crown
+  id: Sergeant
   parent: BaseVessel
-  name: SBI Ворон
-  description: Малогабаритный шаттл для наёмников, рекомендуемый состав экипажа 2 человека.
-  price: 20000
+  name: SBI Гильза
+  description: Малогабаритный шаттл наёмников для быстрого перемещения в космическом пространстве
+  price: 16000
   category: Small
   group: Mercenary
-  shuttlePath: /Maps/Corvax/Shuttles/Mercenary/crown.yml
+  shuttlePath: /Maps/Corvax/Shuttles/Mercenary/Sergeant.yml
 
 - type: gameMap
-  id: Crown
-  mapName: 'SBI Ворон'
-  mapPath: /Maps/Corvax/Shuttles/Mercenary/crown.yml
+  id: Sergeant
+  mapName: 'SBI Гильза'
+  mapPath: /Maps/Corvax/Shuttles/Mercenary/Sergeant.yml
   minPlayers: 0
   stations:
-    Crown:
+    Sergeant:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Ворон {1}'
+          mapNameTemplate: 'Гильза {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
-            Contractor: [ 0, 0 ]
             Pilot: [ 0, 0 ]
             Mercenary: [ 0, 0 ]
