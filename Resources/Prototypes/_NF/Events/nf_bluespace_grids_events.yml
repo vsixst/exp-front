@@ -192,7 +192,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/Corvax/Events/Periodic/Magic/MagicshuttleFederationMages.yml #Corvax-Frontier
+        - /Maps/Corvax/Events/Periodic/Magic/shuttleFederationMages.yml #Corvax-Frontier
 
 - type: entity
   id: BluespaceBloodMoon
