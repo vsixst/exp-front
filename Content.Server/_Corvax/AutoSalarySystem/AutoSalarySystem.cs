@@ -8,7 +8,7 @@ using Content.Shared.PDA;
 using Content.Shared.Roles;
 using Robust.Shared.Player;
 
-namespace Content.Server.Auto.Salary;
+namespace Content.Server._Corvax.AutoSalarySystem;
 
 public sealed class AutoSalarySystem : EntitySystem
 {
