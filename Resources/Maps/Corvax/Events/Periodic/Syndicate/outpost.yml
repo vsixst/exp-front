@@ -4,8 +4,8 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 04/16/2025 09:30:05
-  entityCount: 1754
+  time: 04/19/2025 12:14:26
+  entityCount: 1751
 maps: []
 grids:
 - 1
@@ -6170,7 +6170,7 @@ entities:
     - type: Openable
       opened: True
     - type: PressurizedSolution
-      sprayFizzinessThresholdRoll: 0.7087758
+      sprayFizzinessThresholdRoll: 0.062227983
     - type: MeleeWeapon
       nextAttack: -28.6333037
     - type: EmitSoundOnCollide
@@ -6205,7 +6205,7 @@ entities:
     - type: Openable
       opened: True
     - type: PressurizedSolution
-      sprayFizzinessThresholdRoll: 0.9134936
+      sprayFizzinessThresholdRoll: 0.46571988
     - type: MeleeWeapon
       nextAttack: -4.0333283
     - type: EmitSoundOnCollide
@@ -10730,32 +10730,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -12.5,3.5
       parent: 1
-- proto: SignalButton
-  entities:
-  - uid: 811
-    components:
-    - type: Transform
-      pos: -14.5,0.5
-      parent: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        43:
-        - Pressed: Toggle
-        805:
-        - Pressed: DoorBolt
-        816:
-        - Pressed: Toggle
-  - uid: 812
-    components:
-    - type: Transform
-      pos: -14.5,3.5
-      parent: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        42:
-        - Pressed: Toggle
-        817:
-        - Pressed: Toggle
 - proto: SignSalvage
   entities:
   - uid: 1319
@@ -11568,55 +11542,6 @@ entities:
       nextSound: -862.8998725
     - type: Physics
       canCollide: False
-- proto: TwoWayLever
-  entities:
-  - uid: 23
-    components:
-    - type: Transform
-      pos: 7.5,-0.5
-      parent: 1
-    - type: DeviceLinkSource
-      linkedPorts:
-        14:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        9:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        52:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        183:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        184:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        173:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        146:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        139:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        144:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        50:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
 - proto: UnstableMutagenChemistryBottle
   entities:
   - uid: 1254
