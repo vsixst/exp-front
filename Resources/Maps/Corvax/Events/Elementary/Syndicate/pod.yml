@@ -113,6 +113,8 @@ entities:
           - 0
         chunkSize: 4
     - type: GasTileOverlay
+    - type: BecomesStation
+      id: pod
 - proto: APCBasic
   entities:
   - uid: 44
