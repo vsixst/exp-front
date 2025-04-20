@@ -11,9 +11,9 @@ using Content.Shared.Mobs.Components;
 using Content.Shared.Buckle.Components;
 using Content.Server._NF.Shuttles.Components;
 using Content.Shared.Tiles;
-using Content.Shared.Explosion; // Добавляем пространство имен для ExplosiveComponent
 using Content.Server.Explosion.EntitySystems;
-using Content.Shared.Explosion.Components; // Добавляем пространство имен для ExplosionSystem
+using Content.Shared.Explosion.Components;
+using Robust.Shared.Physics.Components; // Добавляем пространство имен для ExplosionSystem
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -93,6 +93,7 @@ public sealed partial class ShuttleSystem
     {
         var mobQuery = GetEntityQuery<MobStateComponent>();
         var explosiveQuery = GetEntityQuery<ExplosiveComponent>(); // Получаем запрос на ExplosiveComponent
+        var physicsQuery = GetEntityQuery<PhysicsComponent>();
 
         // Рассчитываем модификатор урона на основе угла столкновения
         var damageMultiplier = CalculateDamageMultiplier(dir);
@@ -106,43 +107,8 @@ public sealed partial class ShuttleSystem
             { "Piercing", (float)(damageMob * 0.3f) },
             { "Heat", (float)(damageMob * 0.2f) }
         };
-
-        DamageSpecifier objectDamage = new();
-        objectDamage.DamageDict = new()
-        {
-            { "Structural", (float)(energy * 5.0f * damageMultiplier) }
-        };
-
         // Рассчитываем модификатор отбрасывания на основе угла столкновения
         var throwMultiplier = CalculateThrowMultiplier(dir);
-
-        foreach (EntityUid localUid in _lookup.GetLocalEntitiesIntersecting(uid, tile, gridComp: grid))
-        {
-            if (mobQuery.HasComp(localUid))
-            {
-                _damageSys.TryChangeDamage(localUid, mobDamage);
-
-                TransformComponent form = Transform(localUid);
-                if (!form.Anchored)
-                    _transform.Unanchor(localUid, form);
-                _throwing.TryThrow(localUid, dir * throwMultiplier);
-            }
-            else
-            {
-                _damageSys.TryChangeDamage(localUid, objectDamage);
-
-                TransformComponent form = Transform(localUid);
-                if (!form.Anchored)
-                    _transform.Unanchor(localUid, form);
-                _throwing.TryThrow(localUid, dir * throwMultiplier);
-            }
-
-            // Проверяем наличие ExplosiveComponent и вызываем взрыв
-            if (explosiveQuery.TryGetComponent(localUid, out var explosive))
-            {
-                _explosionSystem.TriggerExplosive(localUid, explosive, false);
-            }
-        }
 
         if (energy >= impact.TileBreakEnergy)
             StunMobsInTile(uid, grid, impact);
@@ -167,6 +133,30 @@ public sealed partial class ShuttleSystem
 
                     if (energy > tileBreakEnergy * (1 - (MathF.Abs(j) / (tileBreakWidth + 1)) * 0.5f))
                     {
+                        foreach (EntityUid localUid in _lookup.GetLocalEntitiesIntersecting(uid, offsetTile, gridComp: grid))
+                        {
+                            if (mobQuery.HasComp(localUid))
+                            {
+                                _damageSys.TryChangeDamage(localUid, mobDamage);
+
+                                TransformComponent form = Transform(localUid);
+                                if (!form.Anchored)
+                                    _transform.Unanchor(localUid, form);
+                                _throwing.TryThrow(localUid, dir * throwMultiplier);
+                            }
+                            else
+                            {
+                                // Проверяем наличие ExplosiveComponent и вызываем взрыв
+                                if (explosiveQuery.TryGetComponent(localUid, out var explosive))
+                                {
+                                    _explosionSystem.TriggerExplosive(localUid, explosive, false);
+                                }
+                                else
+                                {
+                                    QueueDel(localUid);
+                                }
+                            }
+                        }
                         _mapSys.SetTile(new Entity<MapGridComponent>(uid, grid), offsetTile, Tile.Empty);
                     }
                 }
@@ -176,7 +166,9 @@ public sealed partial class ShuttleSystem
         if (energy > impact.SparkEnergy)
             SpawnAtPosition("EffectSparks", new EntityCoordinates(uid, tile));
     }
-
+    /// <summary>
+    /// При столкновении - вызывается функция оглушение, так же проверяется на то, что он был пристёгнут или же - что это моб
+    /// </summary>
     private void StunMobsInTile(EntityUid gridUid, MapGridComponent grid, ShuttleImpactComponent impact)
     {
         var mobQuery = GetEntityQuery<MobStateComponent>();
