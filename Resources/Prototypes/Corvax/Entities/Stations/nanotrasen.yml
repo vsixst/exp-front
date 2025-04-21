@@ -1,0 +1,17 @@
+- type: entity
+  id: MercenaryStandardFrontierVessel
+  parent:
+  - BaseStation
+  - BaseStationJobsSpawning
+  - BaseStationRecords
+  - BaseStationAllEventsEligible
+  - BaseStationRenameFaxes
+  - BaseStationRenameHolopads
+  - BaseStationRenameWarpPoints
+  - BaseStationSiliconLawFrontierShips
+  - BaseStationDeadDropHintExempt
+  - StandardFrontierVessel
+  - MercenaryBountyData
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Transform
