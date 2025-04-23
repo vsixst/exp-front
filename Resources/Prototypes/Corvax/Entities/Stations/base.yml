@@ -1,5 +1,0 @@
-- type: entity
-  id: MercenaryBountyData
-  abstract: true
-  components:
-    - type: MercenaryBountyDatabase 

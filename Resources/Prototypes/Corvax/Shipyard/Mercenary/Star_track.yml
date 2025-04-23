@@ -25,7 +25,7 @@
   minPlayers: 0
   stations:
     Star_track:
-      stationProto: MercenaryStandardFrontierVessel
+      stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Энтерпрайз {1}'

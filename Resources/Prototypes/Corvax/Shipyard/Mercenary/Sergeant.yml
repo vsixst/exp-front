@@ -25,7 +25,7 @@
   minPlayers: 0
   stations:
     Sergeant:
-      stationProto: MercenaryStandardFrontierVessel
+      stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Гильза {1}'

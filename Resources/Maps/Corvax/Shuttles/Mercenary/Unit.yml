@@ -4,8 +4,8 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 04/14/2025 11:58:56
-  entityCount: 356
+  time: 04/22/2025 11:02:45
+  entityCount: 357
 maps: []
 grids:
 - 1
@@ -318,6 +318,7 @@ entities:
           - 0
         chunkSize: 4
     - type: GasTileOverlay
+    - type: MercenaryBountyDatabase
     - type: RadiationGridResistance
 - proto: AirAlarm
   entities:
@@ -1194,6 +1195,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 9.5,20.5
+      parent: 1
+- proto: ComputerMercenaryBounty
+  entities:
+  - uid: 357
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 7.5,11.5
       parent: 1
 - proto: ComputerTabletopShuttle
   entities:

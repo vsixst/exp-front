@@ -6,7 +6,7 @@
 
 # Maintainer Info
 # GitHub: https://github.com/mersen-tyn
-# Discord: mersen 
+# Discord: mersen
 
 - type: vessel
   id: Unit
@@ -25,7 +25,7 @@
   minPlayers: 0
   stations:
     Unit:
-      stationProto: MercenaryStandardFrontierVessel
+      stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Юнит {1}'

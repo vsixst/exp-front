@@ -6200,7 +6200,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 16.5,20.5
       parent: 3
-- proto: ComputerMercenaryBounty
+- proto: PlushieOrangeFox
   entities:
   - uid: 1704
     components:
