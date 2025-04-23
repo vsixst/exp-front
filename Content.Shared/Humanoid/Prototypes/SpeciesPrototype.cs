@@ -89,6 +89,9 @@ public sealed partial class SpeciesPrototype : IPrototype
     [DataField]
     public ProtoId<LocalizedDatasetPrototype> FemaleFirstNames { get; private set; } = "NamesFirstFemale";
 
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype> LastNames { get; private set; } = "NamesLast";
+
     // Corvax-LastnameGender-Start: Split lastname field by gender
     [DataField]
     public string MaleLastNames { get; private set; } = "names_last_male";
