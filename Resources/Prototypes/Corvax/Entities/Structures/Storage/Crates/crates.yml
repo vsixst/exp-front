@@ -27,4 +27,4 @@
     state: icon
   - type: MercenaryBountyLabel
   - type: DisableToolUse
-    anchoring: true
+    screwing: true
