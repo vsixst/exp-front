@@ -7037,7 +7037,7 @@ entities:
     - type: Transform
       pos: -7.5,-2.5
       parent: 2
-- proto: MobSpawnCrabNFUranium
+- proto: NFMobSpawnCrabUranium
   entities:
   - uid: 451
     components:
@@ -14465,7 +14465,7 @@ entities:
     - type: Transform
       pos: 10.5,-0.5
       parent: 2
-- proto: WallRockBasaltGoldCrabNF
+- proto: NFWallRockBasaltGoldCrab
   entities:
   - uid: 79
     components:
@@ -14482,7 +14482,7 @@ entities:
     - type: Transform
       pos: 1.5,-2.5
       parent: 2
-- proto: WallRockBasaltSilverCrabNF
+- proto: NFWallRockBasaltSilverCrab
   entities:
   - uid: 145
     components:
@@ -14755,7 +14755,7 @@ entities:
     - type: Transform
       pos: -19.5,12.5
       parent: 2
-- proto: WallRockCoalCrabNF
+- proto: NFWallRockCoalCrab
   entities:
   - uid: 262
     components:
@@ -14989,7 +14989,7 @@ entities:
     - type: Transform
       pos: -9.5,14.5
       parent: 2
-- proto: WallRockGoldCrabNF
+- proto: NFWallRockGoldCrab
   entities:
   - uid: 343
     components:

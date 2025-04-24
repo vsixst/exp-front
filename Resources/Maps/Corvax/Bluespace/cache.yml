@@ -18,7 +18,6 @@ entities:
     components:
     - type: MetaData
     - type: Transform
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
@@ -681,8 +680,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: BecomesStation
-      id: cache
 - proto: AirlockExternalLocked
   entities:
   - uid: 342
@@ -1623,6 +1620,8 @@ entities:
     - type: Transform
       pos: 3.5,10.5
       parent: 1
+    - type: Physics
+      bodyType: Static
 - proto: BenchSofaCorpRight
   entities:
   - uid: 438
@@ -1630,6 +1629,8 @@ entities:
     - type: Transform
       pos: 2.5,10.5
       parent: 1
+    - type: Physics
+      bodyType: Static
 - proto: BlastDoor
   entities:
   - uid: 122
@@ -3640,7 +3641,7 @@ entities:
     - type: Transform
       pos: 4.5,-9.5
       parent: 1
-- proto: PoweredlightColoredBlack
+- proto: PoweredlightUltraviolet
   entities:
   - uid: 14
     components:

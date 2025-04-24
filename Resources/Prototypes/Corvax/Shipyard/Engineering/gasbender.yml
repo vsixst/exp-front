@@ -15,17 +15,18 @@
   description: Крупногабаритный инженерный шаттл. Рекомендованный размер команды 3-6 человек.
   price: 88500 # ~68140$ on mapinit + 20500$ from 30% markup
   category: Medium
-  group: Expedition
-  shuttlePath: /Maps/Corvax/Shuttles/Expedition/gasbender.yml
+  group: Shipyard
+  shuttlePath: /Maps/Corvax/Shuttles/Engineering/gasbender.yml
   guidebookPage: ShipyardGasbender
   class:
-  - Expedition
   - Atmospherics
+  engine:
+  - AME  
 
 - type: gameMap
   id: gasbender
   mapName: 'NT Газовый Гигант'
-  mapPath: /Maps/Corvax/Shuttles/Expedition/gasbender.yml
+  mapPath: /Maps/Corvax/Shuttles/Engineering/gasbender.yml
   minPlayers: 0
   stations:
     gasbender:
