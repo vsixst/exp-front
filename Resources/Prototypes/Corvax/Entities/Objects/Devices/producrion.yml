@@ -1,0 +1,11 @@
+- type: entity
+  id: ThrusterSyndicateMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: двигатель Синдиката
+  components:
+  - type: MachineBoard
+    prototype: ThrusterSecurity
+    requirements:
+      AdvancedCapacitorStockPart: 3
+    stackRequirements:
+      Steel: 5

@@ -1,0 +1,19 @@
+- type: entity
+  id: ThrusterSyndicate
+  parent: ThrusterSecurity
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
+  - type: Machine
+    board: ThrusterNfsdMachineCircuitboard
+
+- type: entity
+  id: DebugThrusterSyndicate
+  parent: DebugThrusterSecurity
+  suffix: DEBUG, Syndicate
+  components:
+  - type: Sprite
+    sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
+  - type: Machine
+    board: ThrusterNfsdMachineCircuitboard
