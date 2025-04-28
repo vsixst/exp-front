@@ -6,7 +6,7 @@
   - type: Sprite
     sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
   - type: Machine
-    board: ThrusterNfsdMachineCircuitboard
+    board: ThrusterSyndicateMachineCircuitboard
 
 - type: entity
   id: DebugThrusterSyndicate
@@ -16,4 +16,4 @@
   - type: Sprite
     sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
   - type: Machine
-    board: ThrusterNfsdMachineCircuitboard
+    board: ThrusterSyndicateMachineCircuitboard

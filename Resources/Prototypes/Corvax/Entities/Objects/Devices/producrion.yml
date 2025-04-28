@@ -1,11 +1,14 @@
 - type: entity
   id: ThrusterSyndicateMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: [BaseMachineCircuitboard, BaseC3ContrabandUnredeemable]
   name: двигатель Синдиката
   components:
+  - type: Sprite
+    state: security
   - type: MachineBoard
-    prototype: ThrusterSecurity
+    prototype: ThrusterSyndicate
     requirements:
-      AdvancedCapacitorStockPart: 3
+      Capacitor: 2
     stackRequirements:
       Steel: 5
+      Cable: 2
