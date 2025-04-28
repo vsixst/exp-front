@@ -1,0 +1,12 @@
+- type: entity
+  name: Спавнер Сигмис
+  id: SpawnMobCatSignis
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobCatSigmis

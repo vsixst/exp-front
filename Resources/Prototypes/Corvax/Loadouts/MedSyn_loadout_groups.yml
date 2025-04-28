@@ -14,14 +14,14 @@
   name: loadout-group-contractor-jumpsuit
   minLimit: 1
   loadouts:
-  - SmugglerJumpsuit1
-  - SmugglerJumpsuit2
-  - SmugglerJumpsuit3
+  - MedSynJumpsuit1
+  - MedSynJumpsuit2
+  - MedSynJumpsuit3
   fallbacks:
-  - SmugglerJumpsuit1
+  - MedSynJumpsuit1
 
 - type: loadoutGroup
-  id: MedSynBags
+  id: MedSynBack
   name: loadout-group-contractor-backpack
   minLimit: 1
   loadouts:

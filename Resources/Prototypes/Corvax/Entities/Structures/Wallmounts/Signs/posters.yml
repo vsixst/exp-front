@@ -4,5 +4,6 @@
   name: Истинный Враг
   description: "Плакат намекающий на истинного врага Фронтира."
   components:
-  - type: Sprite
-    sprite: /Corvax/Structures/Wallmounts/posters.rsi
+    - type: Sprite
+      sprite: Corvax/Structures/Wallmounts/posters.rsi
+      state: cf_poster1_contraband
