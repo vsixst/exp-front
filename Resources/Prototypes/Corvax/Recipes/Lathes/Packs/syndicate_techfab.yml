@@ -1,0 +1,4 @@
+- type: latheRecipePack
+  id: SyndicateTechfabDeprecatedStatic
+  recipes:
+  - BoxLethalshot

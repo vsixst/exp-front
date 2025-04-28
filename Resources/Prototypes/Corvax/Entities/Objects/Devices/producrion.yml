@@ -12,3 +12,14 @@
     stackRequirements:
       Steel: 5
       Cable: 2
+
+- type: entity
+  id: SyndicateTechFabCircuitboard
+  parent: [SecurityTechFabCircuitboard, BaseC3ContrabandUnredeemable]
+  name: ТехФаб синдиката (машинная плата)
+  description: Плата для создания техфаба синдиката.
+  components:
+    - type: Sprite
+      state: security
+    - type: MachineBoard
+      prototype: SyndicateTechFab
