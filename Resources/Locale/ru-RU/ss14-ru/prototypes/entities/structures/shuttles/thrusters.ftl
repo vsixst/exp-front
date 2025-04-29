@@ -18,4 +18,3 @@ ent-DebugGyroscope = { ent-Gyroscope }
     .desc = { ent-Gyroscope.desc }
 ent-GyroscopeSyndicate = гироскоп Синдиката
     .desc = Модифицированная Синдикатом версия гироскопа. Улучшения позволили удешивить модификацию.
-ent-GyroscopeUnanchored = { ent-GyroscopeSyndicate }

@@ -25,6 +25,7 @@
     staticPacks:
     - SyndicateTechfabDeprecatedStatic
     - CorvaxAmmoStatic 
+    - SecurityAmmoStatic
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFNfsdTechfabDeprecatedEmag
