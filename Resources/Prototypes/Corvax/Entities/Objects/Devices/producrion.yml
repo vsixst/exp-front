@@ -1,7 +1,7 @@
 - type: entity
   id: ThrusterSyndicateMachineCircuitboard
   parent: [BaseMachineCircuitboard, BaseC3ContrabandUnredeemable]
-  name: двигатель Синдиката
+  name: двигатель Синдиката (машинная плата)
   components:
   - type: Sprite
     state: security
@@ -16,10 +16,25 @@
 - type: entity
   id: SyndicateTechFabCircuitboard
   parent: [SecurityTechFabCircuitboard, BaseC3ContrabandUnredeemable]
-  name: ТехФаб синдиката (машинная плата)
+  name: ТехФаб Синдиката (машинная плата)
   description: Плата для создания техфаба синдиката.
   components:
     - type: Sprite
       state: security
     - type: MachineBoard
       prototype: SyndicateTechFab
+
+- type: entity
+  id: GyroscopeSyndicateMachineCircuitboard
+  parent: [BaseMachineCircuitboard, BaseC3ContrabandUnredeemable]
+  name: гироскоп Синдиката (машинная плата)
+  components:   
+   - type: Sprite
+     state: security
+   - type: MachineBoard
+     prototype: GyroscopeSyndicate
+     requirements:
+      Manipulator: 1
+      Capacitor: 1
+     stackRequirements:
+      Glass: 2

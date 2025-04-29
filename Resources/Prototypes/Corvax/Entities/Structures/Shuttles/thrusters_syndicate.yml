@@ -17,3 +17,25 @@
     sprite: Corvax/Structures/Shuttles/thrustersyndicate.rsi
   - type: Machine
     board: ThrusterSyndicateMachineCircuitboard
+  
+- type: entity
+  id: GyroscopeSyndicate
+  parent: GyroscopeSecurity
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    sprite: Corvax/Structures/Shuttles/Syndicategyroscope.rsi
+    snapCardinals: true
+  - type: Machine
+    board: GyroscopeSyndicateMachineCircuitboard
+
+- type: entity
+  id: DebugGyroscopeSyndicate
+  parent: DebugGyroscopeSecurity
+  suffix: DEBUG, Syndicate
+  components:
+  - type: Sprite
+    sprite: Corvax/Structures/Shuttles/Syndicategyroscope.rsi
+    snapCardinals: true
+  - type: Machine
+    board: GyroscopeSyndicateMachineCircuitboard
