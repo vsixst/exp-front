@@ -33,3 +33,15 @@
   - StormtrooperShoes
   - StormtrooperNeck
   - StormtrooperOuterclothing
+
+- type: roleLoadout
+  id: JobCommander
+  groups:
+  - StormtrooperCaptainHead
+  - StormtrooperJumpsuit
+  - StormtrooperBags
+  - StormtrooperGloves
+  - StormtrooperGlasses
+  - StormtrooperShoes
+  - StormtrooperNeck
+  - StormtrooperOuterclothing

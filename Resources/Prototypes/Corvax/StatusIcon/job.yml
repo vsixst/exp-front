@@ -6,3 +6,12 @@
     state: Stormtrooper
   jobName: job-name-stormtrooper
   allowSelection: false # Frontier
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCommander
+  icon:
+    sprite: /Textures/Corvax/Interface/Misc/job_icons.rsi
+    state: commander
+  jobName: job-name-сommander
+  allowSelection: false # Frontier

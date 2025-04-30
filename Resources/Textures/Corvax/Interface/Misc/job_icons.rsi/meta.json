@@ -10,6 +10,9 @@
     "states": [
         {
             "name": "Stormtrooper"
+        },
+        {
+            "name": "commander"
         }
     ]
 }
