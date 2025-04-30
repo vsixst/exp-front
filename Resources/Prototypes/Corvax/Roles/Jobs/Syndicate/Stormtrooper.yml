@@ -10,7 +10,7 @@
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   canBeAntag: true
-  icon: "JobIconSecurityOfficer"
+  icon: "JobIconStormtrooper"
   supervisors: job-supervisors-syndicate
   weight: 40
   displayWeight: 40
