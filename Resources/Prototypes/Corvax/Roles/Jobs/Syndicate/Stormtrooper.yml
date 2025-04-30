@@ -1,17 +1,16 @@
 - type: job
-  id: MedSyn
-  name: Штурмовой Парамедик 
-  description: Специально подготовленный синдикатом медик для работы в зонах боевых действий
-  playTimeTracker: JobMedSyn
+  id: Stormtrooper
+  name: Штурмовик 
+  description: Штурмовик подчиняющийся командиру.
+  playTimeTracker: JobStormtrooper
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
- # whitelisted: true
-  startingGear: MedSynGear
+  startingGear: StormtrooperGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   canBeAntag: true
-  icon: "JobIconBrigmedic"
+  icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-syndicate
   weight: 40
   displayWeight: 40
@@ -33,15 +32,15 @@
     implants: [ DeathRattleImplanter ]
 
 - type: startingGear
-  id: MedSynGear
+  id: StormtrooperGear
   equipment:
     ears: ClothingHeadsetAltSyndicate
-    id: SyndiAgentPDA
-    belt: ClothingBeltMilitaryWebbingMedFilled
-    pocket1: WeaponPistolViper
-    mask: ClothingMaskNeckGaiterRed
+    id: SyndiPDA
+    belt: ClothingBeltAssault
+    pocket1: WeaponPistolPollock
+    mask: ClothingMaskGasSwat
   storage:
     back:
     - BoxSurvivalNFOxygenExtended
-    - HypoBrigmedic
-    - PillCanisterTricordrazine
+    - MagazinePistol
+    - MagazinePistol

@@ -69,3 +69,8 @@
   recipes:
   - ColiseumCoinExchangerRecipe
   - HolyPlushieOrangeFoxRecipe
+
+- type: latheRecipePack
+  id: CorvaxSyndicatExchanger
+  recipes:
+  - Telecrystal1

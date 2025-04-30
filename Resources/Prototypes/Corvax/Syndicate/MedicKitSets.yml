@@ -1,7 +1,7 @@
 - type: thiefBackpackSet
   id: DefibrillatorSyndicateSet
-  name: "Путёвка с того света"
-  description: "РАЗРАЯД! Этот набор обеспечит вам неоднократную возможность вытащить ваших товарищей с того света! Он содержит две продвинутых аптечки, гипоручку, набор бутылочек эпинефрина и омнезина, станнер-пулемёт, набор экстренных медипенов и дефибриллятор Interdyne! "
+  name: medic-backpack-category-DefibrillatorSyndicate-name
+  description: medic-backpack-category-DefibrillatorSyndicate-description
   sprite:
     sprite: /Textures/Objects/Specific/Medical/defibsyndi.rsi
     state: icon
@@ -16,10 +16,8 @@
 
 - type: thiefBackpackSet
   id: NocturineChemistryBottleSet
-  name: "Побег бесполезен"
-  description: "Набор содержит всё для обстрела ядами противника или лекарствами союзника
-                ! А именно: две боевых аптечки, сумочка с бутылочки ноктарина и омнизина,
-                 чертёжшь болта  с губчатым наконечником, модернизированый арбалет, колчан с болтами. "
+  name: medic-backpack-category-Crossbow-name
+  description: medic-backpack-category-Crossbow-description
   sprite:
     sprite: /Textures/_NF/Objects/Weapons/Guns/Crossbow/crossbowhand.rsi
     state: icon
@@ -33,8 +31,8 @@
 
 - type: thiefBackpackSet
   id: atreidesSet
-  name: "Набор - боевой"
-  description: "Содержит в себе всё для становления оперативником,а именно: Атрейдес, горлекс гипоспрей, сумочку с эпинефрином и омнезином, две боевых аптечки,и аптечку со стимпаками"
+  name: "Набор боевой"
+  description: medic-backpack-category-fight-description
   sprite:
     sprite: /Textures/Objects/Weapons/Guns/SMGs/atreides.rsi
     state: icon

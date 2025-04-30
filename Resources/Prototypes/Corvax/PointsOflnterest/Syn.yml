@@ -13,7 +13,7 @@
 - type: pointOfInterest
   id: Syn
   parent: BasePOI
-  name: 'Аванпост Синдиката'
+  name: 'Энигма'
   minimumDistance: 7000
   maximumDistance: 10000
   spawnGroup: Required
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Syn
-  mapName: 'Аванпост Синдиката'
+  mapName: 'Энигма'
   mapPath: /Maps/Corvax/POI/Syn.yml
   minPlayers: 0
   stations:
@@ -43,5 +43,6 @@
           availableJobs:
             smuggler: [ 1, 1 ]
             MedSyn: [ 1, 1 ]
+            Stormtrooper: [ 2, 2 ]
         - type: StationDeadDrop
           maxDeadDrops: 1 

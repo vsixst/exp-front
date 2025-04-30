@@ -9,7 +9,15 @@
 - type: entity
   id: SpawnPointMedSyn
   parent: SpawnPointPassenger
-  name: Медик Синдиката
+  name: Штурмовой Парамедик
   components:
   - type: SpawnPoint
     job_id: MedSyn
+  
+- type: entity
+  id: SpawnPointStormtrooper
+  parent: SpawnPointPassenger
+  name: Штурмовик
+  components:
+  - type: SpawnPoint
+    job_id: Stormtrooper

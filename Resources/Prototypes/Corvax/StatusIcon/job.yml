@@ -1,0 +1,8 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconStormtrooper
+  icon:
+    sprite: /Textures/Corvac/Interface/Misc/job_icons.rsi
+    state: Stormtrooper
+  jobName: job-name-stormtrooper
+  allowSelection: false # Frontier

@@ -21,3 +21,15 @@
   - SmugglerShoes
   - SmugglerNeck
   - SmugglerOuterclothing
+
+- type: roleLoadout
+  id: JobStormtrooper
+  groups:
+  - StormtrooperCaptainHead
+  - StormtrooperJumpsuit
+  - StormtrooperBags
+  - StormtrooperGloves
+  - StormtrooperGlasses
+  - StormtrooperShoes
+  - StormtrooperNeck
+  - StormtrooperOuterclothing
