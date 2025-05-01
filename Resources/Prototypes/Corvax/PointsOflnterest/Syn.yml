@@ -44,5 +44,6 @@
             smuggler: [ 1, 1 ]
             MedSyn: [ 1, 1 ]
             Stormtrooper: [ 2, 2 ]
+            Commander: [ 1, 1 ]
         - type: StationDeadDrop
           maxDeadDrops: 1 
