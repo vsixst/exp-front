@@ -37,10 +37,11 @@
     ears: ClothingHeadsetAltSyndicate
     id: SyndiPDA
     belt: ClothingBeltAssault
-    pocket1: WeaponPistolPollock
+    pocket1: WeaponPistolCobra
+    pocket2: MagazinePistolCaselessRifle
     mask: ClothingMaskGasSwat
   storage:
     back:
     - BoxSurvivalNFOxygenExtended
-    - MagazinePistol
-    - MagazinePistol
+    - MagazinePistolCaselessRifle
+    - MagazineBoxCaselessRifle

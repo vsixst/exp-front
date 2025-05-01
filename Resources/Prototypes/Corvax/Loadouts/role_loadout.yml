@@ -16,7 +16,6 @@
   - SmugglerCaptainHead
   - MedSynJumpsuit
   - SmugglerBags
-  - SmugglerGloves
   - MedSynGlasses
   - SmugglerShoes
   - SmugglerNeck
@@ -28,7 +27,6 @@
   - StormtrooperCaptainHead
   - StormtrooperJumpsuit
   - StormtrooperBags
-  - StormtrooperGloves
   - StormtrooperGlasses
   - StormtrooperShoes
   - StormtrooperNeck
@@ -37,11 +35,10 @@
 - type: roleLoadout
   id: JobCommander
   groups:
-  - StormtrooperCaptainHead
-  - StormtrooperJumpsuit
-  - StormtrooperBags
-  - StormtrooperGloves
-  - StormtrooperGlasses
-  - StormtrooperShoes
-  - StormtrooperNeck
-  - StormtrooperOuterclothing
+  - CommanderCaptainHead
+  - CommanderJumpsuit
+  - CommanderBags
+  - CommanderGlasses
+  - CommanderShoes
+  - CommanderNeck
+  - CommanderOuterclothing

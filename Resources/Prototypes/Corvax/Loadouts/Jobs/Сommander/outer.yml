@@ -1,0 +1,35 @@
+- type: loadout
+  id: СommanderOuterclothing1
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatSyndieCap
+
+- type: loadout
+  id: СommanderOuterclothing2
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterWinterSyndie
+
+- type: loadout
+  id: СommanderOuterclothing3
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterWinterSyndieCap
+
+- type: loadout
+  id: СommanderOuterclothing4
+  price: 1500
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: СommanderOuterclothing5
+  price: 1500
+  equipment:
+    outerClothing: ClothingOuterVestWebMercenaryBlack
+
+- type: loadout
+  id: СommanderOuterclothing6
+  price: 1500
+  equipment:
+    outerClothing: ClothingOuterWinterSyndieCapArmored

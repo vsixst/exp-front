@@ -1,16 +1,16 @@
 - type: loadout
-  id: StormtrooperClothingHandsGloves1
+  id: СommanderClothingHandsGloves1
   equipment:
     gloves: ClothingHandsGlovesCombat
 
 - type: loadout
-  id: StormtrooperClothingHandsGloves2
+  id: СommanderClothingHandsGloves2
   price: 5000
   equipment:
     gloves: ClothingHandsChameleon
 
 - type: loadout
-  id: StormtrooperClothingHandsGloves3
+  id: СommanderClothingHandsGloves3
   price: 5000
   equipment:
     gloves: ClothingHandsTacticalMaidGloves

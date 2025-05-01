@@ -1,0 +1,14 @@
+- type: loadout
+  id: СommanderClothingBackpack1
+  equipment:
+    back: ClothingBackpackSyndicate
+
+- type: loadout
+  id: СommanderClothingBackpack2
+  equipment:
+    back: ClothingBackpackMessengerSyndicate
+
+- type: loadout
+  id: СommanderClothingBackpack3
+  equipment:
+    back: ClothingBackpackDuffelSyndicate

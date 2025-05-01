@@ -1,0 +1,14 @@
+- type: loadout
+  id: СommanderClothingHead1
+  equipment:
+    head: ClothingHeadHelmetSwatSyndicate
+
+- type: loadout
+  id: СommanderClothingHead2
+  equipment:
+    head: ClothingHeadHatOutlawHat
+
+- type: loadout
+  id: СommanderClothingHead3
+  equipment:
+    head: ClothingHeadHatSyndie

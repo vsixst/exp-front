@@ -1,0 +1,29 @@
+- type: loadout
+  id: СommanderJumpsuit1
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+
+- type: loadout
+  id: СommanderJumpsuit2
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtOperative
+
+- type: loadout
+  id: СommanderJumpsuit3
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSyndieFormal
+
+- type: loadout
+  id: СommanderJumpsuit4
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSyndieFormalDress
+
+- type: loadout
+  id: СommanderJumpsuit5
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtTacticalMaid
