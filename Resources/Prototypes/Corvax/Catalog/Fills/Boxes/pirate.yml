@@ -77,3 +77,66 @@
     layers:
       - state: boxpirat
       - state: capacitor
+
+- type: entity
+  name: Коробка с гранатами
+  suffix: красные
+  parent: BoxCardboard
+  id: BoxPirateGrenadeFire
+  description: Коробка с пиратскими гранатами... Ну или без них
+  components:
+  - type: StorageFill
+    contents:
+      - id: PirateGrenadeFire
+        amount: 3
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,2,3
+  - type: Sprite
+    sprite: Corvax/Boxes/pirate.rsi
+    state: boxpirat
+    layers:
+      - state: boxpirat
+
+- type: entity
+  name: Коробка с гранатами
+  suffix: зелёные
+  parent: BoxCardboard
+  id: BoxPirateGrenadeRadiation
+  description: Коробка с пиратскими гранатами... Ну или без них
+  components:
+  - type: StorageFill
+    contents:
+      - id: PirateGrenadeRadiation
+        amount: 3
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,2,3
+  - type: Sprite
+    sprite: Corvax/Boxes/pirate.rsi
+    state: boxpirat
+    layers:
+      - state: boxpirat
+
+- type: entity
+  name: Коробка с гранатами
+  suffix: чёрные
+  parent: BoxCardboard
+  id: BoxPiratePirateGrenadeConcussion
+  description: Коробка с пиратскими гранатами... Ну или без них
+  components:
+  - type: StorageFill
+    contents:
+      - id: PirateGrenadeConcussion
+        amount: 3
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,2,3
+  - type: Sprite
+    sprite: Corvax/Boxes/pirate.rsi
+    state: boxpirat
+    layers:
+      - state: boxpirat
