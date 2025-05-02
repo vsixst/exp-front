@@ -933,6 +933,8 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: BecomesStation
+      id: Enigma
     - type: NavMap
   - uid: 1068
     mapInit: true
