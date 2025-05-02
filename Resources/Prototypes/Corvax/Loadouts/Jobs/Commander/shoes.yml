@@ -1,5 +1,5 @@
 - type: loadout
-  id: СommanderClothingShoes1
+  id: CommanderClothingShoes1
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
@@ -8,7 +8,7 @@
     shoes: ClothingShoesBootsCombat
 
 - type: loadout
-  id: СommanderClothingShoes2
+  id: CommanderClothingShoes2
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
@@ -17,7 +17,7 @@
     shoes: ClothingShoesBootsWinterSyndicate
 
 - type: loadout
-  id: СommanderClothingShoes3
+  id: CommanderClothingShoes3
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
@@ -26,7 +26,7 @@
     shoes: ClothingShoesBootsJackFilled
 
 - type: loadout
-  id: СommanderClothingShoes4
+  id: CommanderClothingShoes4
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF

@@ -1,29 +1,29 @@
 - type: loadout
-  id: СommanderJumpsuit1
+  id: CommanderJumpsuit1
   price: 0
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
 
 - type: loadout
-  id: СommanderJumpsuit2
+  id: CommanderJumpsuit2
   price: 0
   equipment:
     jumpsuit: ClothingUniformJumpskirtOperative
 
 - type: loadout
-  id: СommanderJumpsuit3
+  id: CommanderJumpsuit3
   price: 0
   equipment:
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
 
 - type: loadout
-  id: СommanderJumpsuit4
+  id: CommanderJumpsuit4
   price: 0
   equipment:
     jumpsuit: ClothingUniformJumpskirtSyndieFormalDress
 
 - type: loadout
-  id: СommanderJumpsuit5
+  id: CommanderJumpsuit5
   price: 0
   equipment:
     jumpsuit: ClothingUniformJumpskirtTacticalMaid
