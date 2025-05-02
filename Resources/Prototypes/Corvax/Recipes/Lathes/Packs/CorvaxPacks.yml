@@ -71,6 +71,13 @@
   - HolyPlushieOrangeFoxRecipe
 
 - type: latheRecipePack
-  id: CorvaxSyndicatExchanger
+  id: SyndicateTradingConsoleFirearmsWeapons
   recipes:
-  - Telecrystal1Recipe
+  - ClothingBackpackDuffelSyndicateFilledShotgunRecipe
+  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
+  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  - WeaponPistolViperRecipe
+  - WeaponRevolverPythonRecipe
