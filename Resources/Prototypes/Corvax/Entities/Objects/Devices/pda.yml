@@ -1,0 +1,37 @@
+- type: entity
+  parent: BasePDA
+  id: SyndiPDASmugger
+  name: КПК контрабандиста Синдиката
+  description: Модифицированный КПК Синдиката сделанный Контрабандистом в подвале на коленке.
+  components:
+  - type: Pda
+    id: SyndicateIDCard
+    bookSlot:
+      startingItem: BookSmygler
+      priority: -2
+      whitelist:
+        tags:
+        - BookSpaceLaw
+        - BookNfsdSop
+        - BookSmygler
+    penSlot:
+      startingItem: CyberPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+        - CyberPen
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-syndi
+  - type: PdaBorderColor
+    borderColor: "#891417"
+  - type: Icon
+    state: pda-syndi
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+      - AstroNavCartridge 
