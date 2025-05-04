@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, BaseLathe]
   id: ExchangerSyndicate
-  name: Обменник контрабандиста
+  name: обменник контрабандиста
   description: Машина по обмену валюты на телекристаллы созданная контрабандистом.
   components:
   - type: AmbientOnPowered
@@ -12,7 +12,7 @@
     sound:
       path: /Audio/Ambience/Objects/vending_machine_hum.ogg
   - type: LitOnPowered
-  - type: ApcPowerReceiver
+  - type: ApcPowerReceiver 
     powerLoad: 100
   - type: Advertise
     pack: CuddlyCritterAds

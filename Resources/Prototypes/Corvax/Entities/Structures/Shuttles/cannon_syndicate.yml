@@ -37,7 +37,7 @@
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: Machine
-    board: ShuttleGunDusterCircuitboard
+    board: ShuttleGunSunsetCircuitboard
   - type: MagazineAmmoProvider
   - type: MagazineVisuals
     magState: mag

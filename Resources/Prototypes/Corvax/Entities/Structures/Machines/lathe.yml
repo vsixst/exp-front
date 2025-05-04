@@ -23,9 +23,11 @@
     idleState: icon
     runningState: icon
     staticPacks:
-    - SyndicateTechfabDeprecatedStatic
-    - CorvaxAmmoStatic 
-    - SecurityAmmoStatic
+    - SyndicateTechfabStatic
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFNfsdTechfabDeprecatedEmag
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - SpaceCash
