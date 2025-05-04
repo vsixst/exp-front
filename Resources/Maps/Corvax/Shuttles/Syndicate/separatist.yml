@@ -353,7 +353,7 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: BecomesStation
-    id: separatist
+      id: separatist
   - uid: 244
     mapInit: true
     paused: true

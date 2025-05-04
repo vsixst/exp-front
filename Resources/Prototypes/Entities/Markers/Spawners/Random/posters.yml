@@ -110,6 +110,7 @@
       - NFPosterContrabandWyvernShipyards
       - NFPosterContrabandRatvarLives
         # Frontier: Ending
+      - PosterContrabandTrueEnemy #CorvaxFrontier
     chance: 1
 
 - type: entity
