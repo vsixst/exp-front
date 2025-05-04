@@ -41,7 +41,7 @@
   - type: MagazineAmmoProvider
   - type: MagazineVisuals
     magState: mag
-    steps: 8
+    steps: 4
     zeroVisible: false
   - type: ItemSlots
     slots:
@@ -50,7 +50,7 @@
         priority: 2
         whitelist:
           tags:
-          - MagazineGrenade
+          - TMagazineGrenade
         insertSound:
           path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
           params:
