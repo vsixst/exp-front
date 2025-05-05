@@ -21,3 +21,11 @@
   components:
   - type: SpawnPoint
     job_id: Stormtrooper
+
+- type: entity
+  id: SpawnPointCommander
+  parent: SpawnPointPassenger
+  name: Командир
+  components:
+  - type: SpawnPoint
+    job_id: Commander

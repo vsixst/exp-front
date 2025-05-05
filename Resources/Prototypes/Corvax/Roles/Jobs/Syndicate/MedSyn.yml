@@ -39,6 +39,7 @@
     id: SyndiAgentPDA
     belt: ClothingBeltMilitaryWebbingMedFilled
     pocket1: WeaponPistolViper
+    pocket2: ToolboxMedic
     mask: ClothingMaskNeckGaiterRed
   storage:
     back:
