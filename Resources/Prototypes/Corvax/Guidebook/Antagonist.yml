@@ -1,0 +1,11 @@
+- type: guideEntry
+  id: Smugler
+  name: Контрабандист
+  text: "/ServerInfo/Guidebook/Antagonist/Samuguler.xml"
+  priority: 7
+
+- type: guideEntry
+  id: SCadet
+  name: Кадет контрабандиста
+  text: "/ServerInfo/Guidebook/Antagonist/SCadet.xml"
+  priority: 8

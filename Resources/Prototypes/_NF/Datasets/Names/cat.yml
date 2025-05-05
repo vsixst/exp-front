@@ -361,3 +361,9 @@
   - Джерри
   - Зекинс
   - Пупсик
+
+- type: dataset #CorvaxFrontier
+  id: names_cat_signis
+  values:
+  - Сигмис
+

@@ -92,3 +92,15 @@
   recipes:
   - ColiseumCoinExchangerRecipe
   - HolyPlushieOrangeFoxRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleFirearmsWeapons
+  recipes:
+  - ClothingBackpackDuffelSyndicateFilledShotgunRecipe
+  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
+  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  - WeaponPistolViperRecipe
+  - WeaponRevolverPythonRecipe

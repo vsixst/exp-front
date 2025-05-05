@@ -39,15 +39,21 @@
 
 - type: Tag
   id: ColiseumCoin
-  
+
 - type: Tag
   id: SolarAssemblyFlatpack
 
 - type: Tag
   id: Jetpack
-  
+
 - type: Tag
-  id: MercenaryToken
-  
+  id: SpaceCash
+
 - type: Tag
-  id: BookPirateCodex
+  id: CyberPen
+
+- type: Tag
+  id: BookSmygler
+
+- type: Tag
+  id: TMagazineGrenade

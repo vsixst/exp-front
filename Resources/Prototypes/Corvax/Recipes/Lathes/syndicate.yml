@@ -1,0 +1,77 @@
+- type: latheRecipe
+  id: Telecrystal1Recipe
+  result: Telecrystal1
+  completetime: 1
+  materials:
+    Credit: 1000
+
+# обменик
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledShotgunRecipe
+  result: ClothingBackpackDuffelSyndicateFilledShotgun
+  completetime: 1
+  materials:
+    Credit: 44000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  result: ClothingBackpackDuffelSyndicateFilledSMG
+  completetime: 1
+  materials:
+    Credit: 38000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  result: ClothingBackpackDuffelSyndicateFilledHristov
+  completetime: 1
+  materials:
+    Credit: 26000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledLMGRecipe
+  result: ClothingBackpackDuffelSyndicateFilledLMG
+  completetime: 1
+  materials:
+    Credit: 68000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
+  result: ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncher
+  completetime: 1
+  materials:
+    Credit: 55000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledGrenadeLauncherRecipe
+  result: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
+  completetime: 1
+  materials:
+    Credit: 72000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  result: ClothingBackpackDuffelSyndicateFilledCarbine
+  completetime: 1
+  materials:
+    Credit: 32000
+
+- type: latheRecipe
+  id: ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  result: ClothingBackpackDuffelSyndicateFilledAtreides
+  completetime: 1
+  materials:
+    Credit: 42000
+
+- type: latheRecipe
+  id: WeaponPistolViperRecipe
+  result: WeaponPistolViper
+  completetime: 1
+  materials:
+    Credit: 7000
+
+- type: latheRecipe
+  id: WeaponRevolverPythonRecipe
+  result: WeaponRevolverPython
+  completetime: 1
+  materials:
+    Credit: 7000
