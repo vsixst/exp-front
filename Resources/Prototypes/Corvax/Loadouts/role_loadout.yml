@@ -42,3 +42,8 @@
   - CommanderShoes
   - CommanderNeck
   - CommanderOuterclothing
+
+- type: roleLoadout
+  id: JobParaMedical
+  groups:
+  - ParaMedicalJumpsuit

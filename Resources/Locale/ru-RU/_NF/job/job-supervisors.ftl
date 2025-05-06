@@ -8,3 +8,4 @@ job-supervisors-nfsd = шерифу, помощнику шерифа  и кап�
 job-supervisors-pirate = боцману и капитану
 job-supervisors-nobody = никому
 job-supervisors-syndicate = Командиру Синдиката
+job-supervisors-MMO = Менеджеру Медицинских Операций

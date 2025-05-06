@@ -9,3 +9,13 @@
   - MedSyn
   - Stormtrooper
   - Commander
+
+- type: department
+  id: MedicalDepartment
+  name: department-medical
+  description: department-medical-description
+  color: "#DE3A3A"
+  weight: -20 # accounted for in jobs
+  roles:
+  - DirectorOfCare
+  - paraMedical

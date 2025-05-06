@@ -1,0 +1,11 @@
+- type: loadoutGroup
+  id: ParaMedicalJumpsuit
+  name: loadout-group-contractor-jumpsuit
+  loadouts:
+  - ParaMedicalClothingUniform1
+  - ParaMedicalClothingUniform2
+  - ParaMedicalClothingUniform3
+  - ParaMedicalClothingUniform4
+  - ParaMedicalClothingUniform5
+  fallbacks:
+  - ParaMedicalClothingUniform1

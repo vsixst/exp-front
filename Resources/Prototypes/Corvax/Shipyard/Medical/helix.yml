@@ -15,7 +15,7 @@
   description: A medium, modular hospital. Standard issue equipped with chem lab, cloning, and treatment ward
   price: 48000 # +5800 from 15% markup
   category: Medium
-  group: Shipyard
+  group: Medical
   shuttlePath: /Maps/Corvax/Shuttles/Medical/helix.yml
   guidebookPage: Null
   class:

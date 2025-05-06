@@ -1,0 +1,22 @@
+#- type: entity
+#  id: StorePresetUplinkSmugger
+#  abstract: true
+#  components:
+#  - type: Store
+#    name: store-preset-name-uplink
+#    categories:
+#    - UplinkWeaponry
+#    - UplinkAmmo
+#    - UplinkExplosives
+#    - UplinkChemicals
+#    - UplinkDeception
+#    - UplinkDisruption
+#    - UplinkImplants
+#    - UplinkAllies
+#    - UplinkWearables
+#    - UplinkJob
+#    - UplinkPointless
+#    currencyWhitelist:
+#    - TelecrystalDamaged
+#    balance:
+#      TelecrystalDamaged: 0
