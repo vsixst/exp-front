@@ -26,6 +26,7 @@
     unlitRunningState: unlit-building
     staticPacks:
     - SyndicateTradingConsoleFirearmsWeapons
+    - SyndicateTradingConsoleLaserArmsWeapons
   - type: ContainerContainer
     containers:
       machine_board: !type:Container

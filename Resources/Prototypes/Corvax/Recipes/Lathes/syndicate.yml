@@ -8,56 +8,49 @@
 # обменик
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledShotgunRecipe
-  result: ClothingBackpackDuffelSyndicateFilledShotgun
+  result: WeaponShotgunBulldog
   completetime: 1
   materials:
     Credit: 44000
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledSMGRecipe
-  result: ClothingBackpackDuffelSyndicateFilledSMG
+  result: WeaponSubMachineGunC20r
   completetime: 1
   materials:
     Credit: 38000
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledHristovRecipe
-  result: ClothingBackpackDuffelSyndicateFilledHristov
+  result: WeaponSniperHristov
   completetime: 1
   materials:
     Credit: 26000
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledLMGRecipe
-  result: ClothingBackpackDuffelSyndicateFilledLMG
+  result: WeaponLightMachineGunL6
   completetime: 1
   materials:
     Credit: 68000
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
-  result: ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncher
+  result: WeaponLauncherChinaLakeEmp
   completetime: 1
   materials:
     Credit: 55000
 
 - type: latheRecipe
-  id: ClothingBackpackDuffelSyndicateFilledGrenadeLauncherRecipe
-  result: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
-  completetime: 1
-  materials:
-    Credit: 72000
-
-- type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledCarbineRecipe
-  result: ClothingBackpackDuffelSyndicateFilledCarbine
+  result: WeaponRifleM90GrenadeLauncher
   completetime: 1
   materials:
     Credit: 32000
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
-  result: ClothingBackpackDuffelSyndicateFilledAtreides
+  result: WeaponSubMachineGunAtreides
   completetime: 1
   materials:
     Credit: 42000
@@ -67,7 +60,7 @@
   result: WeaponPistolViper
   completetime: 1
   materials:
-    Credit: 7000
+    Credit: 5000
 
 - type: latheRecipe
   id: WeaponRevolverPythonRecipe
@@ -75,3 +68,83 @@
   completetime: 1
   materials:
     Credit: 7000
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  id: WeaponAntiqueLaserRecipe
+  result: WeaponAntiqueLaser
+  completetime: 1
+  materials:
+    Credit: 9500
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  id: WeaponLaserSvalinnRecipe
+  result: WeaponLaserSvalinn
+  completetime: 1
+  materials:
+    Credit: 4500
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  id: WeaponLaserCarbineRecipe
+  result: WeaponLaserCarbine
+  completetime: 1
+  materials:
+    Credit: 25000
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  id: WeaponXrayCannonRecipe
+  result: WeaponXrayCannon
+  completetime: 1
+  materials:
+    Credit: 31000
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  id: WeaponLaserCannonRecipe
+  result: WeaponLaserCannon
+  completetime: 1
+  materials:
+    Credit: 29000
+
+- type: latheRecipe
+  id: WeaponEnergyGunRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: WeaponEnergyGun
+  completetime: 1
+  materials:
+    Credit: 33000
+
+- type: latheRecipe
+  id: WeaponEnergyShotgunRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: WeaponEnergyShotgun
+  completetime: 1
+  materials:
+    Credit: 134542
+
+- type: latheRecipe
+  id:
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: EnergySwordDouble
+  completetime: 1
+  materials:
+    Credit: 82350
+
+- type: latheRecipe
+  id: EnergySwordRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: EnergySword
+  completetime: 1
+  materials:
+    Credit: 32450
+
+- type: latheRecipe
+  id: EnergyDaggerLoudRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: EnergyDaggerLoud
+  completetime: 1
+  materials:
+    Credit: 12000

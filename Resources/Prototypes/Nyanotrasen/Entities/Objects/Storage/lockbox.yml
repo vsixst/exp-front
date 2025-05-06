@@ -16,3 +16,7 @@
   - type: Lock
   - type: AccessReader
   - type: Appearance
+  - type: Storage
+    grid:
+    - 0,0,6,3
+    maxItemSize: Huge
