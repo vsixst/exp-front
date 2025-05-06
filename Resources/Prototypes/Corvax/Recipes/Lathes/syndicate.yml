@@ -8,6 +8,7 @@
 # обменик
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledShotgunRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponShotgunBulldog
   completetime: 1
   materials:
@@ -15,6 +16,7 @@
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponSubMachineGunC20r
   completetime: 1
   materials:
@@ -22,6 +24,7 @@
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponSniperHristov
   completetime: 1
   materials:
@@ -29,6 +32,7 @@
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledLMGRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponLightMachineGunL6
   completetime: 1
   materials:
@@ -37,12 +41,14 @@
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
   result: WeaponLauncherChinaLakeEmp
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   completetime: 1
   materials:
     Credit: 55000
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponRifleM90GrenadeLauncher
   completetime: 1
   materials:
@@ -50,6 +56,7 @@
 
 - type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponSubMachineGunAtreides
   completetime: 1
   materials:
@@ -57,6 +64,7 @@
 
 - type: latheRecipe
   id: WeaponPistolViperRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponPistolViper
   completetime: 1
   materials:
@@ -64,6 +72,7 @@
 
 - type: latheRecipe
   id: WeaponRevolverPythonRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponRevolverPython
   completetime: 1
   materials:
@@ -126,7 +135,7 @@
     Credit: 134542
 
 - type: latheRecipe
-  id:
+  id: EnergySwordDoubleRecipe
   categories: [SyndicateTradingConsoleLaserArmsWeapons]
   result: EnergySwordDouble
   completetime: 1

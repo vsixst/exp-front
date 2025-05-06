@@ -65,6 +65,24 @@
 #Обменники
 
 - type: latheRecipePack
+  id: CorvaxExchangerStatic
+  recipes:
+  - ColiseumCoinExchangerRecipe
+  - HolyPlushieOrangeFoxRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleFirearmsWeapons
+  recipes:
+  - ClothingBackpackDuffelSyndicateFilledLMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
+  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  - WeaponPistolViperRecipe
+  - WeaponRevolverPythonRecipe
+
+- type: latheRecipePack
   id: MercenaryExchangerStatic
   recipes:
   - ClothingOuterHardsuitScafExchangeRecipe
@@ -86,24 +104,6 @@
   - CrateChemistryDExchangeRecipe
   - HolofanProjectorExchangeRecipe
   - MedkitExchangeRecipe
-
-- type: latheRecipePack
-  id: CorvaxExchangerStatic
-  recipes:
-  - ColiseumCoinExchangerRecipe
-  - HolyPlushieOrangeFoxRecipe
-
-- type: latheRecipePack
-  id: SyndicateTradingConsoleFirearmsWeapons
-  recipes:
-  - ClothingBackpackDuffelSyndicateFilledLMGRecipe
-  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
-  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
-  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
-  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
-  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
-  - WeaponPistolViperRecipe
-  - WeaponRevolverPythonRecipe
 
 - type: latheRecipePack
   id: SyndicateTradingConsoleLaserArmsWeapons

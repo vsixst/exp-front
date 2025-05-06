@@ -110,10 +110,7 @@
     sprite: null
     size: Normal
   - type: StaticPrice #CorvaxFrontier
-    price: 200 
-  - type: MercenaryBountyItem # Corvax-Frontier
-    id: BootsMagSyndie
-    
+    price: 200
 - type: entity
   id: ActionToggleMagboots
   name: Toggle Magboots
