@@ -96,7 +96,7 @@
 - type: latheRecipePack
   id: SyndicateTradingConsoleFirearmsWeapons
   recipes:
-  - ClothingBackpackDuffelSyndicateFilledShotgunRecipe
+  - ClothingBackpackDuffelSyndicateFilledLMGRecipe
   - ClothingBackpackDuffelSyndicateFilledSMGRecipe
   - ClothingBackpackDuffelSyndicateFilledHristovRecipe
   - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
@@ -104,3 +104,16 @@
   - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
   - WeaponPistolViperRecipe
   - WeaponRevolverPythonRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleLaserArmsWeapons
+  recipes:
+  - WeaponAntiqueLaserRecipe
+  - WeaponLaserSvalinnRecipe
+  - WeaponLaserCannonRecipe
+  - WeaponXrayCannonRecipe
+  - WeaponLaserCarbineRecipe
+  - WeaponEnergyShotgunRecipe
+  - EnergyDaggerLoudRecipe
+  - EnergySwordRecipe
+  - EnergySwordDoubleRecipe

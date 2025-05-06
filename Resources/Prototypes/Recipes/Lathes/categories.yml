@@ -80,3 +80,7 @@
 - type: latheCategory
   id: SyndicateTradingConsoleFirearmsWeapons
   name: Огнестрельное оружие
+
+- type: latheCategory
+  id: SyndicateTradingConsoleLaserArmsWeapons
+  name: Энергитическое оружие
