@@ -2,7 +2,7 @@
   id: paraMedical
   name: Парамедик
   description: Полевой медик занимающийся спасением раненых.
-  playTimeTracker: JobParaMedical
+  playTimeTracker: JobparaMedical
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours

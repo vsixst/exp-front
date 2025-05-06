@@ -44,6 +44,7 @@
   - CommanderOuterclothing
 
 - type: roleLoadout
-  id: JobParaMedical
+  id: JobparaMedical
   groups:
   - ParaMedicalJumpsuit
+  - SmugglerBags

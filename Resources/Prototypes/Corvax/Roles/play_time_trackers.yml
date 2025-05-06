@@ -1,14 +1,14 @@
-- type: playTimeTracker 
+- type: playTimeTracker
   id: Jobsmuggler
 
-- type: playTimeTracker 
+- type: playTimeTracker
   id: JobsMedSyn
 
-- type: playTimeTracker 
+- type: playTimeTracker
   id: JobStormtrooper
 
-- type: playTimeTracker 
+- type: playTimeTracker
   id: JobCommander
 
-- type: playTimeTracker 
-  id: JobParaMedical
+- type: playTimeTracker
+  id: JobparaMedical
