@@ -29053,7 +29053,7 @@ entities:
     - type: Transform
       pos: 14.5,45.5
       parent: 2
-- proto: SpawnMobWeaponTurretSyndicateAntiMateriel
+- proto: SpawnMobWeaponTurretSyndicate25
   entities:
   - uid: 535
     components:

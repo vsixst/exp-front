@@ -9,3 +9,6 @@
 
 - type: playTimeTracker 
   id: JobCommander
+
+- type: playTimeTracker 
+  id: JobParaMedical

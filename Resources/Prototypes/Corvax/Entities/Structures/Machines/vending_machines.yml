@@ -61,3 +61,11 @@
   - type: GuideHelp
     guides:
     - Medical Doctor
+
+- type: entity
+  parent: [VendingMachineAmmo, BaseStructureDisableAnchoring]
+  id: VendingMachineAmmoPOIMedic
+  suffix: POI
+  components:
+  - type: VendingMachine
+    pack: WeaponryWorksVendPOIInventoryMedic

@@ -864,7 +864,7 @@
   maxLimit: 5
   loadouts:
   - ContractorEncryptionKeyTraffic
-  - ContractorEncryptionKeyMedical
+#  - ContractorEncryptionKeyMedical #CorvaxFrontier
   - ContractorEncryptionKeyCargo
   - ContractorEncryptionKeyEngineering
   - ContractorEncryptionKeyScience
