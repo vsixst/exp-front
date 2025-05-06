@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 247.2.0
+  forkId: ""
+  forkVersion: ""
+  time: 05/06/2025 08:58:29
+  entityCount: 2556
+maps: []
+grids:
+- 1
+orphans:
+- 1
+nullspace: []
 tilemap:
   0: Space
   10: FloorCarpetOffice
@@ -14429,6 +14440,18 @@ entities:
       name: SMES 1
     - type: Transform
       pos: 1.5,-10.5
+      parent: 1
+- proto: SpawnDungeonLootVaultGuns
+  entities:
+  - uid: 2014
+    components:
+    - type: Transform
+      pos: 4.473836,-0.64556515
+      parent: 1
+  - uid: 2143
+    components:
+    - type: Transform
+      pos: 6.614461,-0.59869015
       parent: 1
 - proto: SpawnPointLatejoin
   entities:
