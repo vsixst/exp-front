@@ -20,7 +20,7 @@
     price: 200
   - type: Currency
     price:
-      Telecrystal: 1
+      TelecrystalDamaged: 1
 
 - type: entity
   parent: TelecrystalDamaged
@@ -55,7 +55,7 @@
     count: 200
 
 - type: entity
-  parent: [BaseItem, StorePresetUplink, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: [BaseItem, StorePresetUplinkSmugger, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: SmuggerUplinkRadio
   name: аплинк Контрабандиста
   description: Suspiciously looking old radio...
