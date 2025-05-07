@@ -26,6 +26,8 @@
     unlitRunningState: unlit-building
     staticPacks:
     - SyndicateTradingConsoleWeapons
+    - SyndicateTradingConsoleArmor
+    - SyndicateTradingConsoleBoomA
   - type: ContainerContainer
     containers:
       machine_board: !type:Container

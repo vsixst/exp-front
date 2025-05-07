@@ -117,3 +117,36 @@
   - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
   - WeaponPistolViperRecipe
   - WeaponRevolverPythonRecipe
+  - HypoDartBoxRecipe
+  - Rickenbacker4001InstrumentRecipe
+  - KanabouRecipe
+  - ClothingHandsGlovesNorthStarRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleArmor
+  recipes:
+  - ClothingOuterHardsuitJuggernautRecipe
+  - ClothingOuterVestWebRecipe
+  - ClothingOuterHardsuitTacticalMaidRecipe
+  - JetpackBlackFilledRecipe
+  - ClothingShoesBootsMagSyndieRecipe
+  - ClothingBackpackDuffelSyndicateHardsuitBundleRecipe
+  - ClothingBackpackDuffelSyndicateEliteHardsuitBundleRecipe
+  - ClothingBackpackDuffelSyndicateRaidBundleRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleBoomA
+  recipes:
+  - ClusterBananaPeelRecipe
+  - ClusterGrenadeRecipe
+  - SingularityGrenadeRecipe
+  - CleanerGrenadeRecipe
+  - C4Recipe
+  - GrenadeFlashBangRecipe
+  - TearGasGrenadeRecipe
+  - GrenadeIncendiaryRecipe
+  - SmokeGrenadeRecipe
+  - BreachingChargeRecipe
+  - WhiteholeGrenadeRecipe
+  - EmpGrenadeRecipe
+  - GrenadeShrapnelRecipe
