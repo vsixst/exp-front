@@ -71,7 +71,6 @@
   - WeaponMagmiteCrusherGlaiveExchangeRecipe
   - WeaponAntiqueLaserExchangeRecipe
   - ClothingOuterArmorRiotExchangeRecipe
-  - HoverbikeFlatpackExchangeRecipe
   - NFBlueprintJawsOfLifeExchangeRecipe
   - TelescopicShieldExchangeRecipe
   - MedkitCombatExchangeRecipe
@@ -86,7 +85,19 @@
   - CrateChemistryDExchangeRecipe
   - HolofanProjectorExchangeRecipe
   - MedkitExchangeRecipe
-  
+  - ClothingBeltSheathExchangeRecipe
+  - WeaponEnergyGunExchangeRecipe
+  - WeaponRifleGestioExchangeRecipe
+  - WeaponRifleNovaliteC1ExchangeRecipe
+  - WeaponSubMachineGunTypewriterExchangeRecipe
+  - ClothingHeadHelmetSwatExchangeRecipe
+  - BoxMagazinePistolSubMachineGunTopMountedExchangeRecipe
+  - RiotLaserShieldExchangeRecipe
+  - ClothingOuterArmorHeavyGreenExchangeRecipe
+  - ChemMasterMachineCircuitboardExchangeRecipe
+  - CombatMedipenExchangeRecipe
+  - ClothingOuterHardsuitTacticalMaidExchangeRecipe
+
 - type: latheRecipePack
   id: CorvaxExchangerStatic
   recipes:

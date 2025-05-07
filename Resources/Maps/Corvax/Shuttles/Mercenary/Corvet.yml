@@ -4,7 +4,7 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 04/14/2025 11:46:53
+  time: 04/22/2025 10:57:46
   entityCount: 694
 maps: []
 grids:
@@ -711,6 +711,7 @@ entities:
           - 0
         chunkSize: 4
     - type: GasTileOverlay
+    - type: MercenaryBountyDatabase
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Corvet
@@ -2201,6 +2202,14 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-3.5
+      parent: 1
+- proto: ComputerMercenaryBounty
+  entities:
+  - uid: 275
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -3.5,-3.5
       parent: 1
 - proto: ComputerTabletopShuttle
   entities:
@@ -4362,11 +4371,6 @@ entities:
       parent: 1
 - proto: UnfinishedMachineFrame
   entities:
-  - uid: 275
-    components:
-    - type: Transform
-      pos: -3.5,-3.5
-      parent: 1
   - uid: 566
     components:
     - type: Transform
