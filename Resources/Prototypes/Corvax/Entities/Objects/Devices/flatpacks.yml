@@ -33,3 +33,17 @@
   - type: Sprite
     layers:
     - state: power_console_ame
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: ExchangerSyndicateFlatpack
+  name: упакованный обменник контрабандиста
+  description: Упакованная версия обменника контрабандиста.
+  components:
+  - type: Flatpack
+    entity: ExchangerSyndicate
+  - type: StaticPrice
+    price: 55
+  - type: Sprite
+    layers:
+    - state: power_charger

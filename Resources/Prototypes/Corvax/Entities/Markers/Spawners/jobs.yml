@@ -36,4 +36,4 @@
   name: Парамедик
   components:
   - type: SpawnPoint
-    job_id: ParaMedical
+    job_id: paraMedical
