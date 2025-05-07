@@ -84,3 +84,7 @@
 - type: latheCategory
   id: SyndicateTradingConsoleLaserArmsWeapons
   name: Энергитическое
+
+- type: latheCategory
+  id: SyndicateTradingConsoleMeleeWeapons
+  name: Ближнебойное

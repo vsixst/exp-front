@@ -55,6 +55,14 @@
     Credit: 32000
 
 - type: latheRecipe
+  id: WeaponSubMachineGunDrozdRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: WeaponSubMachineGunDrozd
+  completetime: 1
+  materials:
+    Credit: 36000
+
+- type: latheRecipe
   id: ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
   categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponSubMachineGunAtreides
@@ -136,7 +144,7 @@
 
 - type: latheRecipe
   id: EnergySwordDoubleRecipe
-  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  categories: [SyndicateTradingConsoleLaserArmsWeapons, SyndicateTradingConsoleMeleeWeapons]
   result: EnergySwordDouble
   completetime: 1
   materials:
@@ -144,7 +152,7 @@
 
 - type: latheRecipe
   id: EnergySwordRecipe
-  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  categories: [SyndicateTradingConsoleLaserArmsWeapons, SyndicateTradingConsoleMeleeWeapons]
   result: EnergySword
   completetime: 1
   materials:
@@ -152,8 +160,72 @@
 
 - type: latheRecipe
   id: EnergyDaggerLoudRecipe
-  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  categories: [SyndicateTradingConsoleLaserArmsWeapons, SyndicateTradingConsoleMeleeWeapons]
   result: EnergyDaggerLoud
   completetime: 1
   materials:
     Credit: 12000
+
+- type: latheRecipe
+  id: Recipe
+  categories: [SyndicateTradingConsoleMeleeWeapons]
+  result:
+  completetime: 1
+  materials:
+    Credit:
+
+- type: latheRecipe
+  id: WeaponEmpEmitterRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: WeaponEmpEmitter
+  completetime: 1
+  materials:
+    Credit: 7200
+
+- type: latheRecipe
+  id: WeaponPistolCHIMPUpgradedRecipe
+  categories: [SyndicateTradingConsoleLaserArmsWeapons]
+  result: WeaponPistolCHIMPUpgraded
+  completetime: 1
+  materials:
+    Credit: 6500
+
+- type: latheRecipe
+  id: ClothingHandsGlovesNorthStarRecipe
+  categories: [SyndicateTradingConsoleMeleeWeapons]
+  result: ClothingHandsGlovesNorthStar
+  completetime: 1
+  materials:
+    Credit: 10000
+
+- type: latheRecipe
+  id: ThrowingKnifeRecipe
+  categories: [SyndicateTradingConsoleMeleeWeapons]
+  result: ThrowingKnife
+  completetime: 1
+  materials:
+    Credit: 6000
+
+- type: latheRecipe
+  id: KanabouRecipe
+  categories: [SyndicateTradingConsoleMeleeWeapons]
+  result: Kanabou
+  completetime: 1
+  materials:
+    Credit: 8000
+
+- type: latheRecipe
+  id: Rickenbacker4001InstrumentRecipe
+  categories: [SyndicateTradingConsoleMeleeWeapons]
+  result: Rickenbacker4001Instrument
+  completetime: 1
+  materials:
+    Credit: 8000
+
+- type: latheRecipe
+  id: HypoDartBoxRecipe
+  categories: [SyndicateTradingConsoleMeleeWeapons]
+  result: HypoDartBox
+  completetime: 1
+  materials:
+    Credit: 4000

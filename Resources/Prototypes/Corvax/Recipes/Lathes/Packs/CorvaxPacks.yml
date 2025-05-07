@@ -70,17 +70,6 @@
   - ColiseumCoinExchangerRecipe
   - HolyPlushieOrangeFoxRecipe
 
-- type: latheRecipePack
-  id: SyndicateTradingConsoleFirearmsWeapons
-  recipes:
-  - ClothingBackpackDuffelSyndicateFilledLMGRecipe
-  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
-  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
-  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
-  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
-  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
-  - WeaponPistolViperRecipe
-  - WeaponRevolverPythonRecipe
 
 - type: latheRecipePack
   id: MercenaryExchangerStatic
@@ -106,7 +95,7 @@
   - MedkitExchangeRecipe
 
 - type: latheRecipePack
-  id: SyndicateTradingConsoleLaserArmsWeapons
+  id: SyndicateTradingConsoleWeapons
   recipes:
   - WeaponAntiqueLaserRecipe
   - WeaponLaserSvalinnRecipe
@@ -117,3 +106,14 @@
   - EnergyDaggerLoudRecipe
   - EnergySwordRecipe
   - EnergySwordDoubleRecipe
+  - WeaponEmpEmitterRecipe
+  - WeaponPistolCHIMPUpgradedRecipe
+  - WeaponSubMachineGunDrozdRecipe
+  - ClothingBackpackDuffelSyndicateFilledLMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
+  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  - WeaponPistolViperRecipe
+  - WeaponRevolverPythonRecipe
