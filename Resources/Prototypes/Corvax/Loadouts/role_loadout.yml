@@ -47,4 +47,9 @@
   id: JobparaMedical
   groups:
   - ParaMedicalJumpsuit
-  - SmugglerBags
+  - ParaMedicalBackpack
+  - ParaMedicalOuterClothing
+  - ParaMedicalShoes
+  - ContractorBureaucracy
+  - ContractorTrinkets
+  - ContractorFun

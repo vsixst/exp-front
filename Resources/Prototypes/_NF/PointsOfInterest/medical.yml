@@ -40,7 +40,7 @@
         - type: StationJobs
           availableJobs:
             DirectorOfCare: [ 1, 1 ]
-#            ParaMedical: [ -1, -1 ]
+            paraMedical: [ -1, -1 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity
