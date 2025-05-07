@@ -9,3 +9,9 @@
   name: Кадет контрабандиста
   text: "/ServerInfo/Guidebook/Antagonist/SCadet.xml"
   priority: 8
+
+- type: guideEntry
+  id: SComa
+  name: Командир отряда "Жнецы"
+  text: "/ServerInfo/Guidebook/Antagonist/SComa.xml"
+  priority: 9

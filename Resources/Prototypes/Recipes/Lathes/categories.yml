@@ -94,10 +94,6 @@
   name: Обмундирование
 
 - type: latheCategory
-  id: SyndicateTradingConsoleMeleeArmor
-  name: Обмундирование
-
-- type: latheCategory
   id: SyndicateTradingConsoleBoom
   name: Взрывчатка
 

@@ -167,14 +167,6 @@
     Credit: 12000
 
 - type: latheRecipe
-  id: Recipe
-  categories: [SyndicateTradingConsoleMeleeWeapons]
-  result:
-  completetime: 1
-  materials:
-    Credit:
-
-- type: latheRecipe
   id: WeaponEmpEmitterRecipe
   categories: [SyndicateTradingConsoleLaserArmsWeapons]
   result: WeaponEmpEmitter
