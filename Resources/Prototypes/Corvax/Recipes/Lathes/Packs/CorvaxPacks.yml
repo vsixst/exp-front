@@ -150,3 +150,25 @@
   - WhiteholeGrenadeRecipe
   - EmpGrenadeRecipe
   - GrenadeShrapnelRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleMed
+  recipes:
+  - VestineChemistryVialRecipe
+  - CigPackSyndicateRecipe
+  - StimpackMiniRecipe
+  - StimpackRecipe
+  - LacerAutoInjectorRecipe
+  - HemostasisAutoInjectorRecipe
+  - PyraAutoInjectorRecipe
+  - PunctAutoInjectorRecipe
+  - BruizAutoInjectorRecipe
+  - MedkitToxinRecipe
+  - MedkitRadiationRecipe
+  - BruteAutoInjectorRecipe
+  - BurnAutoInjectorRecipe
+  - MedkitAdvancedRecipe
+  - MedkitRecipe
+  - EmergencyMedipenRecipe
+  - CombatMedipenRecipe
+  - WehMedipenRecipe

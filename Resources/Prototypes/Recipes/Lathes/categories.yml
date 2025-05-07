@@ -100,3 +100,7 @@
 - type: latheCategory
   id: SyndicateTradingConsoleBoom
   name: Взрывчатка
+
+- type: latheCategory
+  id: SyndicateTradingConsoleChemistry
+  name: Химия

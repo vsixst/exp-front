@@ -28,6 +28,7 @@
     - SyndicateTradingConsoleWeapons
     - SyndicateTradingConsoleArmor
     - SyndicateTradingConsoleBoomA
+    - SyndicateTradingConsoleMed
   - type: ContainerContainer
     containers:
       machine_board: !type:Container

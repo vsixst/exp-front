@@ -276,7 +276,7 @@
   result: ClothingOuterHardsuitTacticalMaid
   completetime: 1
   materials:
-    Credit: 69690
+    Credit: 6969
 
 - type: latheRecipe
   id: ClothingOuterVestWebRecipe
@@ -348,7 +348,7 @@
   result: TearGasGrenade
   completetime: 1
   materials:
-    Credit: 7500
+    Credit: 1000
 
 - type: latheRecipe
   id: GrenadeFlashBangRecipe
@@ -397,3 +397,148 @@
   completetime: 1
   materials:
     Credit: 6550
+
+- type: latheRecipe
+  id: WehMedipenRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: WehMedipen
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: CombatMedipenRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: CombatMedipen
+  completetime: 1
+  materials:
+    Credit: 7500
+
+
+- type: latheRecipe
+  id: EmergencyMedipenRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: EmergencyMedipen
+  completetime: 1
+  materials:
+    Credit: 2000
+
+- type: latheRecipe
+  id: MedkitRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: MedkitFilled
+  completetime: 1
+  materials:
+    Credit: 1500
+
+- type: latheRecipe
+  id: MedkitAdvancedRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: MedkitAdvancedFilled
+  completetime: 1
+  materials:
+    Credit: 4500
+
+- type: latheRecipe
+  id: BurnAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: BurnAutoInjector
+  completetime: 1
+  materials:
+    Credit: 4500
+
+- type: latheRecipe
+  id: BruteAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: BruteAutoInjector
+  completetime: 1
+  materials:
+    Credit: 4500
+
+- type: latheRecipe
+  id: MedkitRadiationRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: MedkitRadiationFilled
+  completetime: 1
+  materials:
+    Credit: 1000
+
+- type: latheRecipe
+  id: MedkitToxinRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: MedkitToxinFilled
+  completetime: 1
+  materials:
+    Credit: 1000
+
+- type: latheRecipe
+  id: BruizAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: BruizAutoInjector
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: PunctAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: PunctAutoInjector
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: PyraAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: PyraAutoInjector
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: HemostasisAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: HemostasisAutoInjector
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: LacerAutoInjectorRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: LacerAutoInjector
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: StimpackRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: Stimpack
+  completetime: 1
+  materials:
+    Credit: 6500
+
+- type: latheRecipe
+  id: StimpackMiniRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: StimpackMini
+  completetime: 1
+  materials:
+    Credit: 2500
+
+- type: latheRecipe
+  id: CigPackSyndicateRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: CigPackSyndicate
+  completetime: 1
+  materials:
+    Credit: 5000
+
+- type: latheRecipe
+  id: VestineChemistryVialRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: VestineChemistryVial
+  completetime: 1
+  materials:
+    Credit: 5000
