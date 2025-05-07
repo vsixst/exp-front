@@ -46,3 +46,4 @@
     whitelist:
       tags:
         - MercenaryToken
+  - type: Godmode
