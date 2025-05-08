@@ -304,6 +304,3 @@ Resources/MapImages
 
 *.bak
 
-# Direnv stuff
-.direnv/
-Resources/Prototypes/Corvax/Entities/Structures/Shuttles/cannon_syndicate.yml
