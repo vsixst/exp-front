@@ -1,9 +1,9 @@
 - type: entity
-  name: telecrystal-damaged-name
+  name: Поврежденный телекристалл
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: TelecrystalDamaged
   suffix: 20 TC
-  description: telecrystal-damaged-description
+  description: Похоже, он переливается более тускло...
   components:
   - type: Sprite
     sprite: Corvax/Objects/Specific/Syndicate/telecrystal.rsi
