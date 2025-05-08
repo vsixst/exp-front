@@ -38,7 +38,7 @@
 
 - type: entity
   name: mercenary bounty redemption computer
-  parent: ComputerMercenaryBounty
+  parent: [BaseStructureDisableToolUse, ComputerMercenaryBounty]
   id: ComputerMercenaryBountyRedemption
   description: Back from a voyage? Redeem yer bounties here, matey.
   components:
@@ -70,3 +70,4 @@
     radius: 1.5
     energy: 1.6
     color: "#b89f25"
+  - type: Godmode
