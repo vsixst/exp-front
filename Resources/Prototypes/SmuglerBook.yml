@@ -60,3 +60,45 @@
   - type: GuideHelp
     guides:
     - SComa
+
+- type: entity
+  id: BookSParamed
+  parent: BaseGuidebook
+  suffix: Парамед "Жнецов"
+  name: syndicate-book-name
+  description: syndicate-book-description
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#000000"
+    - state: decor_wingette
+      color: "#dd2020"
+    - state: icon_nuclear
+    - state: overlay_blood
+  - type: GuideHelp
+    guides:
+    - SParamed
+
+- type: entity
+  id: BookSShturm
+  parent: BaseGuidebook
+  suffix: штурмовик "Жнецов"
+  name: syndicate-book-name
+  description: syndicate-book-description
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#000000"
+    - state: decor_wingette
+      color: "#dd2020"
+    - state: icon_nuclear
+    - state: overlay_blood
+  - type: GuideHelp
+    guides:
+    - SShturm
