@@ -79,6 +79,22 @@
     Credit: 5000
 
 - type: latheRecipe
+  id: ShuttleGunSunsetFlatpackRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  result: ShuttleGunSunsetFlatpack
+  completetime: 1
+  materials:
+    Credit: 55000
+
+- type: latheRecipe
+  id: WeaponTurretSyndicateFlatpackRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  result: WeaponTurretSyndicateFlatpack
+  completetime: 1
+  materials:
+    Credit: 44000
+
+- type: latheRecipe
   id: WeaponRevolverPythonRecipe
   categories: [SyndicateTradingConsoleFirearmsWeapons]
   result: WeaponRevolverPython
