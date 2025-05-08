@@ -15,3 +15,15 @@
   name: Командир отряда "Жнецы"
   text: "/ServerInfo/Guidebook/Antagonist/SComa.xml"
   priority: 9
+
+- type: guideEntry
+  id: SParamed
+  name: Командир отряда "Жнецы"
+  text: "/ServerInfo/Guidebook/Antagonist/SParamed.xml"
+  priority: 10
+
+- type: guideEntry
+  id: SShturm
+  name: Командир отряда "Жнецы"
+  text: "/ServerInfo/Guidebook/Antagonist/SShturm.xml"
+  priority: 11
