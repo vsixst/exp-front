@@ -1,7 +1,6 @@
 - type: entity
   id: ToolboxMedic
-  name: подозрительный ящик неопределённости
-  description: Что же взять на этот раз?
+  name: ToolboxMedic
   parent: [ BaseItem, BaseC3SyndicateContraband ] # Frontier: BaseMinorContraband<BaseC3SyndicateContraband
   components:
   - type: Sprite

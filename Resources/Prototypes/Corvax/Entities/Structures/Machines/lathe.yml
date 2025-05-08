@@ -1,8 +1,8 @@
 - type: entity
   id: SyndicateTechFab
   parent: [ BlueprintReceiverBase, SecurityTechFab, BaseC3ContrabandUnredeemable] 
-  name: ТехФаб Синдиката
-  description: ТехФаб созданный Синдикатом для ряда диверсионных групп сектора Фронтир.
+  name: Syndicate Tech Fab
+  description: Syndicate Tech Fab
   components:
   - type: Sprite
     sprite: Corvax/Structures/Machines/techfab.rsi

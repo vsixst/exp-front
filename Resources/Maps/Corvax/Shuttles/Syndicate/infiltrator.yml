@@ -4,7 +4,7 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 04/28/2025 06:49:25
+  time: 05/08/2025 08:59:32
   entityCount: 874
 maps: []
 grids:
@@ -3693,17 +3693,19 @@ entities:
     - type: Transform
       pos: 0.5,-18.5
       parent: 1
-- proto: Gyroscope
+- proto: GyroscopeSyndicate
   entities:
   - uid: 494
     components:
     - type: Transform
-      pos: -5.5,-13.5
+      rot: -1.5707963267948966 rad
+      pos: 4.5,-13.5
       parent: 1
   - uid: 495
     components:
     - type: Transform
-      pos: 4.5,-13.5
+      rot: -1.5707963267948966 rad
+      pos: -5.5,-13.5
       parent: 1
 - proto: HospitalCurtainsOpen
   entities:

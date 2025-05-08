@@ -1,0 +1,10 @@
+ent-BookSmygler = Протокол
+  .desc = Всё что написано в этой книге должно бесприкословно выполняться.
+ent-BookSCadet = Протокол
+  .desc = { ent-BookSmygler.desc }
+ent-BookSComa = Протокол
+  .desc = { ent-BookSmygler.desc }
+ent-BookSParamed = Протокол
+  .desc = { ent-BookSmygler.desc }
+ent-BookSShturm = Протокол
+  .desc = { ent-BookSmygler.desc }

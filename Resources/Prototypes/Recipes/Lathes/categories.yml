@@ -79,24 +79,24 @@
 
 - type: latheCategory
   id: SyndicateTradingConsoleFirearmsWeapons
-  name: Огнестрельное
+  name: lathe-category-syndicate-1
 
 - type: latheCategory
   id: SyndicateTradingConsoleLaserArmsWeapons
-  name: Энергитическое
+  name: lathe-category-syndicate-2
 
 - type: latheCategory
   id: SyndicateTradingConsoleMeleeWeapons
-  name: Ближнебойное
+  name: lathe-category-syndicate-3
 
 - type: latheCategory
   id: SyndicateTradingConsoleMeleeArmor
-  name: Обмундирование
+  name: lathe-category-syndicate-4
 
 - type: latheCategory
   id: SyndicateTradingConsoleBoom
-  name: Взрывчатка
+  name: lathe-category-syndicate-5
 
 - type: latheCategory
   id: SyndicateTradingConsoleChemistry
-  name: Химия
+  name: lathe-category-syndicate-6

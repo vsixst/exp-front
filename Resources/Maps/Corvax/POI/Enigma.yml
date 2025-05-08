@@ -4,8 +4,8 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 05/08/2025 04:46:40
-  entityCount: 2472
+  time: 05/08/2025 09:03:08
+  entityCount: 2484
 maps: []
 grids:
 - 2
@@ -1457,12 +1457,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 20.5,-0.5
       parent: 2
-  - uid: 698
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 23.5,1.5
-      parent: 2
   - uid: 700
     components:
     - type: Transform
@@ -1676,6 +1670,13 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 9.5,-9.5
+      parent: 2
+- proto: AirlockSyndicateNukeopGlassLocked
+  entities:
+  - uid: 698
+    components:
+    - type: Transform
+      pos: 23.5,1.5
       parent: 2
 - proto: AirSensor
   entities:
@@ -1979,6 +1980,68 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -15.5,6.5
+      parent: 2
+  - uid: 2474
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,-12.5
+      parent: 2
+  - uid: 2475
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 15.5,-12.5
+      parent: 2
+  - uid: 2476
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,7.5
+      parent: 2
+  - uid: 2477
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,10.5
+      parent: 2
+  - uid: 2478
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,10.5
+      parent: 2
+  - uid: 2479
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 16.5,10.5
+      parent: 2
+  - uid: 2480
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 17.5,10.5
+      parent: 2
+  - uid: 2481
+    components:
+    - type: Transform
+      pos: 17.5,-15.5
+      parent: 2
+  - uid: 2482
+    components:
+    - type: Transform
+      pos: 16.5,-15.5
+      parent: 2
+  - uid: 2483
+    components:
+    - type: Transform
+      pos: -6.5,-15.5
+      parent: 2
+  - uid: 2484
+    components:
+    - type: Transform
+      pos: -5.5,-15.5
       parent: 2
 - proto: AtmosFixBlockerMarker
   entities:
@@ -5665,6 +5728,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: 12.490971,4.565542
       parent: 2
+- proto: ChemDispenserEmpty
+  entities:
+  - uid: 2412
+    components:
+    - type: Transform
+      pos: 24.5,-4.5
+      parent: 2
 - proto: ChemMasterFlatpack
   entities:
   - uid: 2472
@@ -5956,7 +6026,7 @@ entities:
       pos: 4.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -13454.794
+      secondsUntilStateChange: -13573.861
       state: Closing
   - uid: 832
     components:
@@ -5981,6 +6051,11 @@ entities:
       parent: 2
 - proto: CurtainsWhiteOpen
   entities:
+  - uid: 2413
+    components:
+    - type: Transform
+      pos: 24.5,-8.5
+      parent: 2
   - uid: 2414
     components:
     - type: Transform
@@ -5995,6 +6070,11 @@ entities:
     components:
     - type: Transform
       pos: 27.5,-8.5
+      parent: 2
+  - uid: 2473
+    components:
+    - type: Transform
+      pos: 24.5,-7.5
       parent: 2
 - proto: DefaultStationBeacon
   entities:
@@ -11337,22 +11417,17 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: MachineFrame
+- proto: MachineCryoSleepPod
   entities:
-  - uid: 2391
+  - uid: 2377
     components:
     - type: Transform
       pos: 24.5,-8.5
       parent: 2
-  - uid: 2412
+  - uid: 2391
     components:
     - type: Transform
       pos: 24.5,-7.5
-      parent: 2
-  - uid: 2413
-    components:
-    - type: Transform
-      pos: 24.5,-4.5
       parent: 2
 - proto: MagazineBoxLightRifle
   entities:
@@ -14070,11 +14145,6 @@ entities:
       parent: 2
 - proto: SyndicateTechFab
   entities:
-  - uid: 2377
-    components:
-    - type: Transform
-      pos: 8.5,8.5
-      parent: 2
   - uid: 2467
     components:
     - type: Transform

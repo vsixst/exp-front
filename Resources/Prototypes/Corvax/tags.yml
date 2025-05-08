@@ -63,3 +63,15 @@
 
 - type: Tag
   id: BookPirateCodex
+
+- type: Tag
+  id: BookSCadet
+
+- type: Tag
+  id: BookSComa
+
+- type: Tag
+  id: BookSParamed
+
+- type: Tag
+  id: BookSShturm
