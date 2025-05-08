@@ -1,8 +1,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateSmugger
-  name: телепорт кадета синдиката
-  description: Устройство перемещения для немедленной телепортации вашего кадета с последнего задания.
+  name: syndicate-gargets-name
+  description: syndicate-gargets-description
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-reinforcement-spy-name

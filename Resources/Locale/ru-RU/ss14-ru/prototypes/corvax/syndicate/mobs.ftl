@@ -1,0 +1,1 @@
+mob-spawn-sigmis = Спавнер Сигмис

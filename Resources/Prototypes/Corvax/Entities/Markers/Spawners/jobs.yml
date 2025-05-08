@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointSmuggler
   parent: SpawnPointPassenger
-  name: Контрабандист
+  name: jobs-smuggler-name
   components:
   - type: SpawnPoint
     job_id: smuggler
@@ -9,7 +9,7 @@
 - type: entity
   id: SpawnPointMedSyn
   parent: SpawnPointPassenger
-  name: Штурмовой Парамедик
+  name: jobs-medsyn-name
   components:
   - type: SpawnPoint
     job_id: MedSyn
@@ -17,7 +17,7 @@
 - type: entity
   id: SpawnPointStormtrooper
   parent: SpawnPointPassenger
-  name: Штурмовик
+  name: jobs-stormtrooper-name
   components:
   - type: SpawnPoint
     job_id: Stormtrooper
@@ -25,7 +25,7 @@
 - type: entity
   id: SpawnPointCommander
   parent: SpawnPointPassenger
-  name: Командир
+  name: jobs-commander-name
   components:
   - type: SpawnPoint
     job_id: Commander
@@ -33,7 +33,7 @@
 - type: entity
   id: SpawnPointParaMedical
   parent: SpawnPointPassenger
-  name: Парамедик
+  name: jobs-paramedical-name
   components:
   - type: SpawnPoint
     job_id: paraMedical

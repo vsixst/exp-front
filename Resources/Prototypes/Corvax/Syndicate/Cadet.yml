@@ -1,8 +1,8 @@
 - type: entity
   id: ToolboxKadet
-  name: подозрительный ящик неопределённости
+  name: cadet-kit-name
   suffix: кадет
-  description: Что же взять на этот раз?
+  description: cadet-kit-description
   parent: [ BaseItem, BaseC3SyndicateContraband ] # Frontier: BaseMinorContraband<BaseC3SyndicateContraband
   components:
   - type: Sprite
@@ -27,7 +27,7 @@
 
 # Доп предметы
 - type: entity
-  name: "Станнер кадета"
+  name: cadet-kit-name-dop
   parent: [ WeaponDisablerPractice, BaseC1Contraband ] # Frontier: BaseSecurityCommandContraband<BaseC1Contraband
   id: CadetWeaponDisabler
   description: "Карабин изготовленный на заказ. Имеет Самовосстанавливающюся батарею, а валит всех с ног с той же эффективностью!"

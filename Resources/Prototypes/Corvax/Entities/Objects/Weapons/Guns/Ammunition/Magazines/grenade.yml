@@ -100,7 +100,7 @@
 
 - type: entity
   id: TinyMagazineGrenade
-  name: малый картридж гранат
+  name: tiny-magazine-grenade-name
   parent: [ BaseCartridge, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   components:
   - type: Tag

@@ -1,9 +1,9 @@
 - type: entity
   parent: BasePDA
   id: SyndiPDASmugger
-  name: КПК контрабандиста Синдиката
-  description: Модифицированный КПК Синдиката сделанный Контрабандистом в подвале на коленке.
-  components:
+  name: pda-name-smugger
+  description: pda-description-smugger
+  component:
   - type: Pda
     id: SyndicateIDCard
     bookSlot:

@@ -1,0 +1,1 @@
+tiny-magazine-grenade-name = малый картридж гранат

@@ -1,5 +1,5 @@
 - type: entity
-  name: Спавнер Сигмис
+  name: mob-spawn-sigmis
   id: SpawnMobCatSignis
   parent: MarkerBase
   components:

@@ -2,8 +2,8 @@
   id: BookSmygler
   parent: BaseGuidebook
   suffix: контрабандист
-  name: Протокол
-  description: Всё что написано в этой книге должно бесприкословно выполняться.
+  name: syndicate-book-name
+  description: syndicate-book-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -23,8 +23,8 @@
   id: BookSCadet
   parent: BaseGuidebook
   suffix: кадет
-  name: Протокол
-  description: Всё что написано в этой книге должно бесприкословно выполняться.
+  name: syndicate-book-name
+  description: syndicate-book-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -44,8 +44,8 @@
   id: BookSComa
   parent: BaseGuidebook
   suffix: кома "Жнецов"
-  name: Протокол
-  description: Всё что написано в этой книге должно бесприкословно выполняться.
+  name: syndicate-book-name
+  description: syndicate-book-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi

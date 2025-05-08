@@ -1,8 +1,8 @@
 - type: entity
-  name: Сигмис
+  name: pets-sigmis-name
   parent: [NFMobPet, MobCatGhost]
   id: MobCatSigmis
-  description: Множество успешных операций! Множество пролитой крови! Это всё про него! Его харизма и красота покорили не одну девушку но он так и остался холост! Ибо война ему жена, а дети ему порох.
+  description: pets-sigmis-description
   components:
   - type: Sprite
     layers:

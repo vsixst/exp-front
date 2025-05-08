@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, BaseLathe]
   id: ExchangerSyndicate
-  name: обменник контрабандиста
-  description: Машина по обмену валюты на телекристаллы созданная контрабандистом.
+  name: exchanger-syndicate-name
+  description: exchanger-syndicate-description
   components:
   - type: AmbientOnPowered
   - type: AmbientSound
