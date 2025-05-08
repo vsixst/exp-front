@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: SyndicateTechFabFlatpack
-  name: flatpacks-texfab-name
-  description: flatpacks-texfab-description
+  name: упакованный ТехФаб Синдиката
+  description: Упакованная версия ТехФаба Синидката.
   components:
   - type: Flatpack
     entity: SyndicateTechFab
@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ShuttleGunSunsetFlatpack
-  name: flatpacks-sunset-name
-  description: flatpacks-sunset-description
+  name: упакованное корабельное орудие Закат
+  description: Упакованная версия корабельного орудия Закат.
   components:
   - type: Flatpack
     entity: ShuttleGunSunset
@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: WeaponTurretSyndicateFlatpack
-  name: flatpacks-turel-name
-  description: flatpacks-turel-description
+  name: упакованная баллистическая турель Синдиката
+  description: Упаковка содержащяя в себе баллистическую турель Синдиката.
   components:
   - type: Flatpack
     entity: WeaponTurretSyndicate
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ExchangerSyndicateFlatpack
-  name: flatpacks-exchanger-name
-  description: flatpacks-exchanger-description
+  name: упакованный обменник контрабандиста
+  description: Упакованная версия обменника контрабандиста.
   components:
   - type: Flatpack
     entity: ExchangerSyndicate

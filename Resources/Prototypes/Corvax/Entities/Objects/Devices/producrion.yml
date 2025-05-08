@@ -1,7 +1,7 @@
 - type: entity
   id: ThrusterSyndicateMachineCircuitboard
   parent: [BaseMachineCircuitboard, BaseC3ContrabandUnredeemable]
-  name: producrion-name-1
+  name: двигатель Синдиката (машинная плата)
   components:
   - type: Sprite
     state: security
@@ -16,7 +16,8 @@
 - type: entity
   id: SyndicateTechFabCircuitboard
   parent: [SecurityTechFabCircuitboard, BaseC3ContrabandUnredeemable]
-  name: producrion-name-2
+  name: ТехФаб Синдиката (машинная плата)
+  description: Плата для создания техфаба синдиката.
   components:
     - type: Sprite
       state: security
@@ -26,7 +27,7 @@
 - type: entity
   id: GyroscopeSyndicateMachineCircuitboard
   parent: [BaseMachineCircuitboard, BaseC3ContrabandUnredeemable]
-  name: producrion-name-3
+  name: гироскоп Синдиката (машинная плата)
   components:   
    - type: Sprite
      state: security
@@ -41,7 +42,8 @@
 - type: entity
   id: ShuttleGunSunsetCircuitboard
   parent: BaseMachineCircuitboard
-  name: producrion-name-4
+  name: Закат (машинная плата)
+  description: машинная плата для сборки стационарного орудия Закат
   suffix: машинная плата
   components:
   - type: Sprite

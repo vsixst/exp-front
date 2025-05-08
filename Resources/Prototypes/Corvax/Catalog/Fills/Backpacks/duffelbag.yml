@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledHristov
-  name: set-hristov-name
-  description: set-hristov-description
+  name: Набор "Христов"
+  description: "Снайперская винтовка Христов в комплекте с одной коробкой патронов, на случей если у вас на пути встало что-то крупнее наёмника"
   components:
   - type: StorageFill
     contents:
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledAtreides
-  name: set-atredes-name 
-  description: set-atredes-description
+  name: Набор "Атрэйдес"
+  description: "Изрешети всех непоорных! В комплекте ПП-Атрэйдес и 2 магазина к ней"
   components:
   - type: StorageFill
     contents:

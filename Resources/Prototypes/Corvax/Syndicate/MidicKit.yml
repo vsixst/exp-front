@@ -1,7 +1,7 @@
 - type: entity
   id: ToolboxMedic
-  name: medic-kit-name
-  description: medic-kit-description
+  name: подозрительный ящик неопределённости
+  description: Что же взять на этот раз?
   parent: [ BaseItem, BaseC3SyndicateContraband ] # Frontier: BaseMinorContraband<BaseC3SyndicateContraband
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
 
 # доп придметы
 - type: entity
-  name: medic-kit-name-dop
+  name: сумка первой помощи
   parent: NFPouchFirstAid
   id: NFPouchFirstAidMEdickMedipen
   components:
