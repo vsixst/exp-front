@@ -684,13 +684,13 @@
 
 # region Medical Seeds
 
-- type: latheRecipe
-  id: NFBioGenAloeSeeds
-  parent: BioGenSeedsRecipe
-  result: AloeSeeds
-  icon:
-    sprite: Objects/Specific/Hydroponics/aloe.rsi
-    state: seed
+#- type: latheRecipe
+#  id: NFBioGenAloeSeeds
+#  parent: BioGenSeedsRecipe
+#  result: AloeSeeds
+#  icon:
+#    sprite: Objects/Specific/Hydroponics/aloe.rsi
+#    state: seed
 
 - type: latheRecipe
   id: NFBioGenAmbrosiaVulgarisSeeds

@@ -12,6 +12,52 @@
       "directions": 4
     },
     {
+      "name": "base_sec",
+      "directions": 4
+    },
+    {
+      "name": "base_nfsd",
+      "directions": 4
+    },
+    {
+      "name": "base_small",
+      "directions": 4
+    },
+    {
+      "name": "thrust_small",
+      "directions": 4,
+      "delays": [
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ]
+        ]
+    },
+    {
       "name": "thrust",
       "directions": 4,
       "delays": [
