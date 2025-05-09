@@ -20,6 +20,9 @@
   addComponents:
   - type: IFF
     color: "#ffa600"
+  - type: StationTransit
+    routes:
+      SpawnPoints: 50
 
 - type: gameMap
   id: McHobo
@@ -32,3 +35,4 @@
       components:
         - type: StationNameSetup
           mapNameTemplate: "Derelict McCargo"
+        - type: BindToStationVariationPassExemption

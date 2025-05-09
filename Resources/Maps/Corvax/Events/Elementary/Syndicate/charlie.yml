@@ -18722,7 +18722,7 @@ entities:
     - type: Transform
       pos: -0.602149,-27.444996
       parent: 2
-- proto: ClothingOuterHardsuitJuggernautReverseEngineered
+- proto: ClothingOuterHardsuitJuggernaut
   entities:
   - uid: 431
     components:
@@ -18915,7 +18915,7 @@ entities:
         - 0
     missingComponents:
     - Weldable
-- proto: CrateFunSyndicateSegway
+- proto: NFCrateFunSyndicateSegway
   entities:
   - uid: 1323
     components:

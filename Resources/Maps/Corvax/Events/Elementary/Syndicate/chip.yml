@@ -388,7 +388,7 @@ entities:
     - type: Transform
       pos: 11.5,6.5
       parent: 1
-- proto: AsteroidRockCoalCrabNF
+- proto: NFAsteroidRockCoalCrab
   entities:
   - uid: 22
     components:
@@ -764,7 +764,7 @@ entities:
       parent: 140
     - type: Physics
       canCollide: False
-- proto: MobSpawnCrabNFQuartz
+- proto: NFMobSpawnCrabQuartz
   entities:
   - uid: 69
     components:
