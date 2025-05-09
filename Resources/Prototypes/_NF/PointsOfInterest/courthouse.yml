@@ -25,6 +25,9 @@
     linearDamping: 999999
   - type: ProtectedGrid
     noGridCollision: true #CorvaxFrontier
+  - type: StationTransit
+    routes:
+      MinorPointsOfInterest: 30
 
 - type: gameMap
   id: Courthouse

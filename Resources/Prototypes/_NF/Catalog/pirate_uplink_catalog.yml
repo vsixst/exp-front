@@ -31,7 +31,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
-        - PirateCaptain
+        - NFPirateCaptain
 
 - type: listing
   id: UplinkPirateHardsuitElite
@@ -50,7 +50,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
-        - PirateCaptain
+        - NFPirateCaptain
 
 #- type: listing #CorvaxFrontier
 #  id: UplinkPirateCaptainCrateFilled
@@ -69,7 +69,7 @@
 #          - PirateUplink
 #    - !type:BuyerJobCondition
 #      whitelist:
-#        - PirateCaptain
+#        - NFPirateCaptain
 
 - type: listing
   id: UplinkPirateCrateFilled
@@ -184,7 +184,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
-        - PirateCaptain
+        - NFPirateCaptain
 
 - type: listing
   id: UplinkEnergyCutlass
@@ -203,7 +203,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
-        - PirateCaptain
+        - NFPirateCaptain
 
 - type: listing
   id: UplinkPirateAnchor
@@ -496,7 +496,6 @@
     - !type:BuyerJobCondition
       whitelist:
         - PirateCaptain
-
 - type: listing
   id: UplinkPirateAccessConfigurator
   name:  uplink-pirate-accessconfigurator-captain-name
@@ -514,7 +513,7 @@
           - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
-        - PirateCaptain
+        - NFPirateCaptain
 
 - type: listing
   id: UplinkRadioImplanterFreelance
@@ -641,3 +640,22 @@
       whitelist:
         tags:
           - PirateUplink
+
+- type: listing
+  id: PirateRepairKit
+  name: uplink-pirate-repair-kit-name
+  description: uplink-pirate-repair-kit-desc
+  productEntity: PirateRepairKit
+  icon: { sprite: _NF/Objects/Tools/Toolboxes/toolbox_pirate.rsi, state: icon }
+  cost:
+    Doubloon: 3
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - NFPirateCaptain
+  categories:
+  - UplinkPirateUtility
