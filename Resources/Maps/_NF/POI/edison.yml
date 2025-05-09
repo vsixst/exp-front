@@ -3171,7 +3171,7 @@ entities:
         2038:
         - DoorStatus: DoorBolt
         - DoorStatus: Close
-- proto: AirlockExternalGlassShuttleTransit
+- proto: AirlockExternalGlassShuttleTransitMinorPOI
   entities:
   - uid: 2041
     components:
