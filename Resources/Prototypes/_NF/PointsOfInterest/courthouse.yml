@@ -23,6 +23,9 @@
   - type: Shuttle
     angularDamping: 999999
     linearDamping: 999999
+  - type: StationTransit
+    routes:
+      MinorPointsOfInterest: 30
 
 - type: gameMap
   id: Courthouse

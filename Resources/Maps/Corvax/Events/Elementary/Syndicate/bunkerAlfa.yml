@@ -4723,7 +4723,7 @@ entities:
     - type: Transform
       pos: 42.5,57.5
       parent: 2
-- proto: AsteroidRockBluespace
+- proto: NFAsteroidRockBluespace
   entities:
   - uid: 527
     components:
@@ -4986,7 +4986,7 @@ entities:
     - type: Transform
       pos: 65.5,26.5
       parent: 2
-- proto: AsteroidRockIronGolem
+- proto: NFAsteroidRockIronGolem
   entities:
   - uid: 531
     components:
@@ -6205,7 +6205,7 @@ entities:
     - type: Transform
       pos: 62.5,22.5
       parent: 2
-- proto: AsteroidRockTinCrabNF
+- proto: AsteroidRockTinCrab
   entities:
   - uid: 690
     components:
