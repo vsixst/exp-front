@@ -1,11 +1,14 @@
 - type: job
   id: Stormtrooper
-  name: Штурмовик 
+  name: Штурмовик
   description: Штурмовик подчиняющийся командиру.
   playTimeTracker: JobStormtrooper
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 36000 # 10 hours
   startingGear: StormtrooperGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
@@ -35,7 +38,7 @@
   id: StormtrooperGear
   equipment:
     ears: ClothingHeadsetAltSyndicate
-    id: SyndiPDA
+    id: SyndiPDACStorm
     belt: ClothingBeltAssault
     pocket1: WeaponPistolPollock
     mask: ClothingMaskGasSwat

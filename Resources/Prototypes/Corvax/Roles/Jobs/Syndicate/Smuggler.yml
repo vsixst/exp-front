@@ -6,7 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
- # whitelisted: true
+#  whitelisted: true
   startingGear: SmugglerGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
@@ -36,12 +36,14 @@
   id: SmugglerGear
   equipment:
     ears: ClothingHeadsetAltSyndicate
-    id: SyndiPDA
+    id: SyndiPDASmugger
     belt: ClothingBeltSyndieHolster
     pocket1: WeaponPistolViper
-    pocket2: BaseUplinkRadio
+    pocket2: SmuggerUplinkRadio200TC
     mask: ClothingMaskNeckGaiter
   storage:
     back:
     - BoxSurvivalNFOxygenExtended
     - RubberStampSyndicate
+    - ExchangerSyndicateFlatpack
+    - ReinforcementRadioSyndicateSmugger

@@ -1,11 +1,14 @@
 - type: job
   id: MedSyn
-  name: Штурмовой Парамедик 
+  name: Штурмовой Парамедик
   description: Специально подготовленный синдикатом медик для работы в зонах боевых действий
   playTimeTracker: JobMedSyn
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
+    - !type:RoleTimeRequirement
+      role: JobParamedic
+      time: 36000 # 10 hours
  # whitelisted: true
   startingGear: MedSynGear
   alwaysUseSpawner: true
@@ -36,7 +39,7 @@
   id: MedSynGear
   equipment:
     ears: ClothingHeadsetAltSyndicate
-    id: SyndiAgentPDA
+    id: SyndiPDACParamed
     belt: ClothingBeltMilitaryWebbingMedFilled
     pocket1: WeaponPistolViper
     pocket2: ToolboxMedic

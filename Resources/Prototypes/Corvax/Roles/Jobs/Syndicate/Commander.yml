@@ -6,6 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
+  whitelisted: true
   startingGear: CommanderGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

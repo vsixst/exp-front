@@ -5,11 +5,13 @@
   rules: ghost-role-information-syndicate-reinforcement-rules
   entityPrototype: MobHumanSyndicateAgentSpy
   iconPrototype: ClothingMaskGasVoiceChameleon
+  whitelisted: true
 
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentSpySmugger
   name: syndicate spy
+  whitelisted: true
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementSpySmugger]

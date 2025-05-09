@@ -8,6 +8,7 @@
     name: ghost-role-information-syndicate-reinforcement-spy-name
     description: ghost-role-information-syndicate-reinforcement-spy-description
     rules: ghost-role-information-syndicate-reinforcement-rules
+    whitelisted: true
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle:

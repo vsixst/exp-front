@@ -2,8 +2,8 @@
   id: BookSmygler
   parent: BaseGuidebook
   suffix: контрабандист
-  name: Protocol
-  description: Everything written in this book must be followed without question.
+  name: Протокол
+  description: Всё что написано в этой книге должно бесприкословно выполняться.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -23,8 +23,8 @@
   id: BookSCadet
   parent: BaseGuidebook
   suffix: кадет
-  name: Protocol
-  description: Everything written in this book must be followed without question.
+  name: Протокол
+  description: Всё что написано в этой книге должно бесприкословно выполняться.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -44,8 +44,8 @@
   id: BookSComa
   parent: BaseGuidebook
   suffix: кома "Жнецов"
-  name: Protocol
-  description: Everything written in this book must be followed without question.
+  name: Протокол
+  description: Всё что написано в этой книге должно бесприкословно выполняться.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -65,8 +65,8 @@
   id: BookSParamed
   parent: BaseGuidebook
   suffix: Парамед "Жнецов"
-  name: Protocol
-  description: Everything written in this book must be followed without question.
+  name: syndicate-book-name
+  description: syndicate-book-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -86,8 +86,8 @@
   id: BookSShturm
   parent: BaseGuidebook
   suffix: штурмовик "Жнецов"
-  name: Protocol
-  description: Everything written in this book must be followed without question.
+  name: syndicate-book-name
+  description: syndicate-book-description
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -102,3 +102,30 @@
   - type: GuideHelp
     guides:
     - SShturm
+
+- type: entity
+  id: BookParamedic
+  parent: BaseGuidebook
+  suffix: парамедик
+  name: paramedic-book-name
+  description: paramedic-book-description
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#d7dadb"
+    - state: decor_wingette_circle
+      color: "#55b0d4"
+    - state: icon_medical_cross
+      color: "#55b0d4"
+    - state: detail_bookmark
+      color: "#55b0d4"
+  - type: GuideHelp
+    guides:
+    - Paramedic
+  - type: Tag
+    tags:
+     - Book
+     - BookSpaceLaw  #Frontier
