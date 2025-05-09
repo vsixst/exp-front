@@ -5,7 +5,7 @@
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
   components:
   - type: Pda
-    id: SyndicateIDCard
+    id: SyndicateIDCardSmuggler
     bookSlot:
       startingItem: BookSmygler
       priority: -2
