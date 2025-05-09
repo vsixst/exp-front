@@ -4,8 +4,8 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 05/08/2025 09:03:08
-  entityCount: 2484
+  time: 05/09/2025 03:27:33
+  entityCount: 2499
 maps: []
 grids:
 - 2
@@ -4080,6 +4080,36 @@ entities:
     - type: Transform
       pos: -3.5,7.5
       parent: 2
+  - uid: 2485
+    components:
+    - type: Transform
+      pos: -9.5,-2.5
+      parent: 2
+  - uid: 2486
+    components:
+    - type: Transform
+      pos: -8.5,-2.5
+      parent: 2
+  - uid: 2487
+    components:
+    - type: Transform
+      pos: -7.5,-2.5
+      parent: 2
+  - uid: 2488
+    components:
+    - type: Transform
+      pos: -6.5,-2.5
+      parent: 2
+  - uid: 2489
+    components:
+    - type: Transform
+      pos: -5.5,-2.5
+      parent: 2
+  - uid: 2490
+    components:
+    - type: Transform
+      pos: -4.5,-2.5
+      parent: 2
 - proto: CableHV
   entities:
   - uid: 1069
@@ -6026,7 +6056,7 @@ entities:
       pos: 4.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -13573.861
+      secondsUntilStateChange: -13736.027
       state: Closing
   - uid: 832
     components:
@@ -11600,6 +11630,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -0.5,4.5
       parent: 2
+- proto: Multitool
+  entities:
+  - uid: 2494
+    components:
+    - type: Transform
+      pos: 25.568882,5.4974833
+      parent: 2
 - proto: NitrogenCanister
   entities:
   - uid: 1024
@@ -12015,6 +12052,48 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 6.5,-3.5
+      parent: 2
+  - uid: 2491
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 27.5,-1.5
+      parent: 2
+  - uid: 2492
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 25.5,-10.5
+      parent: 2
+  - uid: 2495
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,6.5
+      parent: 2
+  - uid: 2496
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,8.5
+      parent: 2
+  - uid: 2497
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 6.5,8.5
+      parent: 2
+  - uid: 2498
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,-10.5
+      parent: 2
+  - uid: 2499
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 6.5,-10.5
       parent: 2
 - proto: PoweredlightRed
   entities:
@@ -14118,6 +14197,13 @@ entities:
     components:
     - type: Transform
       pos: -10.349688,0.45384032
+      parent: 2
+- proto: SyndicateDataMiner
+  entities:
+  - uid: 2493
+    components:
+    - type: Transform
+      pos: 25.5,5.5
       parent: 2
 - proto: SyndicateKitchenElectricRange
   entities:

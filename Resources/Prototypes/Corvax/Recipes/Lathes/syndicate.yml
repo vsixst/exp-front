@@ -1,6 +1,6 @@
 - type: latheRecipe
   id: Telecrystal1Recipe
-  result: Telecrystal1
+  result: TelecrystalDamaged1
   completetime: 1
   materials:
     Credit: 1000
