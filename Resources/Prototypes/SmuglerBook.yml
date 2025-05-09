@@ -1,0 +1,41 @@
+- type: entity
+  id: BookSmygler
+  parent: BaseGuidebook
+  suffix: контрабандист
+  name: Протокол
+  description: Всё что написано в этой книге должно бесприкословно выполняться.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#000000"
+    - state: decor_wingette
+      color: "#dd2020"
+    - state: icon_nuclear
+    - state: overlay_blood
+  - type: GuideHelp
+    guides:
+    - Smugler
+
+- type: entity
+  id: BookSCadet
+  parent: BaseGuidebook
+  suffix: кадет
+  name: Протокол
+  description: Всё что написано в этой книге должно бесприкословно выполняться.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#000000"
+    - state: decor_wingette
+      color: "#dd2020"
+    - state: icon_nuclear
+    - state: overlay_blood
+  - type: GuideHelp
+    guides:
+    - SCadet

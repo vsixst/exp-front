@@ -27,8 +27,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMedical Syndicate
-  name: Medical Syndicate
-  description: Medical Syndicate
+  name: СиндиМед
+  description: Разработанный Синдикатом раздатчик минимальный для выживания бойца медикаментов.
   components:
   - type: VendingMachine
     pack: NanoMedPlusInventory

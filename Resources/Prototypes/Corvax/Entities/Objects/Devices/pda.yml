@@ -1,11 +1,11 @@
 - type: entity
   parent: BasePDA
   id: SyndiPDASmugger
-  name: PDA Smugger
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  name: КПК контрабандиста Синдиката
+  description: Модифицированный КПК Синдиката сделанный Контрабандистом в подвале на коленке.
   components:
   - type: Pda
-    id: SyndicateIDCardSmuggler
+    id: SyndicateIDCard
     bookSlot:
       startingItem: BookSmygler
       priority: -2

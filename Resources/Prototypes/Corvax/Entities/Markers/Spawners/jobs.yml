@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointSmuggler
   parent: SpawnPointPassenger
-  name: Smuggler
+  name: Контрабандист
   components:
   - type: SpawnPoint
     job_id: smuggler
@@ -9,7 +9,7 @@
 - type: entity
   id: SpawnPointMedSyn
   parent: SpawnPointPassenger
-  name: MedSyn
+  name: Штурмовой Парамедик
   components:
   - type: SpawnPoint
     job_id: MedSyn

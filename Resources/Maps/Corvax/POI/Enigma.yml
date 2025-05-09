@@ -1457,6 +1457,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 20.5,-0.5
       parent: 2
+  - uid: 698
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 23.5,1.5
+      parent: 2
   - uid: 700
     components:
     - type: Transform
@@ -13019,6 +13025,8 @@ entities:
     - type: Transform
       pos: -4.2721424,-8.424321
       parent: 2
+- proto: ScrapGlass
+  entities:
   - uid: 918
     components:
     - type: Transform
@@ -14621,13 +14629,6 @@ entities:
       pos: 10.5,-3.5
       parent: 2
     - type: Emagged
-- proto: VendingMachineMedical Syndicate
-  entities:
-  - uid: 2408
-    components:
-    - type: Transform
-      pos: 28.5,-4.5
-      parent: 2
 - proto: VendingMachineRestockTankDispenser
   entities:
   - uid: 668
@@ -16836,40 +16837,6 @@ entities:
     - type: Transform
       pos: 7.5,-2.5
       parent: 2
-- proto: WeaponRifleGestio
-  entities:
-  - uid: 2429
-    components:
-    - type: Transform
-      parent: 2427
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: WeaponRifleNovaliteC1
-  entities:
-  - uid: 2437
-    components:
-    - type: Transform
-      parent: 2436
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 2438
-    components:
-    - type: Transform
-      parent: 2436
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: WeaponRifleVulcan
-  entities:
-  - uid: 2434
-    components:
-    - type: Transform
-      parent: 2427
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: WelderMini
   entities:
   - uid: 564
@@ -16889,51 +16856,6 @@ entities:
     components:
     - type: Transform
       pos: -3.5,3.5
-      parent: 2
-- proto: WindoorSecurePlasma
-  entities:
-  - uid: 2452
-    components:
-    - type: Transform
-      pos: 26.5,-0.5
-      parent: 2
-  - uid: 2457
-    components:
-    - type: Transform
-      pos: 25.5,-0.5
-      parent: 2
-  - uid: 2458
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 27.5,-0.5
-      parent: 2
-  - uid: 2459
-    components:
-    - type: Transform
-      pos: 24.5,0.5
-      parent: 2
-  - uid: 2460
-    components:
-    - type: Transform
-      pos: 27.5,-0.5
-      parent: 2
-  - uid: 2465
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 27.5,0.5
-      parent: 2
-  - uid: 2468
-    components:
-    - type: Transform
-      pos: 25.5,2.5
-      parent: 2
-  - uid: 2470
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 27.5,2.5
       parent: 2
 - proto: WindowFrostedDirectional
   entities:
@@ -16979,34 +16901,5 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 12.5,-10.5
-      parent: 2
-  - uid: 2451
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 28.5,0.5
-      parent: 2
-  - uid: 2453
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 27.5,-1.5
-      parent: 2
-  - uid: 2454
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 26.5,-1.5
-      parent: 2
-  - uid: 2455
-    components:
-    - type: Transform
-      pos: 28.5,-0.5
-      parent: 2
-  - uid: 2456
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 24.5,-0.5
       parent: 2
 ...

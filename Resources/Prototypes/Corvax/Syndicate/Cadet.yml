@@ -1,8 +1,8 @@
 - type: entity
   id: ToolboxKadet
-  name: Toolbox Kadet
-  suffix: Kadet
-  description: Toolbox Kadet
+  name: подозрительный ящик неопределённости
+  suffix: кадет
+  description: Что же взять на этот раз?
   parent: [ BaseItem, BaseC3SyndicateContraband ] # Frontier: BaseMinorContraband<BaseC3SyndicateContraband
   components:
   - type: Sprite

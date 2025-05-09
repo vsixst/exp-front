@@ -1,8 +1,8 @@
 - type: entity
   id: SyndicateTradingConsole
   parent: BaseLatheLube
-  name: Syndicate consol treid
-  description: Syndicate consol treid bu bu bu
+  name: Консоль торгов синдиката
+  description: Используеться для оформления заказов на нелегальные предметы
   components:
   - type: Sprite
     sprite: Structures/Machines/computers.rsi
