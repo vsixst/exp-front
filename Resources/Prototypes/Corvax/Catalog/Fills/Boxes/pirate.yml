@@ -1,8 +1,8 @@
 - type: entity
-  name: набор для улучшения двигателей
+  name: engine upgrade kit
   parent: BoxCardboard
   id: BoxT2SuperCapacitor
-  description: Коробка модифицированных конденсаторов.
+  description: Box of modified capacitors.
   components:
   - type: StorageFill
     contents:
@@ -26,7 +26,7 @@
   name: набор стяжек
   parent: BoxZiptie
   id: BoxZiptiePirat
-  description: Коробка стяжек
+  description: box of ties
   components:
   - type: Sprite
     sprite: Corvax/Boxes/pirate.rsi
@@ -36,10 +36,10 @@
       - state: ziptie
 
 - type: entity
-  name: набор растворения
+  name: dissolution set
   parent: BoxCardboard
   id: BoxDeathRattleImplantsPirat
-  description: Нажми на место укола рукой с случае захвата корпоративными крысами и мы отправим тебе помощь!
+  description: Press the injection site with your hand in case of capture by corporate rats and we will send you help!
   components:
   - type: Sprite
     layers:
@@ -54,10 +54,10 @@
         amount: 5
 
 - type: entity
-  name: набор для абордажа
+  name: boarding kit
   parent: BoxCardboard
   id: BoxPirateAssault
-  description: набор из крюка, сканера и батарейки для начинающих абордажных групп.
+  description: A set of a hook, scanner and battery for beginning boarding parties.
   components:
   - type: StorageFill
     contents:
@@ -79,11 +79,10 @@
       - state: capacitor
 
 - type: entity
-  name: Коробка с гранатами
-  suffix: красные
+  name: Box of grenades
   parent: BoxCardboard
   id: BoxPirateGrenadeFire
-  description: Коробка с пиратскими гранатами... Ну или без них
+  description: A box of pirate grenades... Or without them
   components:
   - type: StorageFill
     contents:
@@ -100,11 +99,10 @@
       - state: boxpirat
 
 - type: entity
-  name: Коробка с гранатами
-  suffix: зелёные
+  name: Box of grenades
   parent: BoxCardboard
   id: BoxPirateGrenadeRadiation
-  description: Коробка с пиратскими гранатами... Ну или без них
+  description: A box of pirate grenades... Or without them
   components:
   - type: StorageFill
     contents:
@@ -121,11 +119,10 @@
       - state: boxpirat
 
 - type: entity
-  name: Коробка с гранатами
-  suffix: чёрные
+  name: Box of grenades
   parent: BoxCardboard
   id: BoxPiratePirateGrenadeConcussion
-  description: Коробка с пиратскими гранатами... Ну или без них
+  description: A box of pirate grenades... Or without them
   components:
   - type: StorageFill
     contents:
