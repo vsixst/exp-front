@@ -2,7 +2,7 @@
   id: Jobsmuggler
 
 - type: playTimeTracker
-  id: JobsMedSyn
+  id: JobMedSyn
 
 - type: playTimeTracker
   id: JobStormtrooper

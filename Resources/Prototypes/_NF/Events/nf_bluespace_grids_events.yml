@@ -75,7 +75,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/Corvax/Event/Periodic/NanoTrasen/storageNt.yml #Corvax-Frontier
+        - /Maps/Corvax/Events/Periodic/NanoTrasen/storageNt.yml #Corvax-Frontier
     rewardAccounts:
       Nfsd: 1.0
 
@@ -116,7 +116,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/Corvax/Event/Periodic/NanoTrasen/storageNtSmall.yml #Corvax-Frontier
+        - /Maps/Corvax/Events/Periodic/NanoTrasen/storageNtSmall.yml #Corvax-Frontier
     rewardAccounts:
       Nfsd: 1.0
 
@@ -155,7 +155,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/Corvax/Event/Periodic/Syndicate/syndieftlintercept.yml #Corvax-Frontier
+        - /Maps/Corvax/Events/Periodic/Syndicate/syndieftlintercept.yml #Corvax-Frontier
 
 - type: entity
   id: BluespaceWizardFederationScout
@@ -298,4 +298,4 @@
           preventArtifactTriggers: true
         - type: PreventPilot
         paths:
-        - /Maps/Corvax/Event/Periodic/Cargo/mcevent.yml #Corvax-Frontier
+        - /Maps/Corvax/Events/Periodic/Cargo/mcevent.yml #Corvax-Frontier
