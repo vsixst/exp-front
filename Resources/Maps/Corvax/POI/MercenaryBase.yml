@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 247.2.0
+  forkId: ""
+  forkVersion: ""
+  time: 05/10/2025 05:34:37
+  entityCount: 2250
+maps: []
+grids:
+- 3
+orphans:
+- 3
+nullspace: []
 tilemap:
   0: Space
   48: FloorFreezer
@@ -25,7 +36,7 @@ entities:
     - type: MetaData
       name: grid
     - type: Transform
-      pos: -0.42089844,-0.5
+      pos: -21.161137,-21.865707
       parent: invalid
     - type: MapGrid
       chunks:
@@ -1121,7 +1132,7 @@ entities:
       pos: 50.5,13.5
       parent: 3
     - type: Door
-      secondsUntilStateChange: -2797.0256
+      secondsUntilStateChange: -2936.8591
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1203,7 +1214,7 @@ entities:
       pos: 33.5,9.5
       parent: 3
     - type: Door
-      secondsUntilStateChange: -2376.2595
+      secondsUntilStateChange: -2516.093
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11767,6 +11778,83 @@ entities:
     components:
     - type: Transform
       pos: 23.5,19.5
+      parent: 3
+- proto: SpawnPointMercenary
+  entities:
+  - uid: 1754
+    components:
+    - type: Transform
+      pos: 19.5,18.5
+      parent: 3
+  - uid: 1755
+    components:
+    - type: Transform
+      pos: 9.5,25.5
+      parent: 3
+  - uid: 2238
+    components:
+    - type: Transform
+      pos: 9.5,30.5
+      parent: 3
+  - uid: 2239
+    components:
+    - type: Transform
+      pos: 11.5,28.5
+      parent: 3
+  - uid: 2240
+    components:
+    - type: Transform
+      pos: 11.5,24.5
+      parent: 3
+  - uid: 2241
+    components:
+    - type: Transform
+      pos: 18.5,18.5
+      parent: 3
+  - uid: 2242
+    components:
+    - type: Transform
+      pos: 17.5,18.5
+      parent: 3
+  - uid: 2243
+    components:
+    - type: Transform
+      pos: 9.5,24.5
+      parent: 3
+  - uid: 2244
+    components:
+    - type: Transform
+      pos: 9.5,26.5
+      parent: 3
+  - uid: 2245
+    components:
+    - type: Transform
+      pos: 9.5,27.5
+      parent: 3
+  - uid: 2246
+    components:
+    - type: Transform
+      pos: 9.5,28.5
+      parent: 3
+  - uid: 2247
+    components:
+    - type: Transform
+      pos: 11.5,29.5
+      parent: 3
+  - uid: 2248
+    components:
+    - type: Transform
+      pos: 11.5,25.5
+      parent: 3
+  - uid: 2249
+    components:
+    - type: Transform
+      pos: 11.5,26.5
+      parent: 3
+  - uid: 2250
+    components:
+    - type: Transform
+      pos: 11.5,27.5
       parent: 3
 - proto: SpiderWeb
   entities:
