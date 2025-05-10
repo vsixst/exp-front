@@ -5,7 +5,7 @@
   description: Модифицированный КПК Синдиката сделанный Контрабандистом в подвале на коленке.
   components:
   - type: Pda
-    id: SyndicateIDCard
+    id: SyndicateIDCardSmuggler
     bookSlot:
       startingItem: BookSmygler
       priority: -2
@@ -34,7 +34,7 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
-      - AstroNavCartridge 
+      - AstroNavCartridge
 
 - type: entity
   parent: BasePDA
@@ -72,7 +72,7 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
-      - AstroNavCartridge 
+      - AstroNavCartridge
 
 - type: entity
   parent: BasePDA
@@ -81,7 +81,7 @@
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
   components:
   - type: Pda
-    id: SyndicateIDCard
+    id: SyndicateIDCardSmuggler
     bookSlot:
       startingItem: BookSCadet
       priority: -2
@@ -110,7 +110,7 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
-      - AstroNavCartridge 
+      - AstroNavCartridge
 
 - type: entity
   parent: BasePDA
@@ -148,7 +148,7 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
-      - AstroNavCartridge 
+      - AstroNavCartridge
 
 - type: entity
   parent: BasePDA
@@ -186,4 +186,4 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
-      - AstroNavCartridge 
+      - AstroNavCartridge

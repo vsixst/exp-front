@@ -10,6 +10,9 @@
       role: JobSecurityOfficer
       time: 36000 # 10 hours
   startingGear: StormtrooperGear
+  access:
+  - SyndicateAgent
+  - NuclearOperative
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   canBeAntag: true

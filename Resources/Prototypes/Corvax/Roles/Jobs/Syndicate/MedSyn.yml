@@ -3,6 +3,9 @@
   name: Штурмовой Парамедик
   description: Специально подготовленный синдикатом медик для работы в зонах боевых действий
   playTimeTracker: JobMedSyn
+  access:
+  - SyndicateAgent
+  - NuclearOperative
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours

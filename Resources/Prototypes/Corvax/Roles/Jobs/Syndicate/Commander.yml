@@ -7,6 +7,9 @@
     - !type:OverallPlaytimeRequirement
       time: 1 # 48 hours
   whitelisted: true
+  access:
+  - SyndicateAgent
+  - NuclearOperative
   startingGear: CommanderGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

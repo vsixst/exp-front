@@ -9,6 +9,8 @@
   whitelisted: true
   startingGear: SmugglerGear
   alwaysUseSpawner: true
+  access:
+  - SyndicateAgent
   hideConsoleVisibility: true
   canBeAntag: true
   icon: "JobIconSyndicate"
