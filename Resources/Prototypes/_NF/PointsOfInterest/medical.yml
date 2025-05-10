@@ -22,6 +22,8 @@
   - type: StationTransit
     routes:
       SpawnPoints: 30
+  - type: ProtectedGrid
+    noGridCollision: true #CorvaxFrontier
 
 - type: gameMap
   id: Medical

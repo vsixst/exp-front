@@ -22,6 +22,8 @@
   - type: IFF
     color: "#C83737"
     flags: [HideLabel]
+  - type: ProtectedGrid
+    noGridCollision: True
 
 - type: gameMap
   id: Enigma
