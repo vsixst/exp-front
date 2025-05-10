@@ -1,19 +1,19 @@
 - type: latheCategory
   id: SyndicateTexSynAmmo
-  name: Амуниция
+  name: SyndicateTexSynAmmo
 
 - type: latheCategory
   id: SyndicateTexSyn1
-  name: Боеприпасы первого класса
+  name: SyndicateTexSyn1
 
 - type: latheCategory
   id: SyndicateTexSyn2
-  name: Боеприпасы второго класса
+  name: SyndicateTexSyn2
 
 - type: latheCategory
   id: SyndicateTexSyn3
-  name: Боеприпасы третьего класса
+  name: SyndicateTexSyn3
 
 - type: latheCategory
   id: SyndicateTexSyn4
-  name: Боеприпасы четвёртого класса
+  name: SyndicateTexSyn3

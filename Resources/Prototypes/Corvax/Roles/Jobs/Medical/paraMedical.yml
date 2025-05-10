@@ -18,10 +18,8 @@
   setPreference: true
   access:
   - Medical
-  - GeneralAccess
   accessGroups:
   - Medical
-  - GeneralAccess
   special:
   - !type:AddComponentSpecial
     components:

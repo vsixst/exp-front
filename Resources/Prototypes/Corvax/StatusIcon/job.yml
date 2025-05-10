@@ -3,7 +3,7 @@
   id: JobIconStormtrooper
   icon:
     sprite: /Textures/Corvax/Interface/Misc/job_icons.rsi
-    state: Stormtrooper
+    state: stormtrooper
   jobName: job-name-stormtrooper
   allowSelection: false # Frontier
 

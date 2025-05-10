@@ -40,11 +40,11 @@
   id: NFPouchFirstAidMEdickBottle
   components:
   - type: StorageFill
-    contents:
-      - id: OmnizineChemistryBottle
-        amount: 3
-      - id: EpinephrineChemistryBottle
-        amount: 3
+#    contents:
+#      - id: OmnizineChemistryBottle
+#        amount: 3
+#      - id: EpinephrineChemistryBottle
+#        amount: 3
 
 - type: latheRecipe
   id: CrossbowBoltSponge
@@ -77,13 +77,13 @@
     - id: CrossbowBoltPlasteel
       amount: 7
 
-- type: entity
-  parent: NFPouchFirstAid
-  id: NFPouchFirstAidMEdickNoctorine
-  components:
-  - type: StorageFill
-    contents:
-      - id: OmnizineChemistryBottle
-        amount: 3
-      - id: NocturineChemistryBottle
-        amount: 3
+#- type: entity
+#  parent: NFPouchFirstAid
+#  id: NFPouchFirstAidMEdickNoctorine
+#  components:
+#  - type: StorageFill
+#    contents:
+#      - id: OmnizineChemistryBottle
+#        amount: 3
+#      - id: NocturineChemistryBottle
+#        amount: 3
