@@ -458,8 +458,6 @@
         tags:
           - PirateUplink
     - !type:BuyerJobCondition
-      whitelist:
-        - PirateCaptain
 
 - type: listing #CorvaxFrontier
   id: UplinkPiratBoxT2SuperCapacitor
@@ -476,8 +474,6 @@
         tags:
           - PirateUplink
     - !type:BuyerJobCondition
-      whitelist:
-        - PirateCaptain
 
 - type: listing #CorvaxFrontier
   id: UplinkPiratBoxZiptiePirat
@@ -494,8 +490,7 @@
         tags:
           - PirateUplink
     - !type:BuyerJobCondition
-      whitelist:
-        - PirateCaptain
+
 - type: listing
   id: UplinkPirateAccessConfigurator
   name:  uplink-pirate-accessconfigurator-captain-name
@@ -541,8 +536,7 @@
         tags:
           - PirateUplink
     - !type:BuyerJobCondition
-      whitelist:
-        - PirateCaptain
+
 
 - type: listing #CorvaxFrontier
   id: UplinkPiratWeaponSubMachineGunTypewriter
@@ -559,8 +553,7 @@
         tags:
           - PirateUplink
     - !type:BuyerJobCondition
-      whitelist:
-        - PirateCaptain
+
 
 - type: listing #CorvaxFrontier
   id: UplinkPiratMagazinePistolSubMachineGunEmpty

@@ -65,6 +65,13 @@
 #Обменники
 
 - type: latheRecipePack
+  id: CorvaxExchangerStatic
+  recipes:
+  - ColiseumCoinExchangerRecipe
+  - HolyPlushieOrangeFoxRecipe
+
+
+- type: latheRecipePack
   id: MercenaryExchangerStatic
   recipes:
   - ClothingOuterHardsuitScafExchangeRecipe
@@ -98,8 +105,85 @@
   - CombatMedipenExchangeRecipe
   - ClothingOuterHardsuitTacticalMaidExchangeRecipe
 
+
 - type: latheRecipePack
-  id: CorvaxExchangerStatic
+  id: SyndicateTradingConsoleWeapons
   recipes:
-  - ColiseumCoinExchangerRecipe
-  - HolyPlushieOrangeFoxRecipe
+  - WeaponAntiqueLaserRecipe
+  - WeaponLaserSvalinnRecipe
+  - WeaponLaserCannonRecipe
+  - ClothingBackpackDuffelSyndicateFilledShotgunRecipe
+  - WeaponXrayCannonRecipe
+  - WeaponLaserCarbineRecipe
+  - WeaponEnergyShotgunRecipe
+  - EnergyDaggerLoudRecipe
+  - EnergySwordRecipe
+  - EnergySwordDoubleRecipe
+  - WeaponEmpEmitterRecipe
+  - WeaponPistolCHIMPUpgradedRecipe
+  - WeaponSubMachineGunDrozdRecipe
+  - ClothingBackpackDuffelSyndicateFilledLMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledSMGRecipe
+  - ClothingBackpackDuffelSyndicateFilledHristovRecipe
+  - ClothingBackpackDuffelSyndicateFilledEmpGrenadeLauncherRecipe
+  - ClothingBackpackDuffelSyndicateFilledCarbineRecipe
+  - ClothingBackpackDuffelSyndicateFilledAtreidesRecipe
+  - WeaponPistolViperRecipe
+  - WeaponRevolverPythonRecipe
+  - HypoDartBoxRecipe
+  - Rickenbacker4001InstrumentRecipe
+  - KanabouRecipe
+  - ClothingHandsGlovesNorthStarRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleArmor
+  recipes:
+  - ClothingOuterHardsuitJuggernautRecipe
+  - ClothingOuterVestWebRecipe
+  - ClothingOuterHardsuitTacticalMaidRecipe
+  - WeaponTurretSyndicateFlatpackRecipe
+  - ShuttleGunSunsetFlatpackRecipe
+  - JetpackBlackFilledRecipe
+  - ClothingShoesBootsMagSyndieRecipe
+  - ClothingBackpackDuffelSyndicateHardsuitBundleRecipe
+  - ClothingBackpackDuffelSyndicateEliteHardsuitBundleRecipe
+  - ClothingBackpackDuffelSyndicateRaidBundleRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleBoomA
+  recipes:
+  - ClusterBananaPeelRecipe
+  - ClusterGrenadeRecipe
+  - SingularityGrenadeRecipe
+  - CleanerGrenadeRecipe
+  - C4Recipe
+  - GrenadeFlashBangRecipe
+  - TearGasGrenadeRecipe
+  - GrenadeIncendiaryRecipe
+  - SmokeGrenadeRecipe
+  - BreachingChargeRecipe
+  - WhiteholeGrenadeRecipe
+  - EmpGrenadeRecipe
+  - GrenadeShrapnelRecipe
+
+- type: latheRecipePack
+  id: SyndicateTradingConsoleMed
+  recipes:
+  - VestineChemistryVialRecipe
+  - CigPackSyndicateRecipe
+  - StimpackMiniRecipe
+  - StimpackRecipe
+  - LacerAutoInjectorRecipe
+  - HemostasisAutoInjectorRecipe
+  - PyraAutoInjectorRecipe
+  - PunctAutoInjectorRecipe
+  - BruizAutoInjectorRecipe
+  - MedkitToxinRecipe
+  - MedkitRadiationRecipe
+  - BruteAutoInjectorRecipe
+  - BurnAutoInjectorRecipe
+  - MedkitAdvancedRecipe
+  - MedkitRecipe
+  - EmergencyMedipenRecipe
+  - CombatMedipenRecipe
+  - WehMedipenRecipe

@@ -803,6 +803,8 @@
   components:
   - type: Pda
     id: ParamedicIDCard
+    bookSlot:
+      startingItem: BookParamedic
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -813,6 +815,7 @@
     accentVColor: "#2a4b5b"
   - type: Icon
     state: pda-paramedic
+
 
 - type: entity
   parent: BaseMedicalPDA

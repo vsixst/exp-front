@@ -652,7 +652,7 @@ entities:
     - type: Transform
       pos: -11.5,-1.5
       parent: 2
-- proto: SpawnMobWeaponTurretSyndicateAntiMateriel
+- proto: SpawnMobWeaponTurretSyndicate25
   entities:
   - uid: 107
     components:

@@ -15,7 +15,7 @@
   description: Средний медицинский шаттл, оборудован химической лабораторией, клонирование и лечебным отделом.
   price: 48000 # +5800 from 15% markup
   category: Medium
-  group: Shipyard
+  group: Medical
   shuttlePath: /Maps/Corvax/Shuttles/Medical/helix.yml
   guidebookPage: Null
   class:
