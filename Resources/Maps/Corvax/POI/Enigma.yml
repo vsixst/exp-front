@@ -4,8 +4,8 @@ meta:
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/10/2025 04:27:09
-  entityCount: 2499
+  time: 05/11/2025 12:10:48
+  entityCount: 2500
 maps: []
 grids:
 - 2
@@ -936,6 +936,7 @@ entities:
     - type: BecomesStation
       id: Enigma
     - type: NavMap
+    - type: ShuttleImpact
   - uid: 1068
     mapInit: true
     paused: true
@@ -6054,7 +6055,7 @@ entities:
       pos: 4.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -13925.593
+      secondsUntilStateChange: -13990.239
       state: Closing
   - uid: 832
     components:
@@ -10801,6 +10802,12 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#0000FFFF'
+  - uid: 2189
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -17.5,-3.5
+      parent: 2
   - uid: 2287
     components:
     - type: Transform
@@ -10809,6 +10816,12 @@ entities:
       parent: 2
 - proto: GasVentScrubber
   entities:
+  - uid: 1727
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -8.5,-7.5
+      parent: 2
   - uid: 1728
     components:
     - type: Transform
@@ -10817,6 +10830,12 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
+  - uid: 1729
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -17.5,-1.5
+      parent: 2
   - uid: 1732
     components:
     - type: Transform
@@ -10978,6 +10997,29 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
+  - uid: 2182
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -15.5,-10.5
+      parent: 2
+  - uid: 2187
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -13.5,1.5
+      parent: 2
+  - uid: 2188
+    components:
+    - type: Transform
+      pos: -15.5,5.5
+      parent: 2
+  - uid: 2500
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -13.5,-6.5
+      parent: 2
 - proto: GasVentScrubberVox
   entities:
   - uid: 1726
@@ -10985,22 +11027,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -7.5,-13.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
-  - uid: 1727
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -8.5,-7.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
-  - uid: 1729
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -13.5,-6.5
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
@@ -11012,33 +11038,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
-  - uid: 2182
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -15.5,-10.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
-  - uid: 2187
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -17.5,-1.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
-  - uid: 2188
-    components:
-    - type: Transform
-      pos: -15.5,5.5
-      parent: 2
-  - uid: 2189
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -13.5,1.5
-      parent: 2
 - proto: GeneratorBasic15kW
   entities:
   - uid: 443
