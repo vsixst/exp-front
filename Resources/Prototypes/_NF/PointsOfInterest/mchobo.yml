@@ -20,6 +20,8 @@
   addComponents:
   - type: IFF
     color: "#ffa600"
+  - type: ProtectedGrid
+    noGridCollision: true #CorvaxFrontier
   - type: StationTransit
     routes:
       SpawnPoints: 50

@@ -225,7 +225,7 @@
   id: UplinkPirateRedGrenade
   name:  uplink-pirate-redgrenade-name
   description: uplink-pirate-redgrenade-desc
-  productEntity: PirateGrenadeFire
+  productEntity: BoxPirateGrenadeFire
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_fire.rsi, state: icon }
   cost:
     Doubloon: 1 #CorvaxFrontier
@@ -241,7 +241,7 @@
   id: UplinkPirateGreenGrenade
   name:  uplink-pirate-greengrenade-name
   description: uplink-pirate-greengrenade-desc
-  productEntity: PirateGrenadeRadiation
+  productEntity: BoxPirateGrenadeRadiation
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_caustic.rsi, state: icon }
   cost:
     Doubloon: 1 #CorvaxFrontier
@@ -257,7 +257,7 @@
   id: UplinkPirateGrayGrenade
   name:  uplink-pirate-graygrenade-name
   description: uplink-pirate-graygrenade-desc
-  productEntity: PirateGrenadeConcussion
+  productEntity: BoxPiratePirateGrenadeConcussion
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_explosive.rsi, state: icon }
   cost:
     Doubloon: 1 #CorvaxFrontier
@@ -273,7 +273,7 @@
   id: UplinkPirateShotgunAmmo
   name:  uplink-pirate-shotgunammo-name
   description: uplink-pirate-shotgunammo-desc
-  productEntity: BoxLethalshotKS23
+  productEntity: BoxLethalshot
   cost:
     Doubloon: 2
   categories:
@@ -418,7 +418,7 @@
   description: Коробка старых военных ИРП, они на удивление не испортились.
   productEntity: BoxMRE
   cost:
-    Doubloon: 4
+    Doubloon: 2
   categories:
     - UplinkPirateUtility
   conditions:
@@ -559,9 +559,9 @@
   id: UplinkPiratMagazinePistolSubMachineGunEmpty
   name:  Пишущая лента
   description: Лента используемая пиратами для "печатных машинок". Ярррр!
-  productEntity: MagazinePistolSubMachineGunEmpty
+  productEntity: BoxMagazinePistolSubMachineGun
   cost:
-    Doubloon: 2
+    Doubloon: 3
   categories:
     - UplinkPirateAmmo
   conditions:
@@ -625,7 +625,7 @@
   description: Отпразнуйте славную победу над корпоративными крысами! Ярррр!
   productEntity: CrateFunParty
   cost:
-    Doubloon: 5
+    Doubloon: 4
   categories:
     - UplinkPirateUtility
   conditions:

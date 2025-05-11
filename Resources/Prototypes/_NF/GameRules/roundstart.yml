@@ -145,7 +145,7 @@
   parent: BaseGameRule
   components:
   - type: MaxTimeRestartRule
-    roundMaxTime: 300
+    roundMaxTime: 480
     roundEndDelay: 10
 
 # variation passes
