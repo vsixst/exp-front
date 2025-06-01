@@ -69,7 +69,8 @@
     cosmeticOnly: false # Frontier
   - type: TallWhitelist # Frontier
     scale: 1.2 # Frontier
-
+  - type: Bloodstream
+    bloodReagent: DemonBlood
 
 - type: entity
   save: false

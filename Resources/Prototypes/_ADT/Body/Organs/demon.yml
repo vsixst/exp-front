@@ -6,7 +6,7 @@
   - type: SolutionContainerManager
     solutions:
       stomach:
-        maxVol: 50
+        maxVol: 75
 
 - type: entity
   id: OrganDemonHeart
@@ -19,3 +19,4 @@
     - id: Medicine
     - id: Poison
     - id: Narcotic
+    - id: Cryogenic # Frontier
