@@ -71,6 +71,8 @@
     scale: 1.2 # Frontier
   - type: Bloodstream
     bloodReagent: DemonBlood
+  - type: Puller
+    needsHands: false
 
 - type: entity
   save: false
