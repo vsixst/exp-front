@@ -20,3 +20,5 @@ ent-LeftFootDemon = left demon foot
     .desc = { ent-PartDemon.desc }
 ent-RightFootDemon = right demon foot
     .desc = { ent-PartDemon.desc }
+reagent-name-demon-blood = Arcane Blood
+reagent-desc-demon-blood  = A rare and unusual blood type found in the succubus species. It possesses potent regenerative properties, rapidly healing most living beings. However, it is dangerously toxic to Arcanes, causing internal damage and destabilizing their bodily systems.

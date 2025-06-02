@@ -4,3 +4,5 @@ ent-OrganDemonStomach = { ent-OrganAnimalStomach }
 ent-OrganDemonHeart = сердце арканы
     .desc = { ent-OrganAnimalHeart.desc }
     .suffix = { "Аркана" }
+reagent-name-demon-blood = кровь арканы
+reagent-desc-demon-blood = Загадочная кровь, характерная для представителей расы суккубов. Обладает необычными регенеративными свойствами и ускоряет заживление тканей у большинства организмов. Однако у арканов вызывает обратную реакцию, разрушая внутренние связи и нанося урон.
