@@ -22,7 +22,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Content.Server._Corvax.Respawn; // Frontier
-
+using Content.Shared.Humanoid.Prototypes; // Frontier
 namespace Content.Server.GameTicking
 {
     public sealed partial class GameTicker
@@ -222,6 +222,37 @@ namespace Content.Server.GameTicking
                 return;
             }
 
+
+            var jobPrototype = _prototypeManager.Index<JobPrototype>(jobId);
+            // Frontier: Species job whitelist/blacklist
+            var speciesPrototype = _prototypeManager.Index<SpeciesPrototype>(character.Species);
+            if (speciesPrototype.JobWhitelist != null && !speciesPrototype.JobWhitelist.Contains(jobId))
+            {
+                Logger.Warning($"[Species Block] {character.Name} tried to join as {jobId} with species {character.Species}, which is not allowed.");
+                if (LobbyEnabled)
+                {
+                    PlayerJoinLobby(player);
+                }
+                else
+                {
+                    JoinAsObserver(player);
+                }
+                return;
+            }
+            else if (speciesPrototype.JobBlacklist != null && speciesPrototype.JobBlacklist.Contains(jobId))
+            {
+                Logger.Warning($"[Species Block] {character.Name} tried to join as {jobId} with species {character.Species}, which is blacklisted.");
+                if (LobbyEnabled)
+                {
+                    PlayerJoinLobby(player);
+                }
+                else
+                {
+                    JoinAsObserver(player);
+                }
+                return;
+            }
+            // Frontier: Species job whitelist/blacklist
             PlayerJoinGame(player, silent);
 
             var data = player.ContentData();
@@ -230,9 +261,6 @@ namespace Content.Server.GameTicking
 
             var newMind = _mind.CreateMind(data!.UserId, character.Name);
             _mind.SetUserId(newMind, data.UserId);
-
-            var jobPrototype = _prototypeManager.Index<JobPrototype>(jobId);
-
             _playTimeTrackings.PlayerRolesChanged(player);
 
             // Delta-V: Add AlwaysUseSpawner.
