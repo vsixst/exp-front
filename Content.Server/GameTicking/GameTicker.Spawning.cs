@@ -228,7 +228,6 @@ namespace Content.Server.GameTicking
             var speciesPrototype = _prototypeManager.Index<SpeciesPrototype>(character.Species);
             if (speciesPrototype.JobWhitelist != null && !speciesPrototype.JobWhitelist.Contains(jobId))
             {
-                Logger.Warning($"[Species Block] {character.Name} tried to join as {jobId} with species {character.Species}, which is not allowed.");
                 if (LobbyEnabled)
                 {
                     PlayerJoinLobby(player);
@@ -241,7 +240,6 @@ namespace Content.Server.GameTicking
             }
             else if (speciesPrototype.JobBlacklist != null && speciesPrototype.JobBlacklist.Contains(jobId))
             {
-                Logger.Warning($"[Species Block] {character.Name} tried to join as {jobId} with species {character.Species}, which is blacklisted.");
                 if (LobbyEnabled)
                 {
                     PlayerJoinLobby(player);
