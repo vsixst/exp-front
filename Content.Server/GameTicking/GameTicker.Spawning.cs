@@ -224,7 +224,7 @@ namespace Content.Server.GameTicking
 
 
             var jobPrototype = _prototypeManager.Index<JobPrototype>(jobId);
-            // Frontier: Species job whitelist/blacklist
+            // Forge-Frontier: Species job whitelist/blacklist start
             var speciesPrototype = _prototypeManager.Index<SpeciesPrototype>(character.Species);
             if (speciesPrototype.JobWhitelist != null && !speciesPrototype.JobWhitelist.Contains(jobId))
             {
@@ -243,7 +243,7 @@ namespace Content.Server.GameTicking
                     JoinAsObserver(player);
                 return;
             }
-            // Frontier: Species job whitelist/blacklist
+            // Forge-Frontier: Species job whitelist/blacklist end
             
             PlayerJoinGame(player, silent);
 
