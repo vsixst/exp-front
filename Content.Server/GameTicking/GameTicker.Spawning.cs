@@ -229,28 +229,22 @@ namespace Content.Server.GameTicking
             if (speciesPrototype.JobWhitelist != null && !speciesPrototype.JobWhitelist.Contains(jobId))
             {
                 if (LobbyEnabled)
-                {
                     PlayerJoinLobby(player);
-                }
                 else
-                {
                     JoinAsObserver(player);
-                }
+                
                 return;
             }
             else if (speciesPrototype.JobBlacklist != null && speciesPrototype.JobBlacklist.Contains(jobId))
             {
                 if (LobbyEnabled)
-                {
                     PlayerJoinLobby(player);
-                }
                 else
-                {
                     JoinAsObserver(player);
-                }
                 return;
             }
             // Frontier: Species job whitelist/blacklist
+            
             PlayerJoinGame(player, silent);
 
             var data = player.ContentData();
