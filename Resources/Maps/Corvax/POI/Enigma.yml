@@ -4,8 +4,8 @@ meta:
   engineVersion: 251.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/12/2025 06:52:55
-  entityCount: 2502
+  time: 06/05/2025 10:18:03
+  entityCount: 2503
 maps: []
 grids:
 - 2
@@ -5912,6 +5912,23 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -4.5,-6.5
       parent: 2
+- proto: ComputerBlackMarketBankATM
+  entities:
+  - uid: 2503
+    components:
+    - type: Transform
+      pos: 4.5,-5.5
+      parent: 2
+  - uid: 2504
+    components:
+    - type: Transform
+      pos: 4.5,0.5
+      parent: 2
+  - uid: 2505
+    components:
+    - type: Transform
+      pos: -15.5,-2.5
+      parent: 2
 - proto: ComputerRadar
   entities:
   - uid: 2384
@@ -6053,7 +6070,7 @@ entities:
       pos: 4.5,-11.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -14305.584
+      secondsUntilStateChange: -15035.449
       state: Closing
   - uid: 832
     components:
@@ -7793,6 +7810,11 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
+  - uid: 1783
+    components:
+    - type: Transform
+      pos: 3.5,-6.5
+      parent: 2
   - uid: 1785
     components:
     - type: Transform
@@ -7808,6 +7830,12 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
+  - uid: 1790
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,1.5
+      parent: 2
   - uid: 1794
     components:
     - type: Transform
@@ -8411,14 +8439,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
-  - uid: 1790
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 4.5,-6.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
   - uid: 1791
     components:
     - type: Transform
@@ -8461,14 +8481,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 2.5,1.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
-  - uid: 1799
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 4.5,1.5
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
@@ -10223,26 +10235,11 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
-  - uid: 1783
-    components:
-    - type: Transform
-      pos: 3.5,-6.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
   - uid: 1784
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -1.5,-5.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF0000FF'
-  - uid: 1802
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,1.5
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
@@ -10977,7 +10974,7 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF0000FF'
-- proto: GasVentScrubberVox
+- proto: GasVentScrubber
   entities:
   - uid: 1726
     components:
@@ -11224,8 +11221,8 @@ entities:
         immutable: False
         temperature: 293.14923
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -11242,14 +11239,14 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 2428
-          - 2429
-          - 2430
-          - 2431
           - 2432
-          - 2433
-          - 2434
+          - 2428
+          - 1799
+          - 1802
           - 2435
+          - 2434
+          - 2433
+          - 2430
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -11265,8 +11262,8 @@ entities:
         immutable: False
         temperature: 293.14923
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -11283,12 +11280,12 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 2437
           - 2438
-          - 2439
-          - 2440
-          - 2441
           - 2442
+          - 2441
+          - 2440
+          - 2439
+          - 2437
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -11497,6 +11494,20 @@ entities:
     - type: InsideEntityStorage
 - proto: MagazineLightRifle
   entities:
+  - uid: 1799
+    components:
+    - type: Transform
+      parent: 2427
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 1802
+    components:
+    - type: Transform
+      parent: 2427
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
   - uid: 2430
     components:
     - type: Transform
@@ -11505,22 +11516,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
   - uid: 2432
-    components:
-    - type: Transform
-      parent: 2427
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: MagazineLightRifleLowCapacity
-  entities:
-  - uid: 2428
-    components:
-    - type: Transform
-      parent: 2427
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 2431
     components:
     - type: Transform
       parent: 2427
@@ -13900,6 +13895,24 @@ entities:
     - type: Transform
       pos: 23.5,-2.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
   - uid: 1025
     components:
     - type: Transform
@@ -16836,15 +16849,6 @@ entities:
     - type: Transform
       pos: 7.5,-2.5
       parent: 2
-- proto: WeaponRifleGestio
-  entities:
-  - uid: 2429
-    components:
-    - type: Transform
-      parent: 2427
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: WeaponRifleNovaliteC1
   entities:
   - uid: 2437
@@ -16863,6 +16867,13 @@ entities:
     - type: InsideEntityStorage
 - proto: WeaponRifleVulcan
   entities:
+  - uid: 2428
+    components:
+    - type: Transform
+      parent: 2427
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
   - uid: 2434
     components:
     - type: Transform

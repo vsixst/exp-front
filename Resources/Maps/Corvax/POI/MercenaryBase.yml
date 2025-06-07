@@ -1133,7 +1133,7 @@ entities:
       pos: 50.5,13.5
       parent: 3
     - type: Door
-      secondsUntilStateChange: -2997.7793
+      secondsUntilStateChange: -2998.5732
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1215,7 +1215,7 @@ entities:
       pos: 33.5,9.5
       parent: 3
     - type: Door
-      secondsUntilStateChange: -2577.0132
+      secondsUntilStateChange: -2577.8071
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11832,16 +11832,6 @@ entities:
     - type: Transform
       pos: 9.5,30.5
       parent: 3
-  - uid: 2239
-    components:
-    - type: Transform
-      pos: 11.5,28.5
-      parent: 3
-  - uid: 2240
-    components:
-    - type: Transform
-      pos: 11.5,24.5
-      parent: 3
   - uid: 2241
     components:
     - type: Transform
@@ -11871,26 +11861,6 @@ entities:
     components:
     - type: Transform
       pos: 9.5,28.5
-      parent: 3
-  - uid: 2247
-    components:
-    - type: Transform
-      pos: 11.5,29.5
-      parent: 3
-  - uid: 2248
-    components:
-    - type: Transform
-      pos: 11.5,25.5
-      parent: 3
-  - uid: 2249
-    components:
-    - type: Transform
-      pos: 11.5,26.5
-      parent: 3
-  - uid: 2250
-    components:
-    - type: Transform
-      pos: 11.5,27.5
       parent: 3
 - proto: SpiderWeb
   entities:
@@ -12226,14 +12196,6 @@ entities:
     components:
     - type: Transform
       pos: 16.5,22.5
-      parent: 3
-- proto: VehicleKeyHoverbikeNF
-  entities:
-  - uid: 1086
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 22.439495,20.66906
       parent: 3
 - proto: VendingMachineAmmoPOI
   entities:

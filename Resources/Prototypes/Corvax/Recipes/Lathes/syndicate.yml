@@ -550,3 +550,27 @@
   completetime: 1
   materials:
     Credit: 5000
+
+- type: latheRecipe
+  id: SpaceCashSyndicateESRecipe
+  categories: [SyndicateTradingConsoleChemistry]
+  result: SpaceCash1000
+  completetime: 1
+  materials:
+    Credit: 750
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  id: WeaponRifleJackdawRecipe
+  result: WeaponRifleJackdaw
+  completetime: 1
+  materials:
+    Credit: 40450
+
+- type: latheRecipe
+  categories: [SyndicateTradingConsoleFirearmsWeapons]
+  id: WeaponSubMachineP90LRKRecipe
+  result: WeaponSubMachineP90LRK
+  completetime: 1
+  materials:
+    Credit: 64200
