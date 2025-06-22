@@ -103,5 +103,7 @@
   recipeUnlocks:
   - ClothingOuterHardsuitScaf
   - BlueprintClothingOuterHardsuitScaf
+  - ClothingOuterHardsuitMaxims
+  - ClothingOuterHardsuitMercenaryElite
   technologyPrerequisites:
   - HardsuitsArmored
