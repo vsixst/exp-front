@@ -1,6 +1,6 @@
 - type: entity
   name: Scar12
-  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
+  parent: [NFBaseWeaponRifleAssaultChamber20, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultNanotrasen]
   id: WeaponRifleScar12
   description: The Scar-12 battle rifle, developed by TechnicLogistic for its own army, is one of the most commonly found models on the black market due to its efficiency and accuracy. Currently, it is supplied to DSBF forces under a special order from NT.
   components:
@@ -33,23 +33,25 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
+      ballistic-ammo: !type:Container
+        ents: []
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
   - type: GunWieldBonus
@@ -65,7 +67,7 @@
 
 - type: entity
   name: Dakota
-  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
+  parent: [NFBaseWeaponRifleAssaultChamber30, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultNanotrasen]
   id: WeaponInterstellarRifleM4A1
   components:
   - type: Sprite
@@ -100,25 +102,35 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
+      ballistic-ammo: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
       gun_magazine: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
       gun_chamber: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
   - type: MagazineVisuals
     magState: mag
     steps: 1
@@ -127,7 +139,7 @@
 
 - type: entity
   name: dagger
-  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
+  parent: [NFBaseWeaponRifleAssaultChamber20, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleDagger
   components:
   - type: Sprite
@@ -160,25 +172,35 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
+      ballistic-ammo: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
       gun_magazine: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
       gun_chamber: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
   - type: GunWieldBonus
     minAngle: -17
     maxAngle: -22
@@ -195,7 +217,7 @@
 
 - type: entity
   name: Cascade
-  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
+  parent: [NFBaseWeaponRifleAssaultChamber30, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleCascade
   components:
   - type: Sprite
@@ -228,25 +250,35 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
+      ballistic-ammo: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
       gun_magazine: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
       gun_chamber: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
   - type: GunWieldBonus
     minAngle: -17
     maxAngle: -22

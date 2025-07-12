@@ -27,7 +27,7 @@
       recordGeneration: FalseRecord
     - type: NpcFactionMember
       factions:
-      - SyndicateNF
+      - NFSyndicate
   - !type:AddImplantSpecial
     implants: [ DeathRattleImplanter ]
 
@@ -37,11 +37,10 @@
     ears: ClothingHeadsetAltSyndicate
     id: SyndiPDAComa
     belt: ClothingBeltSheathFilled
-    pocket1: WeaponPistolCobra
+    pocket1: NFWeaponPistolCobra
     mask: ClothingMaskGasSwat
   storage:
     back:
     - NFBoxSurvivalExtended
-    - MagazinePistolCaselessRifle
-    - MagazineBoxCaselessRifle
+    - NFMagazinePistol45
     - SyndicateDataMinerFlatpack

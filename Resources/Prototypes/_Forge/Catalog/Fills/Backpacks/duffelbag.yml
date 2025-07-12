@@ -32,8 +32,8 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponSniperHristov
-      - id: MagazineBoxAntiMateriel
+      - id: NFWeaponRifleSniperHristov
+      - id: NFAmmunitionBoxRifle60
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -43,6 +43,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponSubMachineGunAtreides
-      - id: MagazinePistolSubMachineGun
+      - id: NFWeaponSubMachineGunAtreides
+      - id: NFMagazineSubMachineGun35
         amount: 2

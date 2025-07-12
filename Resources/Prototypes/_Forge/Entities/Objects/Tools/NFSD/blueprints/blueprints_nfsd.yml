@@ -1,46 +1,33 @@
 - type: entity
-  parent: BaseBlueprintExpedition
+  parent: NFBaseBlueprintExpedition
   id: BlueprintRifleUranium
   components:
   - type: Blueprint
     providedRecipes:
-    - BoxShotgunIncendiary
-    - BoxShotgunUranium
-    - MagazineBoxLightRifleIncendiary
-    - MagazineBoxLightRifleUranium
-    - MagazineBoxMagnumIncendiary
-    - MagazineBoxMagnumUranium
-    - MagazineBoxPistolIncendiary
-    - MagazineBoxPistolUranium
-    - MagazineBoxRifleIncendiary
-    - MagazineBoxRifleUranium
-    - MagazineLightRifleIncendiary
-    - MagazineLightRifleUranium
-    - MagazinePistolIncendiary
-    - MagazinePistolUranium
-    - MagazineRifleIncendiary
-    - MagazineRifleUranium
-    - MagazineShotgunIncendiary
-    - SpeedLoaderMagnumIncendiary
-    - SpeedLoaderMagnumUranium
-    - SpeedLoaderRifleHeavyIncendiary
-    - SpeedLoaderRifleHeavyUranium
+    - NFAmmunitionBoxShellShotgunIncendiary
+    - NFAmmunitionBoxShellShotgunUranium
+    - NFAmmunitionBoxRifle30Incendiary
+    - NFAmmunitionBoxRifle30Uranium
+    - NFAmmunitionBoxPistol45Incendiary
+    - NFAmmunitionBoxPistol45Uranium
+    - NFAmmunitionBoxRifle20Incendiary
+    - NFAmmunitionBoxRifle20Uranium
 
 - type: entity
-  parent: BaseBlueprintExpedition
+  parent: NFBaseBlueprintExpedition
   id: BlueprintGrenade
   components:
   - type: Blueprint
     providedRecipes:
-    - GrenadeBlast
-    - GrenadeEMP
-    - MagazineGrenadeEmpty
+    - NFGrenadeBlast
+    - NFGrenadeEMP
+    - NFMagazineGrenadeEmpty
 
 - type: entity
-  parent: BaseBlueprintExpedition
+  parent: NFBaseBlueprintExpedition
   id: BaseBlueprintWeaponXrayCannon
   components:
   - type: Blueprint
     providedRecipes:
-    - WeaponXrayCannon
-    - WeaponLaserCannon
+    - NFWeaponEnergyRifleSniperXrayCannon
+    - NFWeaponEnergyRifleSniperCannon

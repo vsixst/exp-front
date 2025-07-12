@@ -79,7 +79,6 @@
   - WeaponMagmiteCrusherGlaiveExchangeRecipe
   - WeaponAntiqueLaserExchangeRecipe
   - ClothingOuterArmorRiotExchangeRecipe
-  - NFBlueprintJawsOfLifeExchangeRecipe
   - TelescopicShieldExchangeRecipe
   - MedkitCombatExchangeRecipe
   - AmmoTechFabCircuitboardExchangeRecipe
@@ -95,9 +94,9 @@
   - MedkitExchangeRecipe
   - ClothingBeltSheathExchangeRecipe
   - WeaponEnergyGunExchangeRecipe
-  - WeaponRifleGestioExchangeRecipe
-  - WeaponRifleNovaliteC1ExchangeRecipe
-  - WeaponSubMachineGunTypewriterExchangeRecipe
+  - NFWeaponRifleAssaultGestioExchangeRecipe
+  - NFWeaponRifleAssaultNovaliteC1ExchangeRecipe
+  - NFWeaponSubMachineGunTypewriterExchangeRecipe
   - ClothingHeadHelmetSwatExchangeRecipe
   - BoxMagazinePistolSubMachineGunTopMountedExchangeRecipe
   - RiotLaserShieldExchangeRecipe
@@ -116,7 +115,6 @@
   - ClothingBackpackDuffelSyndicateFilledShotgunRecipe
   - WeaponXrayCannonRecipe
   - WeaponLaserCarbineRecipe
-  - WeaponEnergyShotgunRecipe
   - EnergyDaggerLoudRecipe
   - EnergySwordRecipe
   - EnergySwordDoubleRecipe
@@ -148,7 +146,7 @@
   - ClothingShoesBootsMagSyndieRecipe
   - ClothingBackpackDuffelSyndicateHardsuitBundleRecipe
   - ClothingBackpackDuffelSyndicateEliteHardsuitBundleRecipe
-  - ClothingBackpackDuffelSyndicateRaidBundleRecipe
+  - ClothingBackpackSyndicateRaidBundleRecipe
   - SpaceCashSyndicateESRecipe
 
 - type: latheRecipePack
