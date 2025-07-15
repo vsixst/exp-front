@@ -4,8 +4,8 @@ meta:
   engineVersion: 255.1.0
   forkId: ""
   forkVersion: ""
-  time: 07/14/2025 09:27:32
-  entityCount: 1569
+  time: 07/15/2025 13:46:24
+  entityCount: 1570
 maps: []
 grids:
 - 1
@@ -881,6 +881,7 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: MercenaryBountyDatabase
+      bounties: []
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Dreadnought
@@ -4686,6 +4687,13 @@ entities:
     components:
     - type: Transform
       pos: 17.5,27.5
+      parent: 1
+- proto: DredMothershipComputer
+  entities:
+  - uid: 1325
+    components:
+    - type: Transform
+      pos: 24.5,41.5
       parent: 1
 - proto: DrinkBeerCan
   entities:

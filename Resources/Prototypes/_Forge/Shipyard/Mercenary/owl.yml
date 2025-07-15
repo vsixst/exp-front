@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SBI Сова
   description: Малогабаритный шаттл для наёмников, рекомендуемый состав экипажа 1 человек.
-  price: 31000
+  price: 21000
   category: Small
   group: Mercenary
   shuttlePath: /Maps/Forge/Shuttles/Mercenary/owl.yml

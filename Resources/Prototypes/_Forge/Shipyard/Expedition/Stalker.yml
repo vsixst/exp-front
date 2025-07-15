@@ -6,19 +6,21 @@
 
 # Maintainer Info
 # GitHub: https://github.com/mersen-tyn
-# Discord: mersen
+# Discord: mersen 
 
 # Shuttle Notes:
-
 - type: vessel
   id: Stalker
   parent: BaseVessel
   name: TL Сталкер
-  description: Среднегабаритный экспедиционный шаттл. Рекомендуемый состав команды 2-5 человек.
-  price: 98000  
+  description: Среднегабаритная экспедиционная баржа. Рекомендованный размер команды 6-8 человек.
+  price: 106000
   category: Medium
   group: Expedition
   shuttlePath: /Maps/Forge/Shuttles/Expedition/stalker.yml
+  class:
+  - Expedition
+  - Civilian
 
 - type: gameMap
   id: Stalker
@@ -39,3 +41,4 @@
             Contractor: [ 0, 0 ]
             Pilot: [ 0, 0 ]
             Mercenary: [ 0, 0 ]
+
