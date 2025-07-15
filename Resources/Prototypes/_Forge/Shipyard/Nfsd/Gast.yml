@@ -14,10 +14,8 @@
   name: NSF Гаст
   description: Шаттл перехватчик гаст. Рекомендуемый состав команды 2-3 человека.
   price: 41000
-  group: Security
+  group: Fighter
   category: Small
-  access: Security
-  mapchecker_group_override: Security
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/Gast.yml
 - type: gameMap
   id: Gast
@@ -26,7 +24,7 @@
   minPlayers: 0
   stations:
     Gast:
-      stationProto: StandardFrontierSecurityVessel
+      stationProto: StandardFrontierFighterVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Гаст {1}'

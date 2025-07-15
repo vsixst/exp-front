@@ -15,8 +15,7 @@
   description: Малогабаритный медицинский шаттл. Рекомендованный состав команды 1-3 человека.
   price: 28220
   category: Small
-  group: Security
-  access: Security
+  group: Fighter
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/hospitaller.yml
   guidebookPage: Null
   class:

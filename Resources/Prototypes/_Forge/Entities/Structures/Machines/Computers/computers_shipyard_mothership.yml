@@ -79,9 +79,10 @@
     - Tyne
 
 - type: entity
-  id: MothershipComputerNfsd
-  parent: BaseMothershipComputer
+  id: ComputerShipyardDsbf
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
   name: консоль верфи истребителей
+#  description: # TODO: придумайте чет креативное
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/computers.rsi
@@ -94,15 +95,12 @@
       state: shipyard_nfsd
     - map: ["computerLayerKeys"]
       state: telesci_key
-  - type: ShipyardConsole
-    newJobTitle: null
-    shipyardChannel: Nfsd
-    newAccessLevels: [Captain, Security, Brig]
-  - type: ShipyardListing
-    shuttles:
-    - Fighter
-    - Cleric
-    - Rogue
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Fighter
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Fighter:
+       type: ShipyardConsoleBoundUserInterface
 
 - type: entity
   id: VostokMothershipComputer
@@ -126,6 +124,30 @@
     newAccessLevels: [Captain, Security, Brig]
   - type: ShipyardListing
     shuttles:
-    - Fighter
-    - Cleric
-    - Rogue
+    - Sword
+    - Trest
+    - Dagger1
+
+- type: entity
+  id: DredMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи "Дредноут"
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig]
+  - type: ShipyardListing
+    shuttles:
+    - Owl

@@ -15,8 +15,7 @@
   description: Небольшой штурмовик, предназначенный для ведения космического боя, оснащенный гранатометом EXP-2100g.
   price: 34220
   category: Small
-  group: Security
-  access: Security
+  group: Fighter
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/paladin.yml
   guidebookPage: Null
   class:
