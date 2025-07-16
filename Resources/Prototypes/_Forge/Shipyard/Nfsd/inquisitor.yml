@@ -15,7 +15,7 @@
   description: Малогабаритный патрульный шаттл. Рекомендованный состав команды 1-3 человека.
   price: 46000
   category: Small
-  group: Fighter
+  group: Security
   access: Detective
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/inquisitor.yml
   guidebookPage: Null

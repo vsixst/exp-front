@@ -14,8 +14,10 @@
   name: NSF Дакота
   description: Шаттл перехватчик Дакота. Рекомендуемый состав команды 1-2 человека.
   price: 21500
-  group: Fighter
+  group: Security
   category: Small
+  access: Security
+  mapchecker_group_override: Security
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/Dakota.yml
 - type: gameMap
   id: Dakota

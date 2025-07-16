@@ -16,7 +16,7 @@
   name: TL Трезубец
   description: Шаттл перехватчик Трезубец. Произведено частной военно-производственной компаний TechnicLogistic по спец. заказу НТ. Рекомендуемый состав команды 1-2 человека.
   price: 27500
-  group: Fighter
+  group: Security
   category: Small
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/trest.yml
 

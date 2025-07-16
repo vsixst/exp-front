@@ -15,7 +15,7 @@
   description: Малогабаритный патрульный шаттл. Рекомендованный состав команды 1-2 человека.
   price: 21350
   category: Small
-  group: Fighter
+  group: Security
   access: Detective
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/interceptor.yml
   guidebookPage: Null

@@ -79,30 +79,6 @@
     - Tyne
 
 - type: entity
-  id: ComputerShipyardDsbf
-  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
-  name: консоль верфи истребителей
-#  description: # TODO: придумайте чет креативное
-  components:
-  - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
-    layers:
-    - map: ["computerLayerBody"]
-      state: computer
-    - map: ["computerLayerKeyboard"]
-      state: generic_keyboard
-    - map: ["computerLayerScreen"]
-      state: shipyard_nfsd
-    - map: ["computerLayerKeys"]
-      state: telesci_key
-  - type: ActivatableUI
-    key: enum.ShipyardConsoleUiKey.Fighter
-  - type: UserInterface
-    interfaces:
-      enum.ShipyardConsoleUiKey.Fighter:
-       type: ShipyardConsoleBoundUserInterface
-
-- type: entity
   id: VostokMothershipComputer
   parent: BaseMothershipComputer
   name: консоль верфи "Восток"
