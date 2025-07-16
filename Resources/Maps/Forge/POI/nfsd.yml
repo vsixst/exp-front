@@ -6695,7 +6695,7 @@ entities:
     - type: Transform
       pos: 1.5,-1.5
       parent: 1
-- proto: ComputerShipyardDsbf
+- proto: ComputerShipyardNfsd
   entities:
   - uid: 2
     components:
