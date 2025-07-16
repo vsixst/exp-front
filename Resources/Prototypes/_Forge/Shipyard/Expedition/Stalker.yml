@@ -13,7 +13,7 @@
   id: Stalker
   parent: BaseVessel
   name: TL Сталкер
-  description: Среднегабаритная экспедиционная баржа. Рекомендованный размер команды 6-8 человек.
+  description: Среднегабаритный экспедиционный крейсер.
   price: 106000
   category: Medium
   group: Expedition
@@ -41,4 +41,3 @@
             Contractor: [ 0, 0 ]
             Pilot: [ 0, 0 ]
             Mercenary: [ 0, 0 ]
-
