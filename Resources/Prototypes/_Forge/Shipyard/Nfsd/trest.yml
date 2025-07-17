@@ -19,6 +19,8 @@
   group: Security
   category: Small
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/trest.yml
+  class:
+  - Fighter
 
 - type: gameMap
   id: Trest

@@ -19,6 +19,9 @@
   access: Security
   mapchecker_group_override: Security
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/Gast.yml
+  class:
+  - Fighter
+  
 - type: gameMap
   id: Gast
   mapName: 'NSF Гаст'
@@ -26,7 +29,7 @@
   minPlayers: 0
   stations:
     Gast:
-      stationProto: StandardFrontierFighterVessel
+      stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Гаст {1}'

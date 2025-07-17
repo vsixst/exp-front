@@ -19,7 +19,9 @@
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/Forge/Shuttles/Nfsd/centurion.yml
+  shuttlePath: /Maps/Forge/Shuttles/Nfsd/centurion.yml\
+  class:
+  - Capital
 
 - type: gameMap
   id: Centurion

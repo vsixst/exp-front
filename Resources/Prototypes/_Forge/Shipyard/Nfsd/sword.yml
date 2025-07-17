@@ -20,6 +20,8 @@
   access: Security
   category: Small
   shuttlePath: /Maps/Forge/Shuttles/Nfsd/sword.yml
+  class:
+  - Fighter
 
 - type: gameMap
   id: Sword
