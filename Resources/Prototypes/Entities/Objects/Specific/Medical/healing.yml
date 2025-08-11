@@ -450,7 +450,6 @@
     baseLayer: base
     layerStates:
     - cream
-    stackType: AloeCream
     count: 10
 
 - type: entity
