@@ -442,8 +442,14 @@
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/aloe.rsi
-    state: cream
+    layers:
+    - state: cream
+      map: ["base"]
   - type: Stack
+    stackType: AloeCream
+    baseLayer: base
+    layerStates:
+    - cream
     stackType: AloeCream
     count: 10
 
