@@ -25,7 +25,7 @@
 - type: entity #Forge, Corvax Frontier
   parent: NFBaseBlueprint
   id: BlueprintFulton
-  name: fulton blueprint TEST
+  name: fulton blueprint
   description: A blueprint with a schematic of a fulton. It can be inserted into an autolathe.
   components:
   - type: Blueprint
@@ -43,7 +43,7 @@
 - type: entity #Forge, Corvax Frontier
   parent: NFBaseBlueprint
   id: BlueprintSeismicCharge
-  name: seismic charge blueprint TEST
+  name: seismic charge blueprint
   description: A blueprint with a schematic of a seismic charge. It can be inserted into an autolathe.
   components:
   - type: Blueprint
