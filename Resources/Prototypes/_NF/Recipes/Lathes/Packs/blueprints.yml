@@ -133,6 +133,14 @@
   # PersonalPropulsion
   - JetpackBlue
   - JetpackCaptain
+  # Clarke # Forge-Change
+  - ClarkeHarness
+  - ClarkeHead
+  - ClarkeLArm
+  - ClarkeRArm
+  - ClarkeTreads
+  - ClarkeCentralElectronics
+  - ClarkePeripheralsElectronics
 
 # region Medical
 - type: latheRecipePack
@@ -216,6 +224,34 @@
   - JetpackVoid
   # HardsuitsExperimentalIndustrial
   - ClothingOuterHardsuitMaximPrototype
+  # Mech Equipment # Forge-Change
+  - MechEquipmentUltraRifle
+  - MechEquipmentShotgun
+  - MechEquipmentFiredartLaser
+  - MechEquipmentSolarisLaser
+  - MechEquipmentMissileRack8
+  # Gygax
+  - GygaxArmor
+  - GygaxHarness
+  - GygaxHead
+  - GygaxLArm
+  - GygaxLLeg
+  - GygaxRArm
+  - GygaxRLeg
+  - GygaxCentralElectronics
+  - GygaxPeripheralsElectronics
+  - GygaxTargetingElectronics
+  # Durand
+  - DurandArmor
+  - DurandHarness
+  - DurandHead
+  - DurandLArm
+  - DurandLLeg
+  - DurandRArm
+  - DurandRLeg
+  - DurandCentralElectronics
+  - DurandPeripheralsElectronics
+  - DurandTargetingElectronics
 
 # region NFSD
 - type: latheRecipePack
@@ -230,6 +266,18 @@
   - NFGrenadeEMP
   # PersonalPropulsion
   - JetpackNfsd
+  # Mech Equipment # Forge-Change
+    #Tier1
+  - MechEquipmentUltraRifle
+  - MechEquipmentShotgun
+  - MechEquipmentFiredartLaser
+  - MechEquipmentSolarisLaser
+  - MechEquipmentMissileRack8
+    #Tier2
+  - MechEquipmentShotgunIncendiary
+  - MechEquipmentXRayProjector
+  - MechEquipmentImmolationGun
+  - MechEquipmentMissileRack6
 
 # region Salvage
 - type: latheRecipePack
@@ -273,6 +321,10 @@
   # HardsuitsAdvanced
   - ClothingOuterHardsuitLuxury
   - ClothingOuterHardsuitMaxims #Frontier
+  # Mech Equipment # Forge-Change
+  - MechEquipmentDrill
+  - MechEquipmentDrillDiamond
+  - MechEquipmentKineticAccelerator
 
 # region Science
 - type: latheRecipePack
