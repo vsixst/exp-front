@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ ClothingHeadBase, BaseCentcommContraband ]
+  id: ClothingHeadHatSpecOper
+  name: фуражка офицера ДСО
+  description: "It's good to be the emperor."
+  components:
+  - type: Sprite
+    sprite: Forge/Clothing/Head/Hats/dsocap.rsi
+  - type: Clothing
+    sprite: Forge/Clothing/Head/Hats/dsocap.rsi
