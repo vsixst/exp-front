@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCentcommContraband ]
   id: ClothingHeadHatSpecOper
-  name: фуражка офицера ДСО
-  description: "It's good to be the emperor."
+  name: cap special operations officer
+  description: "ohayo, arillery?"
   components:
   - type: Sprite
     sprite: Forge/Clothing/Head/Hats/dsocap.rsi

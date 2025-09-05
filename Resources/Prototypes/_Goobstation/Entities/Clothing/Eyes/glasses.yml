@@ -25,3 +25,22 @@
   - type: Construction
     graph: GlassesMedHUD
     node: glassesMed
+
+- type: entity
+  parent: [ClothingEyesBase, ClothingEyesGlassesSunglasses]
+  id: ClothingEyesGlassesDiag
+  name: diagnostic glasses
+  description: Sunglasses with a diagnostic hud.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Eyes/Glasses/diagglasses.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Eyes/Glasses/diagglasses.rsi
+  - type: Construction
+    graph: GlassesDiagHUD
+    node: glassesDiag
+  - type: ShowHealthBars
+    damageContainers:
+    - Inorganic
+    - Silicon
+    - SiliconRadiation
